@@ -25,6 +25,13 @@ The content of the question and answer set includes:
 
 This chapter lists all available Metadata tags:
 
+**Language specification**
+
+- lang-en
+- lang-at
+- lang-fr
+- lang-de
+
 **Market specification**
 
 - market-none
@@ -109,7 +116,7 @@ Make sure you have reviewed your changes.
 
 - The main question should be placed at the beginning in a chapter called  "##Question". The question itself should be placed below of the chapter (no markdown, only text, no newlines).
 - For each alternative question (Alternate form of the main question to be used for better searchability) add a new chapter called "##Question" and add the question below of the chapter (no markdown, only text, no newlines).
-- Metadata tags: Add a new chapter below the question chapters named "##Metadata tags". List the tags comma separated in one single line below of the chapter name. No newlines and no multiple lines allowed. Use **only the defined tags** (see above). If you need a new tag please add an issue so that we can review and add your tag.
+- Metadata tags: Add a new chapter below the question chapters named "##Metadata tags". List the tags comma separated in one single line below of the chapter name. No newlines and no multiple lines allowed. Use **only the defined tags** (see above). If you need a new tag please add an issue so that we can review and add your tag. Mimimum requirement: add a language specification tag and a market tag.
 - Answer: Add a new chapter below the metadata tags chapters named "##Answer". Write the answer in markdown within this chapter.
 
 ## Troubleshooting
