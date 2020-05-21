@@ -6,13 +6,13 @@ This repository represents our FAQ collection related to POSCreators, POSOperato
 
 The main directory of this repository contains 3 folders: 
 
-- **Q&A**: contains markdown files, each representing exactly one question and answer set
+- **qna**: contains markdown files, each representing exactly one question and answer set
 - **images**: the answers can embed images that are stored in this folder
 - **examples**: contains example markdown files that are linked in the question and answer sets
 
 ### Q&A set
 
-Each question and answer set is the single entry stored in one markdown file in the Q&A folder. 
+Each question and answer set is the single entry stored in one markdown file in the `qna` folder. 
 
 The content of the question and answer set includes:
 
@@ -84,7 +84,7 @@ Your contributions to this project will help improve the support of our customer
 
 The first place to start is always looking over the current GitHub issues you are interested in contributing to. Issues marked with "help wanted" are usually pretty self contained and a good place to get started.
 
-Then PM Team also uses these same GitHub issues to keep track of what we are working on. If you see any issues that are assigned to a particular person or have the "in progress" label, that means someone is currently working on that issue. The "next sprint" label means we will likely be working on this issue in the next week or two. The "ready" label means that the issue is one we have prioritized and will be working on in our next sprint or two.
+The PM Team also uses these same GitHub issues to keep track of what we are working on. If you see any issues that are assigned to a particular person or have the "in progress" label, that means someone is currently working on that issue. The "next sprint" label means we will likely be working on this issue in the next week or two. The "ready" label means that the issue is one we have prioritized and will be working on in our next sprint or two.
 
 Of course, feel free to make your own issues if you think something needs to added or fixed.
 
@@ -107,17 +107,21 @@ Make sure you have reviewed your changes.
 
 ### Creating Q&A sets
 
-- Each Q&A set needs its own markdown file in the Q&A directory.
+- Each Q&A set needs its own markdown file in the `qna` directory.
 - Filename ([name].md) should at least give some indication of the question. The single words should be connectd by "-", no blanks. No more than 250 characters are allowed per name.
-- Referenced exaples (e.g. JSON) should be placed in the examples folder of the main directory.
-- Linked images should be placed in the images folder of the main directory.
+- Referenced exaples (e.g. JSON) should be placed in the `examples` folder of the main directory.
+- Linked images should be placed in the `images` folder of the main directory.
 
 ### Format and content of a Q&A set
 
-- The main question should be placed at the beginning in a chapter called  "##Question". The question itself should be placed below of the chapter (no markdown, only text, no newlines).
-- For each alternative question (Alternate form of the main question to be used for better searchability) add a new chapter called "##Question" and add the question below of the chapter (no markdown, only text, no newlines).
-- Metadata tags: Add a new chapter below the question chapters named "##Metadata tags". List the tags comma separated in one single line below of the chapter name. No newlines and no multiple lines allowed. Use **only the defined tags** (see above). If you need a new tag please add an issue so that we can review and add your tag. Mimimum requirement: add a language specification tag and a market tag.
-- Answer: Add a new chapter below the metadata tags chapters named "##Answer". Write the answer in markdown within this chapter.
+- The main question should be placed at the beginning in a chapter called  "## Question". The question itself should be placed below of the chapter name (no markdown, only text, no newlines).
+- For each alternative question (Alternate form of the main question to be used for better searchability) add a new chapter called "## Question" and add the question below of the chapter name (no markdown, only text, no newlines).
+- Metadata tags: Add a new chapter below the question chapters named "## Metadata tags". List the tags comma separated in one single line below of the chapter name. No newlines and no multiple lines allowed. Use **only the defined tags** (see above). If you need a new tag please add an issue so that we can review and add your tag. Mimimum requirement: add a language specification tag and a market tag.
+- Answer: Add a new chapter below the metadata tags chapters named "## Answer". Write the answer in markdown within this chapter.
+
+### Example
+
+[Here](qna/fiskaltrust-sandbox.md) you can find an example of how a Q&A set should look like.
 
 ## Troubleshooting
 
