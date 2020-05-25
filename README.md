@@ -66,6 +66,13 @@ This chapter lists all available Metadata tags:
 - tenant management
 - cashbox management
 
+**Personas**
+
+- PosCreator
+- PosDealer
+- PosOperator
+- Consultant
+
 Only the above shown tags should be used. If your contribution needs a further tag please let us know by creating an issue with the label "documentation".
 
 ## How to contribute
