@@ -1,6 +1,6 @@
 # FAQ
 
-This repository represents our FAQ collection related to POSCreators, POSOperators, and POSDealers. This means, that the questions and answers here are for public usage.
+This repository represents our FAQ collection related to PosCreators, PosOperators, and PosDealers. This means, that the questions and answers here are for public usage.
 
 ## Structure
 
@@ -66,6 +66,13 @@ This chapter lists all available Metadata tags:
 - tenant management
 - cashbox management
 
+**Personas**
+
+- PosCreator
+- PosDealer
+- PosOperator
+- Consultant
+
 Only the above shown tags should be used. If your contribution needs a further tag please let us know by creating an issue with the label "documentation".
 
 ## How to contribute
@@ -108,7 +115,7 @@ Make sure you have reviewed your changes.
 ### Creating Q&A sets
 
 - Each Q&A set needs its own markdown file in the `qna` directory.
-- Filename ([name].md) should at least give some indication of the question. The single words should be connectd by "-", no blanks. No more than 250 characters are allowed per name.
+- Filename ([name].md) should at least give some indication of the question. It should start with the country code if market specific ("AT", "FR", "DE") or "General" if not market specific. The single words should be connectd by "-", no blanks. No more than 250 characters are allowed per name. E.g. "General-fiskaltrust-sandbox.md".
 - Referenced exaples (e.g. JSON) should be placed in the `examples` folder of the main directory.
 - Linked images should be placed in the `images` folder of the main directory.
 
@@ -121,7 +128,7 @@ Make sure you have reviewed your changes.
 
 ### Example
 
-[Here](qna/fiskaltrust-sandbox.md) you can find an example of how a Q&A set should look like.
+[Here](qna/General-fiskaltrust-sandbox.md) you can find an example of how a Q&A set should look like.
 
 ## Troubleshooting
 
