@@ -1,6 +1,9 @@
 ## Question
 Exceptions or errors occur when I am sending requests to the fiskaltrust Middleware. How can I get additional debug information about what is failing?
 
+## Metadata tags
+lang-en, market-all, middleware, PosCreator
+
 ## Answer
 Depending on the communication type and the language you are using, you have different options about how to retrieve more detailed error messages. We recommend the following steps:
 
