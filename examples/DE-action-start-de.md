@@ -1,4 +1,4 @@
-## Action start examples germany
+## Action start examples for germany
 
 Examples of action starttimes determination
 
@@ -26,7 +26,7 @@ Request:
         }
     ],
     "cbPayItems":[],
-    // 0x4445 0000 0000 0009 (start-transa-receipt)  
+    // 0x4445 0000 0000 0009 (start-transaction-receipt)  
     "ftReceiptCase":4919338167972134920,
     "cbArea":"Tisch 56"
 }
@@ -55,65 +55,7 @@ Response:
     "ftState": 4919338167972134912
 }
 ```
-
 nothing to print here.
-
-2. Update Transaction 
-
-Request:
-
-```json
-{
-    "ftCashBoxID":"cashboxid-guid",
-    "ftPosSystemId":"possystemid-guid",
-    "cbTerminalID":"T1",
-    "cbReceiptReference":"233348",
-    "cbReceiptMoment":"2020-05-22T10:58:03.960Z",
-    "cbChargeItems":[
-        {
-            "Quantity":1.0,
-            "Description":"0,5 Soda Zitrone",
-            "Amount":3.50,
-            "VATRate":19.0000,
-            "ftChargeItemCase":4919338167972134913,
-            "Moment":"2020-05-22T10:47:40.960Z"
-        },
-        {
-            "Quantity":1.0,
-            "Description":"Kaffe Hag",
-            "Amount":4.00,
-            "VATRate":19.0000,
-            "ftChargeItemCase":4919338167972134913,
-            "Moment":"2020-05-22T10:58:03.960Z"
-        }
-    ],
-    "cbPayItems":[],
-    // 0x4445 0000 0000 0009 (update-transaction-receipt)  
-    "ftReceiptCase":4919338167972134921,
-    "cbArea":"Tisch 56"
-}
-```
-
-Response:
-
-```json
-{
-    "ftCashBoxID": "cashboxid-guid",
-    "ftQueueID": "b6c9f13b-b987-43cd-ab08-3f5cb2a850d6",
-    "ftQueueItemID": "378e1671-0387-487e-9644-4913baf4653d",
-    "ftQueueRow": 12,
-    "cbTerminalID": "T1",
-    "cbReceiptReference": "233348",
-    "ftCashBoxIdentification": "220130d5-9060-4e26-b75c-35968f49aae3",
-    "ftReceiptIdentification": "ftB#UT10",
-    "ftReceiptMoment": "2020-05-22T10:58:03.9048491Z",
-    "ftSignatures": [],
-    "ftState": 4919338167972134912
-}
-
-```
-
-nothing to print here
 
 3. POS receipt receipt (finish transaction)
 
@@ -233,12 +175,14 @@ Response:
         },
         {
             "ftSignatureFormat": 1,
+            // 0x4445 0000 0000 0019
             "ftSignatureType": 4919338167972134937,
             "Caption": "<start-zeit>",
             "Data": "2020-05-22T10:47:42.000Z"
         },
         {
             "ftSignatureFormat": 1,
+            // 0x4445 0000 0000 001A
             "ftSignatureType": 4919338167972134938,
             "Caption": "<log-time>",
             "Data": "2020-05-22T11:11:04.000Z"
@@ -266,7 +210,14 @@ Response:
             "ftSignatureType": 4919338167972134942,
             "Caption": "<public-key>",
             "Data": "MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAENFFPGk1vDk92IL6tjsVQ6kpwc4TCsYNNGGoc0cN4dUPQZwOo2tuQlrQAVvMfO+XHWsnphAtN5cUbIwdtMk/Z6g=="
-        }
+        },
+        {
+            "ftSignatureFormat": 1,
+            // 0x4445 0000 0000 001F
+            "ftSignatureType": 4919338167972134943,
+            "Caption": "<vorgangsbeginn>",
+            "Data": "2020-05-22T10:47:40.960Z"
+        },
     ],
     "ftState": 4919338167972134912
 }
@@ -274,9 +225,11 @@ Response:
 
 **Datetimes to be printed**:
 
-- time of receipt creation:  `2020-05-22T11:11:00.260Z"` from `cbReceiptMoment` of the pos-receipt request
-- start time of the action (`ftSignatureType`: `0x444500000000001F`) :  `todo currently missing` minimum of ( `cbReceiptMoment` , `cbChargeItems[0].Moment`,   `cbChargeItems[1].Moment`,  `cbPayItems[0].Moment`) = `cbChargeItems[0].Moment`
-- start time of start transaction (`ftSignatureType`: `0x4445000000000019`.):   `2020-05-22T10:47:42.000Z` 
+1. time of receipt creation (DE: Datum der Belegausgabe):  `2020-05-22T11:11:02.7751885Z"` from `cbReceiptMoment` of the pos-receipt request
+
+2. start time of the action (DE: Zeitpunkt des Vorgangbeginns):   `2020-05-22T10:47:40.960Z` from the signature block with `ftSignatureType`: `0x444500000000001F` (`dec: 4919338167972134943`)
+
+3. end time of the action (DE: Zeitpunkt des Vorgangbeginns):   `2020-05-22T11:11:04.000Z` from the signature block with `ftSignatureType`: `0x444500000000001A`  (`dec: 4919338167972134938`)
 
 
 ### Standard action - implicit flow
@@ -399,12 +352,14 @@ Response:
         },
         {
             "ftSignatureFormat": 1,
+            // 0x4445 0000 0000 0019
             "ftSignatureType": 4919338167972134937,
             "Caption": "<start-zeit>",
             "Data": "2020-05-22T11:33:01.000Z"
         },
         {
             "ftSignatureFormat": 1,
+            // 0x4445 0000 0000 001A
             "ftSignatureType": 4919338167972134938,
             "Caption": "<log-time>",
             "Data": "2020-05-22T11:33:02.000Z"
@@ -435,6 +390,7 @@ Response:
         },
         {
             "ftSignatureFormat": 1,
+            // 0x4445 0000 0000 001F
             "ftSignatureType": 4919338167972134943,
             "Caption": "<vorgangsbeginn>",
             "Data": "2020-05-22T10:47:40.960Z"
@@ -479,6 +435,7 @@ Request:
         }
     ],
     "cbPayItems":[], 
+    // 0x4445 0000 0000 0010 (info-order) + 0000 0001 0000 0000 (implicit flow)
     "ftReceiptCase":4919338172267102224,
     "cbArea":"Zimmer 12"
 }
@@ -553,6 +510,7 @@ Request:
         }
     ],
     "cbPayItems":[], 
+    // 0x4445 0000 0000 0010 (info-order) + 0000 0001 0000 0000 (implicit flow)
     "ftReceiptCase":4919338172267102224,
     "cbArea":"Zimmer 12"
 }
@@ -641,6 +599,7 @@ Request:
             "Moment":"2020-05-28T14:11:22.233Z"
         }
     ], 
+    // 0x4445 0000 0000 0001 (pos-receipt) + 0000 0001 0000 0000 (implicit flow) 
     "ftReceiptCase":4919338172267102209,
     "cbArea":"Zimmer 12"
 }
@@ -722,11 +681,13 @@ Response:
         },
         {
             "ftSignatureFormat": 1,
+            // 0x4445 0000 0000 0019
             "ftSignatureType": 4919338167972134937,
             "Caption": "<start-zeit>",
             "Data": "2020-05-29T14:08:23.000Z"
         },
         {
+            // 0x4445 0000 0000 001A
             "ftSignatureFormat": 1,
             "ftSignatureType": 4919338167972134938,
             "Caption": "<log-time>",
@@ -758,6 +719,7 @@ Response:
         },
         {
             "ftSignatureFormat": 1,
+            // 0x4445 0000 0000 001F
             "ftSignatureType": 4919338167972134943,
             "Caption": "<vorgangsbeginn>",
             "Data": "2020-05-26T10:31:34.960Z"
