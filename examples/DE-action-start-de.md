@@ -15,16 +15,7 @@ Request:
     "cbTerminalID":"T1",
     "cbReceiptReference":"233348",
     "cbReceiptMoment":"2020-05-22T10:47:40.960Z",
-    "cbChargeItems":[
-        {
-            "Quantity":1.0,
-            "Description":"0,5 Soda Zitrone",
-            "Amount":3.50,
-            "VATRate":19.0000,
-            "ftChargeItemCase":4919338167972134913,
-            "Moment":"2020-05-22T10:47:40.960Z"
-        }
-    ],
+    "cbChargeItems":[],
     "cbPayItems":[],
     // 0x4445 0000 0000 0009 (start-transaction-receipt)  
     "ftReceiptCase":4919338167972134920,
