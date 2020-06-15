@@ -17,9 +17,9 @@ Request:
     "cbReceiptMoment":"2020-05-22T10:47:40.960Z",
     "cbChargeItems":[],
     "cbPayItems":[],
-    // 0x4445 0000 0000 0009 (start-transaction-receipt)  
+    // 0x4445 0000 0000 0008 (start-transaction-receipt)  
     "ftReceiptCase":4919338167972134920,
-    "cbArea":"Tisch 56"
+    "cbArea":"Scannerkasse 14"
 }
 ```
 Response:
@@ -48,7 +48,7 @@ Response:
 ```
 nothing to print here.
 
-3. POS receipt receipt (finish transaction)
+2. POS receipt receipt (finish transaction)
 
 ```json
 {
@@ -56,15 +56,15 @@ nothing to print here.
     "ftPosSystemId":"possystemid-guid",
     "cbTerminalID":"T1",
     "cbReceiptReference":"233348",
-    "cbReceiptMoment":"2020-05-22T11:11:00.260Z",
+    "cbReceiptMoment":"2020-05-22T10:48:15.260Z",
     "cbChargeItems":[
         {
             "Quantity":1.0,
-            "Description":"0,5 Soda Zitrone",
+            "Description":"Feuerzeug BigRed",
             "Amount":3.50,
             "VATRate":19.0000,
             "ftChargeItemCase":4919338167972134913,
-            "Moment":"2020-05-22T10:47:40.960Z"
+            "Moment":"2020-05-22T10:47:50.960Z"
         },
         {
             "Quantity":1.0,
@@ -72,7 +72,7 @@ nothing to print here.
             "Amount":4.00,
             "VATRate":19.0000,
             "ftChargeItemCase":4919338167972134913,
-            "Moment":"2020-05-22T10:58:03.960Z"
+            "Moment":"2020-05-22T10:48:03.960Z"
         }
     ],
     "cbPayItems":[
@@ -82,12 +82,12 @@ nothing to print here.
             "Amount":7.50,
             // 0x4445 0000 0000 0001 (cash payment in national currency)         
             "ftPayItemCase":4919338167972134913,
-            "Moment":"2020-05-22T11:11:00.260Z"
+            "Moment":"2020-05-22T10:48:10.260Z"
         }
     ],
     // 0x4445 0000 0000 0001  (pos-receipt)  
     "ftReceiptCase":4919338167972134913,
-    "cbArea":"Tisch 56"
+    "cbArea":"Scannerkasse 14"
 }
 ```
 
@@ -102,13 +102,13 @@ Response:
     "cbReceiptReference": "233348",
     "ftCashBoxIdentification": "220130d5-9060-4e26-b75c-35968f49aae3",
     "ftReceiptIdentification": "ftC#T10",
-    "ftReceiptMoment": "2020-05-22T11:11:02.7751885Z",
+    "ftReceiptMoment": "2020-05-22T10:48:17.7751885Z",
     "ftSignatures": [
         {
             "ftSignatureFormat": 3,
             "ftSignatureType": 4919338167972134913,
             "Caption": "www.fiskaltrust.de",
-            "Data": "V0;220130d5-9060-4e26-b75c-35968f49aae3;Kassenbeleg-V1;Beleg^7.50_0.00_0.00_0.00_0.00^7.50:Bar;10;19;2020-05-22T10:47:42.000Z;2020-05-22T11:11:04.000Z;ecdsa-plain-SHA256;utcTime;FGq8kd0kuQjHmyK8/Ca73h1mqOSRsctDfM/h7zddskjM7iKLuVs+Mwff8WCUz45kA/F2lF9kI90zny8Tnuhf/w==;MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAENFFPGk1vDk92IL6tjsVQ6kpwc4TCsYNNGGoc0cN4dUPQZwOo2tuQlrQAVvMfO+XHWsnphAtN5cUbIwdtMk/Z6g=="
+            "Data": "V0;220130d5-9060-4e26-b75c-35968f49aae3;Kassenbeleg-V1;Beleg^7.50_0.00_0.00_0.00_0.00^7.50:Bar;10;19;2020-05-22T10:47:42.000Z;2020-05-22T10:48:17.000Z;ecdsa-plain-SHA256;utcTime;FGq8kd0kuQjHmyK8/Ca73h1mqOSRsctDfM/h7zddskjM7iKLuVs+Mwff8WCUz45kA/F2lF9kI90zny8Tnuhf/w==;MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAENFFPGk1vDk92IL6tjsVQ6kpwc4TCsYNNGGoc0cN4dUPQZwOo2tuQlrQAVvMfO+XHWsnphAtN5cUbIwdtMk/Z6g=="
         },
         {
             "ftSignatureFormat": 13,
@@ -176,7 +176,7 @@ Response:
             // 0x4445 0000 0000 001A
             "ftSignatureType": 4919338167972134938,
             "Caption": "<log-time>",
-            "Data": "2020-05-22T11:11:04.000Z"
+            "Data": "2020-05-22T10:48:17.000Z"
         },
         {
             "ftSignatureFormat": 1,
@@ -207,7 +207,7 @@ Response:
             // 0x4445 0000 0000 001F
             "ftSignatureType": 4919338167972134943,
             "Caption": "<vorgangsbeginn>",
-            "Data": "2020-05-22T10:47:40.960Z"
+            "Data": "2020-05-22T10:47:50.960Z"
         },
     ],
     "ftState": 4919338167972134912
@@ -216,11 +216,11 @@ Response:
 
 **Datetimes to be printed**:
 
-1. time of receipt creation (DE: Datum der Belegausgabe):  `2020-05-22T11:11:02.7751885Z"` from `cbReceiptMoment` of the pos-receipt request
+1. time of receipt creation (DE: Datum der Belegausgabe):  `2020-05-22T10:48:15.260Z"` from `cbReceiptMoment` of the pos-receipt request
 
-2. start time of the action (DE: Zeitpunkt des Vorgangbeginns):   `2020-05-22T10:47:40.960Z` from the signature block with `ftSignatureType`: `0x444500000000001F` (`dec: 4919338167972134943`)
+2. start time of the action (DE: Zeitpunkt des Vorgangbeginns):   `2020-05-22T10:47:50.960Z` from the signature block with `ftSignatureType`: `0x444500000000001F` (`dec: 4919338167972134943`)
 
-3. end time of the action (DE: Zeitpunkt des Vorgangbeginns):   `2020-05-22T11:11:04.000Z` from the signature block with `ftSignatureType`: `0x444500000000001A`  (`dec: 4919338167972134938`)
+3. end time of the action (DE: Zeitpunkt der Vorgangsbeendigung):   `2020-05-22T10:48:17.000Z` from the signature block with `ftSignatureType`: `0x444500000000001A`  (`dec: 4919338167972134938`)
 
 
 ### Standard action - implicit flow
@@ -397,7 +397,7 @@ Response:
 
 2. start time of the action (DE: Zeitpunkt des Vorgangbeginns):   `2020-05-22T10:47:40.960Z` from the signature block with `ftSignatureType`: `0x444500000000001F` (`dec: 4919338167972134943`)
 
-3. end time of the action (DE: Zeitpunkt des Vorgangbeginns):   `2020-05-22T11:33:02.000Z` from the signature block with `ftSignatureType`: `0x444500000000001A`  (`dec: 4919338167972134938`)
+3. end time of the action (DE: Zeitpunkt der Vorgangsbeendigung):   `2020-05-22T11:33:02.000Z` from the signature block with `ftSignatureType`: `0x444500000000001A`  (`dec: 4919338167972134938`)
 
 
 ### Long lasting action - implicit flow
@@ -725,6 +725,6 @@ Response:
 
 2. start time of the action (DE: Zeitpunkt des Vorgangbeginns):   `2020-05-29T14:08:23.000Z` from the signature block with `ftSignatureType`: `0x4445000000000019` (`dec: 4919338167972134937`)
 
-3. end time of the action (DE: Zeitpunkt des Vorgangbeginns):   `2020-05-29T14:08:24.000Z` from the signature block with `ftSignatureType`: `0x444500000000001A`  (`dec: 4919338167972134938`)
+3. end time of the action (DE: Zeitpunkt der Vorgangsbeendigung):   `2020-05-29T14:08:24.000Z` from the signature block with `ftSignatureType`: `0x444500000000001A`  (`dec: 4919338167972134938`)
 
 4. start time of the first order (DE: Startzeitpunkt der ersten „Bestellung“ im Bondruck):  `2020-05-26T10:31:34.960Z` from the signature block with `ftSignatureType`: `0x444500000000001F` (`dec: 4919338167972134943`)
