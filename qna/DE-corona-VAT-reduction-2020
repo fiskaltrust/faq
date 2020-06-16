@@ -29,7 +29,7 @@ Das fiskaltrust.iPOS ist seit Beginn an derart flexibel aufgebaut und auf eine �
 ### Abbildung im json-request an die ft.Middleware
 #### Änderung am 01.07.2020, am 01.01.2021 sowie am 01.07.2021
 Die geänderte steuerliche Vorgabe ist durch korrekte json-requests an die ft.Middleware zu senden. Es ändert sich nur der Steuersatz, nicht jedoch die Leistungsart.
-Dies bedeutet, dass die bisheringen ftChargeItemCases für den allgemeinen Umsatzsteuersatz (z.B. für Lieferungen 0x4445000000000011) 
+Dies bedeutet, dass die bisherigen ftChargeItemCases für den allgemeinen Umsatzsteuersatz (z.B. für Lieferungen 0x4445000000000011) 
 sowie für den ermäßigten Umsatzsteuersatz (z.B. für Lieferungen 0x4445000000000012) ab 01.07.2020 weiter verwendet werden müssen.
 https://docs.fiskaltrust.cloud/doc/interface-doc/doc/appendix-de-kassensichv/reference-tables/type-of-service-ftchargeitemcase.html
 
@@ -53,7 +53,7 @@ In diesen Sonderfällen, welche zur Verwendung eines anderen (alten) Umsatzsteue
 Die ft.Middleware trennt die Umsatzsteuersätze aufgrund der gesendeten Information für den korrekten Export im DSFinV-K.
 
 ### TSE-ProcessData-Container sowie DSFinV-K Steuerpositionen
-Die ft.Middleware verwendet die TSE entsprechend der BSI-Richtlinien sowie des DSFinV-K. 
+Die ft.Middleware verwendet die TSE entsprechend der BSI-Richtlinien sowie des DSFinV-K.
 #### TSE-ProcessData-Container
 Dies bedeutet, die fünf bestehenden TSE-ProcessData-Container bleiben erhalten und werden nicht erweitert. 1. Regelsteuersatz, 2. ermäßigter Steuersatz, usw.
 #### DSFinV-K Steuerpositionen
