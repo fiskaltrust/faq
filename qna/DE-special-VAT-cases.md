@@ -1,5 +1,5 @@
 ## Question
-How can I set a special case VAT to my charge item for the german market?
+How can I set a special case VAT ID to my charge item for the german market?
 
 ## Question
 How can I use the iPOS interface to address special DSFinV-k VAT IDs grater than 1000?
@@ -9,7 +9,7 @@ lang-en, market-de, middleware, PosCreator
 
 ## Answer
 
-This special VAT Rate IDs to be used in the DSFinV-K export for the range > 1000 can be adderessed in the carge items by using a `chargeItemCase` that is intended for a "unknown vat":
+This special VAT Rate IDs to be used in the DSFinV-K export for the range > 1000 can be adderessed in the carge items by using a `ftChargeItemCase` that is intended for an "unknown vat":
 
 - `0x4445000000000007`-  undefined type of service for DE unknown vat
 - `0x4445000000000017`-  delivery unknown vat
@@ -32,7 +32,6 @@ Additionally the field `chargeItem.VATRate` must be set to the value of the spec
 ```json
 "cbChargeItems":[
    {
-      ...
       "VATRate":14.25,
       "ftChargeItemCase":4919338167972134943
    }
