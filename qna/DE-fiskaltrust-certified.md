@@ -12,4 +12,4 @@ lang-en, market-de, middleware, PosCreator, PosDealer, Consultant
 
 ## Answer
 
-Fiskaltrust is **NOT** a technical security unit (TSE). Fisklatrust offers a free of charge fiscalization middleware that is able to communicate with any officially certified TSE. Therefore fiskaltrust is not certified according to BSI TR-03153, but the supported TSEs such as Swissbit, Cryptovision, Diebold, Epson TSE are officially certified by the german Federal Office for Information Security (BSI).
+Fiskaltrust is **NOT** a technical security unit (TSE). Fiskaltrust offers a free of charge fiscalization middleware that is able to communicate with any officially certified TSE. Therefore fiskaltrust is not certified according to BSI TR-03153, but the supported TSEs such as Swissbit, Cryptovision, Diebold, Epson TSE are officially certified by the german Federal Office for Information Security (BSI).
