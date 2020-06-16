@@ -15,4 +15,4 @@ lang-en, market-de, middleware, PosCreator, PosDealer, Consultant
 
 ## Answer
 
-You can find the list of supported operating systems for germany in our [product description](https://github.com/fiskaltrust/productdescription-de-doc/blob/master/compliance-as-a-service/produkte/4445-0003-lokal-installierte-middleware.md) of the ft.Middleware.
+Please find the list of supported operating systems for germany in our ft.Middleware [product description](https://github.com/fiskaltrust/productdescription-de-doc/blob/master/compliance-as-a-service/produkte/4445-0003-lokal-installierte-middleware.md).
