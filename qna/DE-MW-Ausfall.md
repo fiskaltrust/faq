@@ -13,5 +13,10 @@ Bei einem Ausfall der fiskaltrust.Middleware darf mit der Kasse weiter gearbeite
 Die TSE ist in dem Fall ebenso nicht erreichbar.
 
 - Die Kasse kann im „Ausfallmodus“ weiter betrieben werden.
-- Durch die Nacherfassung der ausgefallenen Belege kann können alle Daten, die während das Ausfalls von der Kasse gespeichert wurde, an die ft.MW gesendet werden, sobald diese wieder erreichbar ist. 
+- Durch die Nacherfassung der ausgefallenen Belege können alle Daten, die während das Ausfalls von der Kasse gespeichert wurde, an die ft.MW gesendet werden, sobald diese wieder erreichbar ist. 
+
+Durch die Nacherfassung können alle gesetzlich erforderlichen Funktionen wie z.B. DSFinV-K-Export, PosArchiv, AKO, usw. dennoch erfüllt werden.
+Die Behandlung des Ausfalls wird in der Interface-Dokumentation in https://docs.fiskaltust.cloud beschrieben.
+
+Siehe auch https://fiskaltrust.de/fiskaltrust/faq/ - "Was passiert, wenn die Kasse die ft.Middleware nicht erreichen kann?"
 
