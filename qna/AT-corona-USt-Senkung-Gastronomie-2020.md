@@ -75,9 +75,10 @@ Umsätze, welche nach den Übergangsbestimmungen gemäß § 28 UStG einem ermä�
 
 Der Ausweis des ermäßigten Steuersatzes von 5 % auf dem Beleg erfolgt, auf dem Beleg durch:
 
-- [ ] entsprechende Textanmerkung
-- [ ] händische Korrektur 
-- [ ] Korrektur mittels eines Stempels
+- [ ] korrekter Ausweis des Steuersatzes von 5 %
+- [ ] entsprechende Textanmerkung, dass der korrekte Steuersatzes 5 % ist
+- [ ] händische Korrektur, dass der Steuersatzes 5 % beträgt
+- [ ] Korrektur mittels eines Stempels, dass der Steuersatzes 5 % beträgt
 
 | Datum | Unterschrift für den Steuerpflichtigen: |
 | :--- | :--- |
