@@ -34,6 +34,7 @@ sowie für den ermäßigten Umsatzsteuersatz (z.B. für Lieferungen 0x4445000000
 https://docs.fiskaltrust.cloud/doc/interface-doc/doc/appendix-de-kassensichv/reference-tables/type-of-service-ftchargeitemcase.html
 
 Die Kassa hat jedoch immer den korrekten Mehrwertsteuersatz im Feld VATRate zu senden. 
+
 https://docs.fiskaltrust.cloud/doc/interface-doc/doc/general/data-structures/data-structures.html 
  
 Daher ist 
@@ -60,6 +61,7 @@ Dies bedeutet, die fünf bestehenden TSE-ProcessData-Container bleiben erhalten 
 - 1 ist allgemeiner Umsatzsteuersatz
 - 2 ermäßigter Umsatzsteuersatz, usw
 - Die historische Steuersätze (19% und 7%) werden voraussichtlich in den IDs > 10 und < 1000 definiert.
+
 Da die Container (für die TSE) oder die IDs (für DSFinV-K) nicht für einen Steuersatz sondern einen Steuertyp stehen, sind alle Abbildungen möglich.
 
 BMF-Entwurf eines begleitenden BMF-Schreibens ["Befristete Absenkung des allgemeinen und ermäßigten Umsatzsteuersatzes zum 1. Juli
