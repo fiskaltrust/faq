@@ -20,7 +20,7 @@ Der optionale QR Code ist in der DSFinV-K empfohlen um eine etwaige Prüfung dur
 
 Alle anderen Inhalte (SignatureItems) MÜSSEN auf den Beleg gedruckt werden.
 
-Informationen zu den verschiedenen gesetzlichen Anforderungen an die Inhalte von Rechnung, Beleg und Quittung haben wir hier zusammengestellt: 
+Informationen zu den verschiedenen gesetzlichen Anforderungen an die Inhalte von Rechnung, Beleg und Quittung hat [Axel Kutschera](https://github.com/AxelKutschera) zusammengestellt: 
 
 | Nr   | Nr   | Rechnung                                                     |      | Nr   | Kleinbetragsrechnungen  < EUR 250,-                          |      | Nr   | Grundaufzeichnungen  (Einzelaufzeichnung)                    |      | Nr   | Beleg                                                        |      | Nr   | Beleg                                                        |      | Nr   | Beleg                                                        |      | Nr   | Quittung                                                     |
 | ---- | ---- | ------------------------------------------------------------ | ---- | ---- | ------------------------------------------------------------ | ---- | ---- | ------------------------------------------------------------ | ---- | ---- | ------------------------------------------------------------ | ---- | ---- | ------------------------------------------------------------ | ---- | ---- | ------------------------------------------------------------ | ---- | ---- | ------------------------------------------------------------ |
