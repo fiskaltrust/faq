@@ -2,7 +2,7 @@
 Wie behandle ich den Request/Response des fiskaltrust.Middlewares?
 
 ## Metadata tags
-lang-de, lang-at, market-fr, middleware, PosCreator, PosDealer, PosOperator, Consultant
+lang-de, lang-at, market-fr, middleware, PosCreator
 
 ## Answer
 Wenn ein Beleg an fiskaltrust.Middleware gesendet wird, werden alle Daten vom fiskaltrust.SecurityMechanism gesichert. Daher wird die Anfrage verarbeitet und einige Sicherheitsdaten oder Daten, die nach nationalem Recht erforderlich sind, als Antwort zurückgesendet.
