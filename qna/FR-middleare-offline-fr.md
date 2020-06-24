@@ -5,7 +5,7 @@ Comment gérer le mode dégradé ?
 lang-fr, market-fr, middleware, PosCreator
 
 ## Answer
-Si le reçu ne peut pas être signé par le fiskaltrust.SecurityMechanism le POS-System doit imprimer mode dégradé sur le reçu.
+Si le reçu ne peut pas être signé par le fiskaltrust.SecurityMechanism le POS-System doit imprimer **mode dégradé** sur le reçu.
 
 Lorsque le fiskaltrust.Middleware peut à nouveau signer les reçus, tous ces reçus “dégradés” doivent être saisis (manuellement / automatiquement), envoyés au fiskaltrust.SecurityMechanism et imprimés à nouveau comme reçus normaux. Ensuite, les reçus dégradés et les nouveaux reçus doivent être archivés ensemble.
 
