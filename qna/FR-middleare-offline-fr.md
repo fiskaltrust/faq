@@ -2,7 +2,7 @@
 Comment gérer le mode dégradé ?
 
 ## Metadata tags
-lang-fr, market-fr, middleware, PosCreator, PosDealer, PosOperator, Consultant
+lang-fr, market-fr, middleware, PosCreator
 
 ## Answer
 Si le reçu ne peut pas être signé par le fiskaltrust.SecurityMechanism le POS-System doit imprimer mode dégradé sur le reçu.
