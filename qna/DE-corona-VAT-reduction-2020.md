@@ -65,7 +65,7 @@ Dies bedeutet, die fünf bestehenden TSE-ProcessData-Container bleiben erhalten 
 Da die Container (für die TSE) oder die IDs (für DSFinV-K) nicht für einen Steuersatz sondern einen Steuertyp stehen, sind alle Abbildungen möglich.
 
 BMF-Entwurf eines begleitenden BMF-Schreibens ["Befristete Absenkung des allgemeinen und ermäßigten Umsatzsteuersatzes zum 1. Juli
-2020":](https://www.bundesfinanzministerium.de/Content/DE/Downloads/BMF_Schreiben/Steuerarten/Umsatzsteuer/2020-06-12-befristete-Senkung-umsatzsteuer-juli-2020.html)
+2020":](https://www.bundesfinanzministerium.de/Content/DE/Downloads/BMF_Schreiben/Steuerarten/Umsatzsteuer/2020-06-23-befristete-Senkung-umsatzsteuer-juli-2020-erste-aktualisierung.pdf?__blob=publicationFile&v=2)
 
 Bundesregierung: [Steuerentlastungen-Coronavirus](https://www.bundesregierung.de/breg-de/themen/coronavirus/steuerentlastungen-coronavirus-1750826)
 
