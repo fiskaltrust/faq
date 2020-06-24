@@ -4,7 +4,7 @@ How to extend Carefree products which expired beyond the grace period?
 
 ## Metadata tags
 
-lang-en, market-at, bundle-carefree, portal, cashbox management, PosOperator, PosDealer, Consultant, support-required
+lang-en, market-at, bundle-carefree, portal, cashbox management, PosOperator, PosDealer, Consultant
 
 ## Answer
 
