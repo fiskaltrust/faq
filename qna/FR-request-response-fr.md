@@ -1,5 +1,5 @@
 ## Question
-Comment gérer request/reponse du fiskaltrust.Middleware
+Comment gérer request/reponse du fiskaltrust.Middleware ?
 
 ## Metadata tags
 lang-fr, market-fr, middleware, PosCreator, PosDealer, PosOperator, Consultant
