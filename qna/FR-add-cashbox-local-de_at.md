@@ -22,4 +22,4 @@ Seien Sie vorsichtig bei diesem Schritt, die SCU kann für diese Warteschlange n
 **Vierter Schritt:**<br>Im CashBox-Befehl des Konfigurationsmenüs müssen Sie auf die Schaltfläche + Hinzufügen klicken. Geben Sie eine Beschreibung ein und wählen Sie erneut dieselbe Verkaufsstelle wie in den vorherigen Schritten. Nachdem Sie auf Speichern geklickt haben, finden Sie eine neue CashBox in der Liste. Klicken Sie auf die Schaltfläche mit dem Hand-Symbol. Ziehen Sie nun die kürzlich erstellte Warteschlange von links nach rechts. Überprüfen Sie, ob die richtige Verkaufsstelle ausgewählt ist, und klicken Sie auf Speichern.
 
 **Letzter Schritt:**<br>Klicken Sie in der Zeile der CashBox auf die Schaltfläche Rebuild Configuration (Kreispfeile).
-Jetzt können Sie einen der drei Launcher herunterladen und den fiskaltrust.Service auf Ihrem lokalen Computer installieren.
+Jetzt können Sie einen der drei Launcher herunterladen und den fiskaltrust.Middleware auf Ihrem lokalen Computer installieren.
