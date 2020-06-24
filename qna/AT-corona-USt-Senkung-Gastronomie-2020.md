@@ -39,7 +39,7 @@ Es bestehen auch keine Bedenken, wenn dieser Ausweis des ermäßigten Steuersatz
 ### Kommentar fiskaltrust:
 Bei korrekter Verwendung des fiskaltrust.Interface sind alle zulässigen Varianten des BMF möglich.
 Auch der RKSV-Export wird entsprechend korrekt erstellt.
-Infos für Kassenhersteller sind hier zu finden: https://docs.fiskaltrust.cloud
+Infos für Kassenhersteller zur korrekten Verwendung der Steuersätze sind hier zu finden: [https://docs.fiskaltrust.cloud / AT-ftChargeItemCases](https://docs.fiskaltrust.cloud/doc/interface-doc/doc/appendix-at-rksv/reference-tables/reference-tables.html#type-of-service-ftchargeitemcase)
 
 ### Muster zur Dokumentation der gewählten Variante zur Abbildung des 5%-igen USt-Satzes
 
