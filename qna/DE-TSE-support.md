@@ -16,4 +16,4 @@ fiskaltrust ist ein Middleware-Anbieter und bietet keine eigene TSE an, um mögl
 
 Das ft.Interface bietet daher eine technische und architektonische Unabhängigkeit von der TSE. Über das ft.Portal haben die Kunden die Möglichkeit, ihre gewählte TSE zu konfigurieren und diese auch jederzeit zu wechseln, sowohl von einer Offline-TSE zu einer Online-TSE, also auch umgekehrt.
 
-Eine Übersicht über unterstützte TSE finden sie hier: https://github.com/fiskaltrust/productdescription-de-doc/blob/master/compliance-as-a-service/produkte/4445-0003-lokal-installierte-middleware.md
+Eine Übersicht über unterstützte TSE finden sie hier: [https://github.com/fiskaltrust/productdescription-de-doc/blob/master/compliance-as-a-service/produkte/4445-0003-lokal-installierte-middleware.md#interoperabilit%C3%A4t](https://github.com/fiskaltrust/productdescription-de-doc/blob/master/compliance-as-a-service/produkte/4445-0003-lokal-installierte-middleware.md#interoperabilität)
