@@ -5,7 +5,7 @@ How to handle degraded mode?
 lang-en, market-fr, middleware, PosCreator
 
 ## Answer
-If the receipt can not be signed by the fiskaltrust.SecurityMechanism the POS-System must print mode dégradé on the receipt.
+If the receipt can not be signed by the fiskaltrust.SecurityMechanism the POS-System must print **mode dégradé** on the receipt.
 
 When the fiskaltrust.Middleware can sign the receipts again all the receipts signed with the “degraded” mode, have to be entered (manually/automatically), sent to the fiskaltrust.SecurityMechanism and printed again, as regular receipts. Then the degraded and the new receipts must be archived together.
 
