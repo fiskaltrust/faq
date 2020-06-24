@@ -1,5 +1,5 @@
 ## Question
-How to create an outlet
+How to create an outlet?
 
 ## Metadata tags
 lang-en, market-fr, portal, cashbox management, PosCreator, PosDealer, PosOperator, Consultant
