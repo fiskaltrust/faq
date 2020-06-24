@@ -35,5 +35,5 @@ Wir empfehlen folgende Schritte:
 2. Evaluierung auf Basis einer Middleware-Demo (z.B. https://github.com/fiskaltrust/middleware-demo)
 3. Integration anhand der [Interface-Dokumentation](https://github.com/fiskaltrust/interface-doc)
 
-Details siehe [QuickStartGuide](https://github.com/fiskaltrust/quickguide-de-doc/) auf github. Für weitere Fragen steht ihnen auch das [Support Team](milto:info@fiskaltrust.de) zur Verfügung.
+Details siehe [QuickStartGuide](https://github.com/fiskaltrust/quickguide-de-doc/) auf github. Für weitere Fragen steht ihnen auch das [Support Team](mailto:info@fiskaltrust.de) zur Verfügung.
 

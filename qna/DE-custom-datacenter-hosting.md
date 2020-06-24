@@ -16,11 +16,11 @@ Die fiskaltrust Lösung kann bei Bedarf unter bestimmten Rahmenbedingungen auch 
 - Sie stellen einen dedizierten Kubernetes Cluster je Rechenzentrum bzw. beauftragen einen Dritten mit deren Bereitstellung
 - fiskaltrust übernimmt & konfiguriert den bereitgestellten Cluster
 - fiskaltrust übernimmt das Management des Clusters inkl. SLA
-- fiskaltrust stellt individuelle Produktbundles pro Cashboxen zur Verfügung
+- fiskaltrust stellt individuelle Produktbundles pro Cashboxe zur Verfügung
 
 ### Detailinformationen
 
-| Leistungen Kunde                                             |                        | Leistungen fisklatrust                                       |                           | Kosten                        |
+| Leistungen Kunde                                             |                        | Leistungen fiskaltrust                                       |                           | Kosten                        |
 | ------------------------------------------------------------ | ---------------------- | ------------------------------------------------------------ | ------------------------- | ----------------------------- |
 | **gewarteter  Kubernetes Cluster** im Rechenzentrum *(Eigenleistung oder wahlweise  Beauftragung an Dritte)* |                        |                                                              |                           | unbekannt                     |
 | Major Version: Update nach Absprache mit Serviceprovider (Breaking Changes) |                        |                                                              |                           |                               |
@@ -44,7 +44,7 @@ Die fiskaltrust Lösung kann bei Bedarf unter bestimmten Rahmenbedingungen auch 
 |                                                              |                        | **Onboarding/Installation**                                  |                           | einmalige Kosten              |
 |                                                              |                        | Übernahme des  Basissystems                                  |                           |                               |
 |                                                              |                        | Einrichtung der  Managementverbindung                        |                           |                               |
-|                                                              |                        | Einbindung der  fiskaltrust.portal Verbindung                |                           |                               |
+|                                                              |                        | Einbindung der  fiskaltrust.Portal Verbindung                |                           |                               |
 |                                                              |                        | Provisionierung der  Basis PODs                              |                           |                               |
 |                                                              |                        | Tests und Freigabe                                           |                           |                               |
 |                                                              |                        |                                                              |                           |                               |
