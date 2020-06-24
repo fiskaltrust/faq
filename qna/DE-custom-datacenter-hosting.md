@@ -1,6 +1,6 @@
 ## Question
 
-Wir arbeiten lediglich mit Eingabegeräten /Terminals, die keine Offlinefunktionalität bieten und nur mit einer Verbindung zum Rechenzentrum Aufzeichnungen anstoßen können. Die Aufzeichnungen erfolgen ausschließlich auf den Servern im Rechenzentrum (Cloud). Damit ist das Rechenzentrum das Operational Environment. Muß ich in meinem Rechenzentrum eine TSE betreiben?
+Unsere Cloud-Kassa arbeitet lediglich mit Eingabegeräten/Terminals, die keine Offlinefunktionalität bieten und nur bei (Internet-)Verbindung zum Rechenzentrum Vorgänge aufzeichnen können. Die Aufzeichnungen erfolgen ausschließlich auf den Servern im Rechenzentrum (Cloud). Damit ist das Rechenzentrum lt. BSI das "Operational Environment". Kann ich in meinem Rechenzentrum eine eigene TSE betreiben?
 
 ## Metadata tags
 
