@@ -2,7 +2,7 @@
 How to handle the request/response of the fiskaltrust.Middleware?
 
 ## Metadata tags
-lang-en, market-fr, middleware, PosCreator, PosDealer, PosOperator, Consultant
+lang-en, market-fr, middleware, PosCreator
 
 ## Answer
 When a ticket is sent to the fiskaltrust.Middleware, all of the data is secured by the fiskaltrust.SecurityMechanism. Therefore the request is processed and some security data or data required by national laws is sent back as response.
