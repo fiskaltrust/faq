@@ -7,8 +7,9 @@ lang-fr, market-fr, middleware, PosCreator, PosDealer, PosOperator, Consultant
 ## Answer
 Pour créer une CashBox, certaines conditions doivent être remplies au préalable : 
 
-Un numéro de SIREN valide doit être saisi et contrôlé dans les données de base de l’entreprise.
-Un Etablissement valide doit être enregistré. Pour cela, l’adresse de l’établissement et son numéro de SIRET doivent être saisis et vérifiés. 
+* Un numéro de SIREN valide doit être saisi et contrôlé dans les données de base de l’entreprise.
+* Un Etablissement valide doit être enregistré. Pour cela, l’adresse de l’établissement et son numéro de SIRET doivent être saisis et vérifiés. 
+
 Une fois ces deux conditions remplies, une Cashbox peut être créée en 5 étapes. 
 
 **1ère étape :**<br>Créez une unité de création de signature (Signature creation unit, SCU) dans le menu Configuration. Lors de la création, vous devez sélectionner le bon établissement. 
