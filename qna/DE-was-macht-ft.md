@@ -16,7 +16,7 @@ Wo soll ich anfangen?
 
 ## Metadata tags
 
-lang-de, market-all, middleware, PosCreator, POSDealer,Consultant
+lang-de, market-de, middleware, PosCreator, POSDealer,Consultant
 
 ## Answer
 

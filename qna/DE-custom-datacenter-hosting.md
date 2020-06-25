@@ -1,10 +1,10 @@
 ## Question
 
-Unsere Cloud-Kassa arbeitet lediglich mit Eingabegeräten/Terminals, die keine Offlinefunktionalität bieten und nur bei (Internet-)Verbindung zum Rechenzentrum Vorgänge aufzeichnen können. Die Aufzeichnungen erfolgen ausschließlich auf den Servern im Rechenzentrum (Cloud). Damit ist das Rechenzentrum lt. BSI das "Operational Environment". Kann ich in meinem Rechenzentrum eine eigene TSE betreiben?
+Unsere Cloud-Kasse arbeitet lediglich mit Eingabegeräten/Terminals, die keine Offlinefunktionalität bieten und nur bei (Internet-)Verbindung zum Rechenzentrum Vorgänge aufzeichnen können. Die Aufzeichnungen erfolgen ausschließlich auf den Servern im Rechenzentrum (Cloud). Damit ist das Rechenzentrum lt. BSI das "Operational Environment". Kann ich in meinem Rechenzentrum eine eigene TSE betreiben?
 
 ## Metadata tags
 
-lang-en, market-de, middleware, PosCreator, PosDealer, Consultant
+lang-de, market-de, middleware, PosCreator, PosDealer, Consultant
 
 ## Answer
 
@@ -16,7 +16,7 @@ Die fiskaltrust Lösung kann bei Bedarf unter bestimmten Rahmenbedingungen auch 
 - Sie stellen einen dedizierten Kubernetes Cluster je Rechenzentrum bzw. beauftragen einen Dritten mit deren Bereitstellung
 - fiskaltrust übernimmt & konfiguriert den bereitgestellten Cluster
 - fiskaltrust übernimmt das Management des Clusters inkl. SLA
-- fiskaltrust stellt individuelle Produktbundles pro Cashboxe zur Verfügung
+- fiskaltrust stellt individuelle Produktbundles pro Cashbox zur Verfügung
 
 ### Detailinformationen
 
