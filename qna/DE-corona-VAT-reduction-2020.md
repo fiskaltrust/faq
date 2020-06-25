@@ -33,7 +33,8 @@ Dies bedeutet, dass die bisherigen ftChargeItemCases für den allgemeinen Umsatz
 sowie für den ermäßigten Umsatzsteuersatz (z.B. für Lieferungen 0x4445000000000012) ab 01.07.2020 weiter verwendet werden müssen.
 https://docs.fiskaltrust.cloud/doc/interface-doc/doc/appendix-de-kassensichv/reference-tables/type-of-service-ftchargeitemcase.html
 
-Die Kassa hat jedoch immer den korrekten Mehrwertsteuersatz im Feld VATRate senden. 
+Die Kassa hat jedoch immer den korrekten Mehrwertsteuersatz im Feld VATRate zu senden. 
+
 https://docs.fiskaltrust.cloud/doc/interface-doc/doc/general/data-structures/data-structures.html 
 
 Daher ist 
@@ -60,12 +61,7 @@ Dies bedeutet, die fünf bestehenden TSE-ProcessData-Container bleiben erhalten 
 - 1 ist allgemeiner Umsatzsteuersatz
 - 2 ermäßigter Umsatzsteuersatz, usw
 - Die historische Steuersätze (19% und 7%) werden voraussichtlich in den IDs > 10 und < 1000 definiert.
- Container (TSE) oder IDs (DSFinV-K) nicht für einen Steuersatz sondern einen Steuertyp stehen, dann kommen Sie schon recht weit.
 
-BMF-Entwurf eines begleitenden BMF-Schreibens "Befristete Absenkung des allgemeinen und ermäßigten Umsatzsteuersatzes zum 1. Juli
-2020": 
+Bundesregierung: [Steuerentlastungen-Coronavirus](https://www.bundesregierung.de/breg-de/themen/coronavirus/steuerentlastungen-coronavirus-1750826)
 
-Bundesregierung: https://www.bundesregierung.de/breg-de/themen/coronavirus/steuerentlastungen-coronavirus-1750826
-
-BMWI, 12.06.2020 -PRESSEMITTEILUNG: Wirtschaftliche Entwicklung - Unbürokratische Umsetzung der Mehrwertsteuersenkung bei Preisangaben durch pauschale Rabatte möglich
-https://www.bmwi.de/Redaktion/DE/Pressemitteilungen/2020/20200612-unbuerokratische-umsetzung-der-mehrwertsteuersenkung-bei-preisangaben-durch-pauschale-rabatte-moeglich.html
+BMWI, 12.06.2020 -PRESSEMITTEILUNG: [Wirtschaftliche Entwicklung - Unbürokratische Umsetzung der Mehrwertsteuersenkung bei Preisangaben durch pauschale Rabatte möglich](https://www.bmwi.de/Redaktion/DE/Pressemitteilungen/2020/20200612-unbuerokratische-umsetzung-der-mehrwertsteuersenkung-bei-preisangaben-durch-pauschale-rabatte-moeglich.html)
