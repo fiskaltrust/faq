@@ -12,7 +12,7 @@ lang-de, market-de, middleware, PosCreator, PosDealer, Consultant
 
 ## Answer
 
-Bei einem Ausfall der TSE darf mit der Kasse weiter gearbeitet werden (siehe Punkt 7 des AEAO zu § 146a: https://www.bundesfinanzministerium.de/Content/DE/FAQ/2020-02-18-steuergerechtigkeit-belegpflicht.html)
+Bei einem Ausfall der TSE darf mit der Kasse weiter gearbeitet werden.
 
 Die fiskaltrust.Middleware (ft.MW) signalisiert die Nichterreichbarkeit der TSE über den Service-Status `ftState = 0x4445000000000002`. Siehe dazu: [docs.fiskaltrust](https://github.com/fiskaltrust/interface-doc/blob/master/doc/appendix-de-kassensichv/reference-tables/service-status-ftstate.md).
 

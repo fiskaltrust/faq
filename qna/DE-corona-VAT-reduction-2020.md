@@ -35,7 +35,7 @@ https://docs.fiskaltrust.cloud/doc/interface-doc/doc/appendix-de-kassensichv/ref
 
 Die Kassa hat jedoch immer den korrekten Mehrwertsteuersatz im Feld VATRate senden. 
 https://docs.fiskaltrust.cloud/doc/interface-doc/doc/general/data-structures/data-structures.html 
- 
+
 Daher ist 
 - der"alte" Steuersatz von 19% bis zum 30.06.2020 und 
 - der temporär, "neue" Steuersatz von 16% ab 01.07.2020 
@@ -63,7 +63,7 @@ Dies bedeutet, die fünf bestehenden TSE-ProcessData-Container bleiben erhalten 
  Container (TSE) oder IDs (DSFinV-K) nicht für einen Steuersatz sondern einen Steuertyp stehen, dann kommen Sie schon recht weit.
 
 BMF-Entwurf eines begleitenden BMF-Schreibens "Befristete Absenkung des allgemeinen und ermäßigten Umsatzsteuersatzes zum 1. Juli
-2020": https://www.bundesfinanzministerium.de/Content/DE/Downloads/BMF_Schreiben/Steuerarten/Umsatzsteuer/2020-06-12-befristete-Senkung-umsatzsteuer-juli-2020.html
+2020": 
 
 Bundesregierung: https://www.bundesregierung.de/breg-de/themen/coronavirus/steuerentlastungen-coronavirus-1750826
 
