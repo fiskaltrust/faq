@@ -37,9 +37,9 @@ Umsätze, welche nach den Übergangsbestimmungen gemäß § 28 UStG dem ermäßi
 Es bestehen auch keine Bedenken, wenn dieser Ausweis des ermäßigten Steuersatzes von 5 % durch eine entsprechende Textanmerkung auf dem Beleg erfolgt, oder eine händische Korrektur bzw. eine Korrektur mittels eines Stempels auf dem Beleg vorgenommen wird.“
 
 ### Kommentar fiskaltrust:
-Bei korrekter Verwendung des fiskaltrust.Interface sind alle zulässigen Varianten des BMF möglich.
-Auch der RKSV-Export wird entsprechend korrekt erstellt.
-Infos für Kassenhersteller zur korrekten Verwendung der Steuersätze sind hier zu finden: [https://docs.fiskaltrust.cloud / AT-ftChargeItemCases](https://docs.fiskaltrust.cloud/doc/interface-doc/doc/appendix-at-rksv/reference-tables/reference-tables.html#type-of-service-ftchargeitemcase)
+Bei korrekter Verwendung des fiskaltrust.Interface sind alle zulässigen Varianten des BMF als .json-Request an die fiskaltrust.Middleware wie bisher möglich. Daher muss neben der Änderung des Umsatzsteuersatzes keine Anpassung der .json-Requests (VATRate and/or VATAmount) vorgenommen werden.
+Auch der RKSV-Export wird mit der Änderung des Umsatzsteuersatzes entsprechend korrekt erstellt.
+Infos für Kassenhersteller zur korrekten Verwendung der Umsatzsteuersätze sind hier zu finden: [https://docs.fiskaltrust.cloud / AT-ftChargeItemCases](https://docs.fiskaltrust.cloud/doc/interface-doc/doc/appendix-at-rksv/reference-tables/reference-tables.html#type-of-service-ftchargeitemcase)
 
 ### Muster zur Dokumentation der gewählten Variante zur Abbildung des 5%-igen USt-Satzes
 
