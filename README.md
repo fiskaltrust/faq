@@ -57,7 +57,9 @@ This chapter lists all available Metadata tags:
 - bundle-carefree-offline-SCU
 - bundle-carefree-online-SCU
 - custom-middleware-solution
-- portal
+- portal (for production and sandbox)
+- portal-sandbox (concerns only sandbox)
+- portal-production (concerns only production)
 - documentation
 - website
 - security
