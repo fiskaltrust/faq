@@ -8,7 +8,7 @@ Wann bietet fiskaltrust den DSFinV-K Export an?
 
 ## Metadata tags
 
-lang-de, market-all, middleware, portal, data-export, PosCreator, PosDealer, Consultant
+lang-de, market-de, middleware, portal, data-export, PosCreator, PosDealer, Consultant
 
 ## Answer
 
