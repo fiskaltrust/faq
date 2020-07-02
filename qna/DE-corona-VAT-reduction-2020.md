@@ -36,7 +36,7 @@ https://docs.fiskaltrust.cloud/doc/interface-doc/doc/appendix-de-kassensichv/ref
 Die Kassa hat jedoch immer den korrekten Mehrwertsteuersatz im Feld VATRate zu senden. 
 
 https://docs.fiskaltrust.cloud/doc/interface-doc/doc/general/data-structures/data-structures.html 
- 
+
 Daher ist 
 - der"alte" Steuersatz von 19% bis zum 30.06.2020 und 
 - der temporär, "neue" Steuersatz von 16% ab 01.07.2020 
@@ -88,6 +88,7 @@ Da die Container (für die TSE) oder die IDs (für DSFinV-K) nicht für einen St
 BMF-Entwurf eines begleitenden BMF-Schreibens ["Befristete Absenkung des allgemeinen und ermäßigten Umsatzsteuersatzes zum 1. Juli
 2020":](https://www.bundesfinanzministerium.de/Content/DE/Downloads/BMF_Schreiben/Steuerarten/Umsatzsteuer/2020-06-23-befristete-Senkung-umsatzsteuer-juli-2020-erste-aktualisierung.pdf?__blob=publicationFile&v=2)
 
+=======
 Bundesregierung: [Steuerentlastungen-Coronavirus](https://www.bundesregierung.de/breg-de/themen/coronavirus/steuerentlastungen-coronavirus-1750826)
 
 BMWI, 12.06.2020 -PRESSEMITTEILUNG: [Wirtschaftliche Entwicklung - Unbürokratische Umsetzung der Mehrwertsteuersenkung bei Preisangaben durch pauschale Rabatte möglich](https://www.bmwi.de/Redaktion/DE/Pressemitteilungen/2020/20200612-unbuerokratische-umsetzung-der-mehrwertsteuersenkung-bei-preisangaben-durch-pauschale-rabatte-moeglich.html)

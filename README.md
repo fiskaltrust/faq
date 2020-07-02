@@ -57,7 +57,9 @@ This chapter lists all available Metadata tags:
 - bundle-carefree-offline-SCU
 - bundle-carefree-online-SCU
 - custom-middleware-solution
-- portal
+- portal (for production and sandbox)
+- portal-sandbox (concerns only sandbox)
+- portal-production (concerns only production)
 - documentation
 - website
 - security
@@ -128,7 +130,7 @@ Make sure you have reviewed your changes.
 
 ### Example
 
-[Here](qna/General-fiskaltrust-sandbox.md) you can find an example of how a Q&A set should look like.
+[Here](qna/DE-fiskaltrust-sandbox.md) you can find an example of how a Q&A set should look like.
 
 ## Troubleshooting
 
