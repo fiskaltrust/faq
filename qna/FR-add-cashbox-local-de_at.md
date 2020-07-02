@@ -1,5 +1,5 @@
 ## Question
-Wie erstelle ich eine CashBox (lokal)
+Wie erstelle ich eine CashBox (lokal)?
 
 ## Metadata tags
 lang-de, lang-at, market-fr, middleware, PosCreator, PosDealer, PosOperator, Consultant
