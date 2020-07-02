@@ -15,7 +15,7 @@ lang-en, market-de, middleware
 
 ## Answer
 
-We offer a test system called sandbox. The sandbox is fully functional just like our live system. Depending on the country, it can be reached via the following URLs:
+We offer a test system called sandbox. The sandbox is fully functional just like our live system. Depending on the country, it can be reached via the following URL:
 
 - Germany: https://portal-sandbox.fiskaltrust.de
 
