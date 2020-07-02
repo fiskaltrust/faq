@@ -23,7 +23,7 @@ In the sandbox portal you can register your company just like you would in our l
 
 In the portal you can configure a cashbox for testing. When you start it on your local machine, it will show you that it operates in sandbox mode:
 
-![Screenshot](../images/sandbox-started-cashbox.png "Cashbox started in sandbox mode")
+![Screenshot](../images/sandbox-started-cashbox.png) (Cashbox started in sandbox mode")
 
 
 [Here](../examples/js-rest-sign-call.md) you can find a JS/jQuery example calling the REST Web Service.
