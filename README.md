@@ -130,7 +130,7 @@ Make sure you have reviewed your changes.
 
 ### Example
 
-[Here](qna/General-fiskaltrust-sandbox.md) you can find an example of how a Q&A set should look like.
+[Here](qna/DE-fiskaltrust-sandbox.md) you can find an example of how a Q&A set should look like.
 
 ## Troubleshooting
 
