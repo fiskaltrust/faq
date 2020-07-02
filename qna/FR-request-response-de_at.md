@@ -9,7 +9,7 @@ Wenn ein Beleg an fiskaltrust.Middleware gesendet wird, werden alle Daten vom fi
 
 Zunächst muss der Beleg vom POS-System erstellt werden. Dazu müssen einige Informationen aus dem POS-System selbst und einige Header-Informationen der Quittung und Verkaufsdaten in einem JSON-Format gesammelt und übertragen werden. Nehmen wir an, es wird ein Kaffee und ein Käsekuchen an einen Kunden in einem Restaurant verkauft und mit Bargeld bezahlt.
 
-**1) Der Header einer Quittung:**<br>Dies ist eine allgemeine Information der Quittung. Die hier gezeigten Felder sind der minimal erforderliche Datensatz. Alle möglichen Felder sind in der Middleware Dokumentation beschrieben.
+**1) Der Header einer Quittung:**<br>Dies ist eine allgemeine Information der Quittung. Die hier gezeigten Felder sind der minimal erforderliche Datensatz. Alle verfügbaren Felder sind in der Middleware Dokumentation beschrieben.
 
 ```JSON
 {
@@ -21,7 +21,7 @@ Zunächst muss der Beleg vom POS-System erstellt werden. Dazu müssen einige Inf
   "ftReceiptCase": "5067112530745229313",
 ```
 
-**2) Die Liste der verkauften Produkte:**<br>Dies ist eine Reihe von Produktzeilen auf einem Beleg, im fiskaltrust.Universum werden dies als ChargeItems bezeichnet. Der gezeigte Datensatz ist das absolut notwendige Minimum, um den französischen Gesetzen zu entsprechen. Alle Felder und möglichen Werte sind in der Middleware Dokumentation ausführlich beschrieben.
+**2) Die Liste der verkauften Produkte:**<br>Dies ist eine Reihe von Produktzeilen auf einem Beleg, im fiskaltrust.Universum werden dies als ChargeItems bezeichnet. Der gezeigte Datensatz ist das absolut notwendige Minimum, um den französischen Gesetzen zu entsprechen. Alle Felder und Werte sind in der Middleware Dokumentation ausführlich beschrieben.
 
 ```JSON
 "cbChargeItems": [
