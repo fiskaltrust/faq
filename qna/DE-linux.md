@@ -17,6 +17,10 @@ In general, it's possible to run the Middleware on each Linux distribution that 
 
 Other than that, no specific software needs to be installed (aside from the dependencies Mono has).
 
+### Supported packages
+- Both Entity Framework and SQLite queues can be launched on Linux, starting from version 1.3.3. 
+- Currently, SCU support is limited to the fiskaly and the Cryptovision packages, starting from version 1.3.3. Other SCUs (like Swissbit) will be supported soon.
+
 ### Limitations
 Currently, the Middleware only supports gRPC and REST when executed on Linux. This means that SOAP is right now not supported (due to open bugs in Mono's WCF implementation). 
 
