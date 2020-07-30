@@ -12,11 +12,7 @@ Die fiskaltrust Lösung kann bei Bedarf unter bestimmten Rahmenbedingungen auch 
 
 ### Voraussetzungen
 
-- Vertragslaufzeit: 3 Jahre 
-- Sie stellen einen dedizierten Kubernetes Cluster je Rechenzentrum bzw. beauftragen einen Dritten mit deren Bereitstellung und lassen diesen mit einer SLA von mindestens 99,9% monatlich betreiben
-- fiskaltrust installiert einen Management Agent auf dem bereitgestellten Cluster
-- fiskaltrust übernimmt das Rollout der Lösung auf dem bereitgestellten Cluster
-- fiskaltrust stellt individuelle Produktbundles pro Cashbox zur Verfügung
+- Der Kunde installiert und wartet das gemeinsam geplante Gewerk eigenständig
 
 ### Detailinformationen
 
