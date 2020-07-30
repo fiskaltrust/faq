@@ -13,9 +13,9 @@ Die fiskaltrust Lösung kann bei Bedarf unter bestimmten Rahmenbedingungen auch 
 ### Voraussetzungen
 
 - Vertragslaufzeit: 3 Jahre 
-- Sie stellen einen dedizierten Kubernetes Cluster je Rechenzentrum bzw. beauftragen einen Dritten mit deren Bereitstellung
-- fiskaltrust übernimmt & konfiguriert den bereitgestellten Cluster
-- fiskaltrust übernimmt das Management des Clusters inkl. SLA
+- Sie stellen einen dedizierten Kubernetes Cluster je Rechenzentrum bzw. beauftragen einen Dritten mit deren Bereitstellung und lassen diesen mit einer SLA von mindestens 99,9% monatlich betreiben
+- fiskaltrust installiert einen Management Agent auf dem bereitgestellten Cluster
+- fiskaltrust übernimmt das Rollout der Lösung auf dem bereitgestellten Cluster
 - fiskaltrust stellt individuelle Produktbundles pro Cashbox zur Verfügung
 
 ### Detailinformationen
@@ -23,9 +23,6 @@ Die fiskaltrust Lösung kann bei Bedarf unter bestimmten Rahmenbedingungen auch 
 | Leistungen Kunde                                             |                        | Leistungen fiskaltrust                                       |                           | Kosten                        |
 | ------------------------------------------------------------ | ---------------------- | ------------------------------------------------------------ | ------------------------- | ----------------------------- |
 | **Bereitstellung & Betrieb gewarteter  Kubernetes Cluster gem. ft. Anforderungen/sizing** im Rechenzentrum *(Eigenleistung oder wahlweise  Beauftragung an Dritte)* |                        |                                                              |                           | unbekannt                     |
-| Major Version: Update nach Absprache mit Serviceprovider (Breaking Changes) |                        |                                                              |                           |                               |
-| Minor Version: Spätestens 60 Tage ab Release muss die Minor Version am Cluster zur Verfügung stehen |                        |                                                              |                           |                               |
-| Patch Version: Spätestens 30 Tage ab Release muss die Minor Version am Cluster zur Verfügung stehen |                        |                                                              |                           |                               |
 | Der Cluster muss exklusiv zur Verfügung stehen (kein shared Cluster), da fiskaltrust Monitoring und Management der PODs übernimmt |                        |                                                              |                           |                               |
 | SLA des Clusters mindestens 99,9% monatlich                  |                        |                                                              |                           |                               |
 | Redundante Internetverbindung mit statischer Public IP       |                        |                                                              |                           |                               |
@@ -49,9 +46,7 @@ Die fiskaltrust Lösung kann bei Bedarf unter bestimmten Rahmenbedingungen auch 
 |                                                              |                        | Tests und Freigabe                                           |                           |                               |
 |                                                              |                        |                                                              |                           |                               |
 |                                                              |                        | **Management / SLA 99,0% Jährlich für von ft gelieferte Container basierend auf Azure Arc** |                           | monatliche Kosten             |
-|                                                              |                        | Monitoring                                                   |                           |                               |
-|                                                              |                        | Einspielen von ft.Patches                                    |                           |                               |
-|                                                              |                        | Updates von Kubernetes  aktivieren (mind. vierteljährlich)   |                           |                               |
+|                                                              |                        | Übertragung von Logs und Telemetrie                                                   |                           |                               |
 |                                                              |                        | Beheben von Deployment issues                                |                           |                               |
 |                                                              |                        | Support                                                      |                           |                               |
 |                                                              |                        | Telefon Hotline Mo-Fr  09:00h-15:00h                         |                           |                               |
