@@ -29,3 +29,7 @@ Der Prozess ist immer derselbe, unabhängig davon ob die TSE von fiskaltrust bez
 - Erstellung einer SCU im Portal mit dem Package passend für den Hersteller der mitgebrachten TSE
 - Diese SCU muß mit der entsprechenden Cashbox verbunden werden
 - Die TSE kann in Verbindung mit unserer kostenfreien fiskaltrust.Middleware verwendet und mit Addons bzw. Produkt-Bundles, wie z.B. dem fiskaltrust.Sorglos ohne TSE Bundle, ergänzt werden.
+
+**Hinweis:** Falls der PIN der TSE gem. Anleitung des Herstellers geändert wurde, müssen PIN & User in der Konfiguration gemäß Dokumentation aktualisiert werden.
+
+[Liste der von fiskaltrust unterstützten TSE & Konfiguration](https://github.com/fiskaltrust/productdescription-de-doc/tree/master/product-service-description/compliance-as-a-service/features#tse-support)
