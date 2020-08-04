@@ -24,7 +24,7 @@ Die fiskaltrust Lösung kann bei Bedarf unter bestimmten Rahmenbedingungen auch 
 | Rechenzentrum  Name:                                         | *(bitte bekanntgeben)* |                                                              |                           |                               |
 |                                                              |                        |                                                              |                           |                               |
 | **Briefing  für Sizing-Berechnung Kubernetes Cluster**  |                        | **Sizing Berechnung Kubernetes Cluster**                     |                           | keine                         |
-| Anzahl  Cashboxen:                                           | *(bitte bekanntgeben)* | total Backend PODs                                                   | *(wird von ft ermittelt)* |                               |
+| Anzahl Cashboxen:                                           | *(bitte bekanntgeben)* | total Backend PODs                                                   | *(wird von ft ermittelt)* |                               |
 | Max. Anzahl Receipts/Tag/Cashbox:                            | *(bitte bekanntgeben)* | Datenbankspeicher                                     | *(wird von ft ermittelt)* |                               |
 |                                                              |                        | |                               ||
 |                                                              |                        | **Onboarding/Consulting**                                  |                           | einmalige Kosten              |
@@ -35,6 +35,6 @@ Die fiskaltrust Lösung kann bei Bedarf unter bestimmten Rahmenbedingungen auch 
 |                                                              |                        | |                                                              |                           |
 |                                                              |                        | |                                                              |                           |
 |                                                              |                        | **fiskaltrust Produkte**                                 |                           | monatliche Kosten pro Cashbox |
-|                                                              |                        | Standard Produkt-Bundle mit TSE as a Service  & Archiv         |                           |                               |
+|                                                              |                        | Standard Produkt-Bundle mit TSE as a Service & Archiv         |                           |                               |
 
 Für weitere Informationen oder ein individuelles Angebot wenden sie sich bitte an den fiskaltrust.Support (info@fiskaltrust.de).
