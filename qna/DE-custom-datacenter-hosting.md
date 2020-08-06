@@ -23,18 +23,18 @@ Die fiskaltrust Lösung kann bei Bedarf unter bestimmten Rahmenbedingungen auch 
 | **Bereitstellung & Betrieb gewarteter  Kubernetes Cluster gem. ft. Anforderungen/sizing** im Rechenzentrum *(Eigenleistung oder wahlweise  Beauftragung an Dritte)* |                        |                                                              |                           | unbekannt                     |
 | Rechenzentrum  Name:                                         | *(bitte bekanntgeben)* |                                                              |                           |                               |
 |                                                              |                        |                                                              |                           |                               |
-| **Briefing  für sizing-Berechnung Kubernetes Cluster**       |                        | **Sizing Berechnung Kubernetes Cluster**                     |                           | keine                         |
-| Anzahl  Cashboxen:                                           | *(bitte bekanntgeben)* | total Backend PODs                                                   | *(wird von ft ermittelt)* |                               |
+| **Briefing  für Sizing-Berechnung Kubernetes Cluster**  |                        | **Sizing Berechnung Kubernetes Cluster**                     |                           | keine                         |
+| Anzahl Cashboxen:                                           | *(bitte bekanntgeben)* | total Backend PODs                                                   | *(wird von ft ermittelt)* |                               |
 | Max. Anzahl Receipts/Tag/Cashbox:                            | *(bitte bekanntgeben)* | Datenbankspeicher                                     | *(wird von ft ermittelt)* |                               |
-|                                                              |                        | |                               |
+|                                                              |                        | |                               ||
 |                                                              |                        | **Onboarding/Consulting**                                  |                           | einmalige Kosten              |
 |                                                              |                        | Interview - Anforderungsanalyse                                  |                           |                               |
-|                                                              |                        | Onboarding Workshop                        |                           |                               |
-|                                                              |                        | Umsetzungssupport                |                           |                               |
-|                                                              |                        | Abschlusstermin, Projekztabschluss                               |                           |                               |
-|                                                              |                        | |                                                              |                           |                               |
-|                                                              |                        | |                                                              |                           |                               |
+|                                                              |                        | Onboarding-Workshop                       |                           |                               |
+|                                                              |                        | Umsetzungs-Support              |                           |                               |
+|                                                              |                        | Abschlusstermin, Projektabschluss                               |                           |                               |
+|                                                              |                        | |                                                              |                           |
+|                                                              |                        | |                                                              |                           |
 |                                                              |                        | **fiskaltrust Produkte**                                 |                           | monatliche Kosten pro Cashbox |
-|                                                              |                        | Standard Produkt-Bundle mit TSE as a Service  & Archiv         |                           |                               |
+|                                                              |                        | Standard Produkt-Bundle mit TSE as a Service & Archiv         |                           |                               |
 
 Für weitere Informationen oder ein individuelles Angebot wenden sie sich bitte an den fiskaltrust.Support (info@fiskaltrust.de).
