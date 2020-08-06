@@ -47,11 +47,11 @@ Die entsprechenden Informationen der Länder wurden - ohne Anspruch auf Vollstä
 ### Aktuelle Bundesländer mit der weiterer Fristverlängerung zum März 2021:
 
 1. [Bayern](https://www.stmfh.bayern.de/steuern/aufzeichnungssysteme/Nichtbeanstandungsregelung.pdf)
-2. [Baden Württemberg](https://ofd-karlsruhe.fv-bwl.de/pb/site/pbs-bw-new/get/documents/mfw/OFD/Dokumente/Steuer-Informationen/Anlage1_Erlass_2020-07-09  S031.9_4 BW-Erlass.pdf) 
+2. [Baden Württemberg](https://ofd-karlsruhe.fv-bwl.de/pb/site/pbs-bw-new/get/documents/mfw/OFD/Dokumente/Steuer-Informationen/Anlage1_Erlass_2020-07-09%20%20S031.9_4%20BW-Erlass.pdf) 
 3. [Berlin](https://www.berlin.de/sen/finanzen/presse/pressemitteilungen/pressemitteilung.965025.php)  (**Fixe Order mit konkretem Liefertermin bis spätestens 30.08.2020!**)
 4. [Brandenburg](https://mdfe.brandenburg.de/cms/detail.php/bb1.c.673814.de) (**Fixe Order mit konkretem Liefertermin bis spätestens 31.08.2020!**)
 5. [Hamburg](https://stbk-hamburg.de/wp-content/uploads/HH-Nichtbeanstandungsregelung-TSE.pdf)
-6. [Hessen](https://finanzamt.hessen.de/sites/finanzamt.hessen.de/files/Ländererlass_HE_Gesetz zum Schutz vor Manipulation an digitalen Grundaufzeichnungen_10 Juli 2020.pdf)
+6. [Hessen](https://finanzamt.hessen.de/sites/finanzamt.hessen.de/files/Ländererlass_HE_Gesetz%20zum%20Schutz%20vor%20Manipulation%20an%20digitalen%20Grundaufzeichnungen_10%20Juli%202020.pdf)
 7. [Mecklenburg-Vorpommern](https://www.regierung-mv.de/serviceassistent/_php/download.php?datei_id=1626158)
 8. [Niedersachsen](https://www.mf.niedersachsen.de/startseite/aktuelles/presseinformationen/niedersachsen-hessen-bayern-nordrhein-westfallen-und-hamburg-pragmatische-und-unburokratische-losung-bei-kassensystemen-190646.html) (**Fixe Order bis spätestens 31.08.2020!**)
 9. [Nordrhein-Westfalen](https://www.finanzverwaltung.nrw.de/de/pressemitteilung/zahlreiche-laender-finanzminister-wehren-sich-gegen-das-bundesfinanzministerium) 
@@ -59,7 +59,7 @@ Die entsprechenden Informationen der Länder wurden - ohne Anspruch auf Vollstä
 11. [Saarland](https://www.saarland.de/mfe/DE/aktuelles/aktuelle-meldungen/medieninfo/2020/pm_2020-07-14-Kassensystem.html)
 12. [Sachsen](https://www.medienservice.sachsen.de/medien/news/238805) (**Fixe Order bis spätestens 31.08.2020!**)
 13. [Sachsen-Anhalt]() 
-14. [Schleswig-Holstein](https://www.stbvsh.de/static/content/e3/e23645/e124828/e133039/downloads2/download/ger/SH-Erlass_Verlängerung Frist TSE-Einsatz bis 3_21.pdf) 
+14. [Schleswig-Holstein](https://www.stbvsh.de/static/content/e3/e23645/e124828/e133039/downloads2/download/ger/SH-Erlass_Verlängerung%20Frist%20TSE-Einsatz%20bis%203_21.pdf) 
 15. [Thüringen](https://finanzen.thueringen.de/aktuelles/medieninfo/detailseite/finanzministerin-heike-taubert-mehr-zeit-fuer-die-umruestung-auf-betrugssichere-registrierkassen-ver/)
 
 ### Aktuelle Bundesländer mit Frist zur TSE Installation zum 30.09.2020
