@@ -51,7 +51,7 @@ Die entsprechenden Informationen der Länder wurden - ohne Anspruch auf Vollstä
 3. [Berlin](https://www.berlin.de/sen/finanzen/presse/pressemitteilungen/pressemitteilung.965025.php)  (**Fixe Order mit konkretem Liefertermin bis spätestens 30.08.2020!**)
 4. [Brandenburg](https://mdfe.brandenburg.de/cms/detail.php/bb1.c.673814.de) (**Fixe Order mit konkretem Liefertermin bis spätestens 31.08.2020!**)
 5. [Hamburg](https://stbk-hamburg.de/wp-content/uploads/HH-Nichtbeanstandungsregelung-TSE.pdf)
-6. [Hessen](../images/Laendererlass-HE-Gesetz-zum-Schutz-vor-Manipulation-an-digitalen Grundaufzeichnungen-10-Juli-2020.pdf)
+6. [Hessen](../images/Laendererlass-HE-Gesetz-zum-Schutz-vor-Manipulation-an-digitalen-Grundaufzeichnungen-10-Juli-2020.pdf)
 7. [Mecklenburg-Vorpommern](https://www.regierung-mv.de/serviceassistent/_php/download.php?datei_id=1626158)
 8. [Niedersachsen](https://www.mf.niedersachsen.de/startseite/aktuelles/presseinformationen/niedersachsen-hessen-bayern-nordrhein-westfallen-und-hamburg-pragmatische-und-unburokratische-losung-bei-kassensystemen-190646.html) (**Fixe Order bis spätestens 31.08.2020!**)
 9. [Nordrhein-Westfalen](https://www.finanzverwaltung.nrw.de/de/pressemitteilung/zahlreiche-laender-finanzminister-wehren-sich-gegen-das-bundesfinanzministerium) 
