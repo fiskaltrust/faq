@@ -59,7 +59,7 @@ Die entsprechenden Informationen der Länder wurden - ohne Anspruch auf Vollstä
 11. [Saarland](https://www.saarland.de/mfe/DE/aktuelles/aktuelle-meldungen/medieninfo/2020/pm_2020-07-14-Kassensystem.html)
 12. [Sachsen](https://www.medienservice.sachsen.de/medien/news/238805) (**Fixe Order bis spätestens 31.08.2020!**)
 13. [Sachsen-Anhalt](../images/erlass-s-a-aufschub-tse-data.pdf) 
-14. [Schleswig-Holstein](../images/SH-Erlass-Verlaengerung-Frist-TSE-Einsatz bis-3-21.pdf)  
+14. [Schleswig-Holstein](../images/SH-Erlass-Verlaengerung-Frist-TSE-Einsatz-bis-3-21.pdf)  
 15. [Thüringen](https://finanzen.thueringen.de/aktuelles/medieninfo/detailseite/finanzministerin-heike-taubert-mehr-zeit-fuer-die-umruestung-auf-betrugssichere-registrierkassen-ver/)
 
 ### Aktuelle Bundesländer mit Frist zur TSE Installation zum 30.09.2020
