@@ -1,9 +1,9 @@
 ## Question
-Can I run the fiskaltrust Middleware on Linux?
+Can I run the fiskaltrust.Middleware on Linux?
 
 ## Question
 
-Can I run the fiskaltrust Middleware on a Mac?
+Can I run the fiskaltrust.Middleware on a Mac?
 
 ## Question
 What are the requirements and limitations of the Middleware when running on Linux?
