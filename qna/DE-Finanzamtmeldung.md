@@ -21,4 +21,3 @@ Laut [Nichtbeanstandungsregelung](https://docs.fiskaltrust.cloud/doc/productdesc
 Es sind aktuell daher weder der Zeitpunkt noch der Inhalt der zu übermittelnden Informationen bis zur oben beschriebenen Veröffentlichung der elektronischen Übermittlungsmöglichkeit bekannt. 
 
 Im Falle eines Verlustes bzw. Diebstahls einer TSE empfehlen wir den Vorfall im Rahmen der Verfahrensdokumentation zu dokumentieren, eine Abmeldung der TSE beim Finanzamt vorzunehmen (falls elektronische Übermittlungsmöglichkeiten vorhanden sind, siehe oben), eine neue TSE zu beschaffen und diese im Rahmen des üblichen Verfahrens der Beschaffung mit einer neuen Cashbox-Konfiguration inkl. neuer Queue in Betrieb zu nehmen. Eine gesonderte Sperrung im Portal oder beim Finanzamt ist hierbei nicht notwendig.
-
