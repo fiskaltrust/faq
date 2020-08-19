@@ -1,6 +1,6 @@
 ## Question
 
-What should i do when the order is processed but the posreceipt can't be print because of an internal technical reason of the POS?
+What should i do when the order and invoice is processed including answer of the fiskaltrust.middleware but the posreceipt can't be print because of an internal technical reason of the POS?
 
 ## Metadata tags
 
