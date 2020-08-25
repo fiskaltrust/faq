@@ -70,7 +70,7 @@ Anpassungen der IDs bis 999 bleiben der DFKA-Taxonomie und der DSFinV-K vorbehal
 | ID | USt-Satz | Beschreibung |
 | :--- | :--- | :--- |
 | 1 | | Zum Zeitpunkt der Erfassung des Geschäftsvorfalls geltender allgemeiner Steuersatz (§ 12 Abs. 1 UStG) |
-| 2 | | Zum Zeitpunkt der Erfassung des Geschäftsvorfalls geltender ermäßigter Steuersatz (§ 12 Abs. 2 UStG) | 
+| 2 | | Zum Zeitpunkt der Erfassung des Geschäftsvorfalls geltender ermäßigter Steuersatz (§ 12 Abs. 2 UStG) |
 | 3 | 10,70% | Durchschnittsatz (§ 24 Abs. 1 Nr. 3 UStG) übrige Fälle |
 | 4 | 5,50% | Durchschnittsatz (§ 24 Abs. 1 Nr. 1 UStG) |
 | 5 | 0,00% | Nicht Steuerbar |
@@ -86,7 +86,7 @@ Anpassungen der IDs bis 999 bleiben der DFKA-Taxonomie und der DSFinV-K vorbehal
 Da die Container (für die TSE) oder die IDs (für DSFinV-K) nicht für einen Steuersatz sondern einen Steuertyp stehen, sind durch die ft.Middleware alle Abbildungen möglich.
 
 BMF-Entwurf eines begleitenden BMF-Schreibens ["Befristete Absenkung des allgemeinen und ermäßigten Umsatzsteuersatzes zum 1. Juli
-2020":](https://www.bundesfinanzministerium.de/Content/DE/Downloads/BMF_Schreiben/Steuerarten/Umsatzsteuer/2020-06-23-befristete-Senkung-umsatzsteuer-juli-2020-erste-aktualisierung.pdf?__blob=publicationFile&v=2)
+2020":](https://www.bundesfinanzministerium.de/Content/DE/Downloads/BMF_Schreiben/Steuerarten/Umsatzsteuer/2020-06-30-befristete-Senkung-umsatzsteuer-juli-2020-final.pdf?__blob=publicationFile&v=3)
 
 =======
 Bundesregierung: [Steuerentlastungen-Coronavirus](https://www.bundesregierung.de/breg-de/themen/coronavirus/steuerentlastungen-coronavirus-1750826)
