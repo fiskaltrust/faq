@@ -27,4 +27,27 @@ $template = Get-Content .\template.json -Raw
 Invoke-WebRequest -uri  $uri -Headers $headers -Method POST -Body $template
 ```
 
+### Parametrization
+Additionally, you can add variables to the query string of the URL that will then be automatically replaced in the template you sent. For example, altering the URL above to the value `https://helipad.fiskaltrust.cloud/api/configuration?my_variable=123` will replace all occurrences of `|[my_variable]|` in the template text with `123` before executing it.
 
+Some variables are automatically set if they are not specified in the query string:
+
+| Variable      | Default value  |
+| ------------- |-------------| 
+| outlet_number | `{max(outlets used in cashboxes) + 1}`     |
+| description      | `ft{yyyyMMddHHmmss}` |
+| cashbox_description      | `ft{yyyyMMddHHmmss}` |
+| cashbox_id     | Random GUID      |
+| cashbox_ipaddress | Empty string      |
+| scu{0-9}_id | Random GUID     |
+| scu{0-9}_description | `{description}`      |
+| scu{0-9}_url | `net.pipe://localhost/{scu_id}`      |
+| helper{0-9}_id | Random GUID     |
+| helper{0-9}_description | `{description}`      |
+| helper{0-9}_url | `net.pipe://localhost/{helper_id}`      |
+| queue{0-9}_id | Random GUID     |
+| queue{0-9}_id_base64withoutspecialchars | `{queue_id}`, converted to Base64 without special characters    |
+| queue{0-9}_description | `{description}`      |
+| queue{0-9}_url | `http://localhost:1200/fiskaltrust` for the first queue, `http://localhost:1200/fiskaltrust{1-9}` for others      |
+
+_Dynamic values are highlighted via {} in this table._
