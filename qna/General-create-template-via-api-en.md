@@ -34,7 +34,7 @@ Some variables are automatically set if they are not specified in the query stri
 
 | Variable      | Default value  |
 | ------------- |-------------| 
-| outlet_number | `{max(outlets used in cashboxes) + 1}`     |
+| outlet_number | `{max(outlets used in account's existing cashboxes) + 1}`     |
 | description      | `ft{yyyyMMddHHmmss}` |
 | cashbox_description      | `ft{yyyyMMddHHmmss}` |
 | cashbox_id     | Random GUID      |
