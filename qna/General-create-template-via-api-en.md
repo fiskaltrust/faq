@@ -19,12 +19,13 @@ The request should look like this:
 
 The following example illustrates how a template can be sent to our API:
 
-```ps
-$headers = @{ accesstoken = "<access-token>" ; accountid = "<account-id>" }
+```powershell
+$headers = @{ accountid = "your-account-id" ; accesstoken = "your-access-token" }
 $uri = "https://helipad-sandbox.fiskaltrust.cloud/api/Configuration"
-$template = Get-Content .\template.json -Raw 
+# Read from template.json and escape JSON string
+$template = (Get-Content .\template.json -Raw) -replace '"', '\"'
 
-Invoke-WebRequest -uri  $uri -Headers $headers -Method POST -Body $template
+Invoke-WebRequest -uri  $uri -Headers $headers -Method POST -ContentType "application/json" -Body "`"$template`""
 ```
 
 ### Parametrization
