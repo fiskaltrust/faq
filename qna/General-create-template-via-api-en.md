@@ -23,7 +23,7 @@ The following example illustrates how a template can be sent to our API:
 $headers = @{ accountid = "your-account-id" ; accesstoken = "your-access-token" }
 $uri = "https://helipad-sandbox.fiskaltrust.cloud/api/Configuration"
 # Read from template.json and escape JSON string
-$template = (Get-Content .\template.json -Raw) -replace '"', '\"'
+$template = (Get-Content .\template.json -Raw).Replace('\', '\\').Replace('"', '\"')
 
 Invoke-WebRequest -uri  $uri -Headers $headers -Method POST -ContentType "application/json" -Body "`"$template`""
 ```
