@@ -37,4 +37,4 @@ Die fiskaltrust Lösung kann bei Bedarf unter bestimmten Rahmenbedingungen auch 
 |                                                              |                        | **fiskaltrust Produkte**                                 |                           | monatliche Kosten pro Cashbox |
 |                                                              |                        | Standard Produkt-Bundle mit TSE as a Service & Archiv         |                           |                               |
 
-Für weitere Informationen oder ein individuelles Angebot wenden sie sich bitte an den fiskaltrust.Support (info@fiskaltrust.de).
+Für weitere Informationen oder ein individuelles Angebot wenden sie sich bitte an den fiskaltrust. Support: info@fiskaltrust.de
