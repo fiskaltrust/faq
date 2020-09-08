@@ -31,5 +31,4 @@ Kassenherstellern empfehlen wir die Implementierung der Middleware wie in nachfo
 
 https://github.com/fiskaltrust/productdescription-de-doc/blob/master/for-poscreators/getting-started.md
 
-Für weitere Fragen steht ihnen auch das [Support Team](mailto:info@fiskaltrust.de) zur Verfügung.
-
+Für weitere Fragen steht ihnen auch das <a href="mailto:info@fiskaltrust.de">Support Team</a> zur Verfügung.
