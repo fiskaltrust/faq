@@ -38,4 +38,3 @@ Die fiskaltrust Lösung kann bei Bedarf unter bestimmten Rahmenbedingungen auch 
 |                                                              |                        | Standard Produkt-Bundle mit TSE as a Service & Archiv         |                           |                               |
 
 Für weitere Informationen oder ein individuelles Angebot wenden sie sich bitte an den fiskaltrust <a href="mailto:info@fiskaltrust.de">Support Team</a>.
-
