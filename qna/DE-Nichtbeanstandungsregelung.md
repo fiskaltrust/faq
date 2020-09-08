@@ -21,7 +21,7 @@ Habe ich noch bis zum 31.03.2020 Zeit, um eine TSE einzubinden?
 
 ## Metadata tags
 
-lang-de, market-de, PosCreator, PosDealer, Consultant
+lang-de, market-de, PosCreator, PosDealer, PosOperator, Consultant
 
 ## Answer
 
