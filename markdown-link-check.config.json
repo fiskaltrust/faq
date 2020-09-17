@@ -4,6 +4,6 @@
     { "pattern": "^https?://signaturcloud\\.fiskaltrust\\.fr/?$" },
     { "pattern": "^https?://helipad\\.fiskaltrust\\.cloud/?$" },
     { "pattern": "^https?://packages\\.fiskaltrust\\.cloud/?$" },
-    { "pattern": "\localhost" }
+    { "pattern": "localhost" }
   ]
 }
