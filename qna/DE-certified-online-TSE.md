@@ -17,7 +17,7 @@ Currently (23.09.2020), there is **no certified** Cloud TSE available for the ge
 
 PosDealers can already order fiskaly Cloud TSEs from fiskaltrust by [signing a frame contract.](https://github.com/fiskaltrust/productdescription-de-doc/blob/8a9c3fa62c9dd0c38662c7127a724162703242e3/for-posdealers/02-pre-sales/01-purchase-agreement.md)
 
-If a PosOperator wants to be compliant in production, we recommend to use certified Hardware TSE's.
+If a PosOperator wants to be compliant from now on in a production environment, we recommend to use certified Hardware TSE's.
 
 In general, if PosOperators are using an uncertified TSE in production environment or no TSE at all, it will both result in generating POS-receipts which are not compliant to German law. In most regions of Germany it may be possible to [extend the "Nichtbeanstandungsregelung" under some specific circumstances](https://github.com/fiskaltrust/faq/blob/master/qna/DE-Nichtbeanstandungsregelung.md#regionale-erg%C3%A4nzungen-zur-nichtbeanstandungsregelung). We recommend to refer to a tax advisor to ensure to fulfil all requirements to be fully compliant with the German law.
 
