@@ -7,7 +7,7 @@ I want to roll out with a Cloud TSE and  I do not want to wait any longer. What 
 
 ## Question
 
-I have ordered a Cloud TSE from my dealer. Can i use an uncertified Cloud TSE in my region until a certified version is available?
+I have ordered a Cloud TSE from my dealer. Can I use an uncertified Cloud TSE in my region until a certified version is available?
 
 ## Metadata tags
 lang-en, market-de, middleware, PosCreator, PosDealer, Consultant
