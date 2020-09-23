@@ -3,7 +3,7 @@ Is there any certified Cloud TSE available for Germany?
 
 ## Question
 
-I want to roll out with a Cloud TSE and  i do not want to wait any longer. What options do i have?
+I want to roll out with a Cloud TSE and  I do not want to wait any longer. What options do I have?
 
 ## Question
 
