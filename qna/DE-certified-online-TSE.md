@@ -13,7 +13,7 @@ I have ordered a Cloud TSE from my dealer. Can i use an uncertified Cloud TSE in
 lang-en, market-de, middleware, PosCreator, PosDealer, Consultant
 
 ## Answer
-Currently (23.09.2020), there is **no certified** Cloud TSE available for the german market. fiskaltrust will  support certified Cloud TSE's for production use as soon as they are available on the market. In the meanwhile, we offer uncertified Cloud TSEs for integration and testing in the sandbox environment.
+Currently (23.09.2020), there is **no certified** Cloud TSE available for the german market. fiskaltrust will offer certified Cloud TSE's in the production environment as soon as they are available on the market. In the meanwhile, we provide uncertified Cloud TSEs for integration and testing in the sandbox environment.
 
 PosDealers can already order fiskaly Cloud TSEs from fiskaltrust by [signing a frame contract.](https://github.com/fiskaltrust/productdescription-de-doc/blob/8a9c3fa62c9dd0c38662c7127a724162703242e3/for-posdealers/02-pre-sales/01-purchase-agreement.md)
 
