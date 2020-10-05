@@ -28,7 +28,7 @@ Bei einer neuen, noch nicht initialisierten TSE können optional vor Inbetriebna
 
 #### PINs einer TSE ändern
 
-Mit dem fiskaltrust System ist es zur Zeit nicht möglich die PINs einer bereits in Betrieb genommenen TSE zu ändern. Es ist lediglich möglich PINs für die erste Inbetriebnahme der TSE zu setzten.
+Mit dem fiskaltrust System ist es zur Zeit nicht möglich die PINs einer bereits in Betrieb genommenen TSE zu ändern. Es ist lediglich möglich PINs für die erste Inbetriebnahme der TSE zu setzen.
 
 #### PINs für eine bereits in Betrieb genommene TSE angeben
 
