@@ -20,7 +20,7 @@ lang-de, market-de, portal, security, PosCreator, PosDealer
 
 ## Answer
 
-Für die Cryptovision, Swissbit und Diebold Nixdorf Hardware TSEs können mit Hilfe des ft.Portals diverse PINs gesetzt oder angegeben werden. Dies geschieht durch die Konfiguration der entsprechenden SCU (TSE Signatur-Erstellungs-Einheit / Signature Creation Unit) im ft.Portal. Die PUK kann mit dem fiskaltrust System nicht angegeben oder gesetzt werden.
+Für die Cryptovision, Swissbit und Diebold Nixdorf Hardware TSEs können mit Hilfe des ft.Portals diverse PINs durch den Nutzer gesetzt oder angegeben werden. Dies geschieht durch die Konfiguration der entsprechenden SCU (TSE Signatur-Erstellungs-Einheit / Signature Creation Unit) im ft.Portal. Die PUK kann nicht explizit durch den Nutzer im ft.Portal angegeben oder gesetzt werden. 
 
 #### PINs bei Inbetriebnahme einer neuen TSE vergeben
 
