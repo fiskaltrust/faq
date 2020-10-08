@@ -20,7 +20,7 @@ Wenn die Verbindung erfolgreich ist, erhalten Sie jeweils ein JSON mit Versionsi
 
 ### Der Dienst startet nicht richtig
 * Unser Service benötigt .net Framework (am besten 4.8) und eine Microsoft C++ Runtime als Voraussetzung, genaueres hier https://github.com/fiskaltrust/productdescription-de-doc/blob/master/product-service-description/compliance-as-a-service/produkte/4445-0003-lokal-installierte-middleware.md
-* Eine bestimmte Instanz eines fiskaltrust.Dienstes (eine Cashbox mit einer CashboxId und einem Accesstoken) kann auf einem Gerät nur einmal laufen. Sonst würde versucht werden die gleichen Endpunkte mehrmals zu verwenden. Mehrere unterschiedliche Cashboxen können bei richtiger Konfiguration auf einem Gerät gleichzeitig laufen.
+* Eine bestimmte Instanz eines fiskaltrust.Dienstes (eine Cashbox mit einer CashboxId und einem Accesstoken) kann auf einem Gerät nur einmal laufen. Sonst würde versucht werden, die gleichen Endpunkte mehrmals zu verwenden. Mehrere unterschiedliche Cashboxen können bei richtiger Konfiguration auf einem Gerät gleichzeitig laufen.
 * Wurde der Dienst mit Administrator Rechten gestartet? Der Benutzer, unter dem der Dienst ausgeführt wird muss Administrator Rechte besitzen.
 * Zur Fehlersuche kann es sehr hilfreich sein, den fiskaltrust.Service mit ```test.cmd``` direkt aufzurufen (Achtung nur ENTWEDER mit test.cmd aufrufen, ODER als Windows Dienst im Hintergrund starten, eine Instanz darf nicht 2 Mal auf einem Gerät gestartet werden UND AUCH NICHT AUF VERSCHIEDENEN GERÄTEN). Wenn man die ```test.cmd``` editiert, kann man auch den Parameter -verbosity:debug und -logfile:"C:\t\fiskaltrust.log" anhängen um mehr Informationen angezeigt zu bekommen. Siehe auch die FAQ _Debugging_.
 
