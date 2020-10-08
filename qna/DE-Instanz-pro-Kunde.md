@@ -1,5 +1,5 @@
 ## Question
-Muss ich die Middleware wirklich für jeden Kunden im Portal extra konfigurieren?
+Muss ich die fiskaltrust.Middleware für jeden Standort (Outlet) in einer eigenen CashBox im Portal anlegen?
 
 ## Metadata tags
 lang-de, market-de, middleware, PosCreator, PosDealer
