@@ -13,7 +13,7 @@ lang-de, market-de, middleware, PosCreator, PosDealer
 	
 ### Der Online Launcher kann die Pakete beim Starten nicht herunterladen
 * Eine andere Internetverbindung verwenden
-* Bei restriktiven Firewalls kann der Upload indas fiskaltrust.Portal blockiert werden. Hier hilft es auf dem Gerät, auf dem der fiskaltrust.Service und als der Benutzer der den Dienst startet (wegen Proxy Problemen) die Verbindung zur fiskaltrust.Cloud zu prüfen. Geben sie folgendes in den Browser ein:
+* Bei restriktiven Firewalls kann der Upload in das fiskaltrust.Portal blockiert werden. Hier hilft es auf dem Gerät, auf dem der fiskaltrust.Service und als der Benutzer der den Dienst startet (wegen Proxy Problemen) die Verbindung zur fiskaltrust.Cloud zu prüfen. Geben sie folgendes in den Browser ein:
 * Helipad:             https://helipad.fiskaltrust.cloud/api/version (für den Upload der Daten)
 * Packages:           https://packages.fiskaltrust.cloud/api/version (für den Download der Pakete beim ersten Start)
 Wenn die Verbindung erfolgreich ist, erhalten Sie jeweils ein JSON mit Versionsinformationen angezeigt.
