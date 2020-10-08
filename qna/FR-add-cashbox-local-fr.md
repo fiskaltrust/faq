@@ -44,6 +44,8 @@ Le premier établissement est toujours le siège social de l'entreprise, tous le
 
 ![SIRET](../images/FR/step_by_step_chainelocale_005.jpg)
 
+Veuillez entrer l'adresse **1** de l'établissement puis le SIRET de l'entreprise dans le champ _Location Id_ **2** (Dans l'environnement test "sandbox", n'importe quel numéro à 14 chiffres peut être utilisé, par exemple 98765432100012. Toutefois, les 9 premiers chiffres doivent correspondre au SIREN utilisé). Vérifiez ensuite le SIRET avec le bouton situé sur le côté droit **3** et sauvegardez les données avec le bouton en bas de la fenêtre.
+
 ### Créer une unité de création de signature (SCU)
 
 Le dispositif de création de signature est la base de la sécurité et de l'inaltérabilité des données. Une fois créé, il ne peut être supprimé. Il s'agit d'un élément de base de la configuration du fiskaltrust.Middleware. Ouvrez la page _SCU_ dans le menu _Configuration_.
