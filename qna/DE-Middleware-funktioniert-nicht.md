@@ -26,7 +26,7 @@ Wenn die Verbindung erfolgreich ist, erhalten Sie jeweils ein JSON mit Versionsi
 
 
 ### Der Dienst startet nicht richtig wenn das Gerät auf dem er läuft neu gestartet wurde, wenn er danach neu gestartet wird, funktioniert er einwandfrei.
-* Den Windows Dienst auf Startart „Automatisch (verzögerter Start)“ zu setzten, damit wird sichergestellt, dass benötigte Dienste beim Aufruf schon bereit sind
+* Den Windows Dienst auf die Startart „Automatisch (verzögerter Start)“ setzen. Damit wird sichergestellt, dass benötigte Dienste beim Aufruf schon bereit sind.
 
 
 ### Es kommt keine Signatur zurück (überhaupt nicht, von Anfang an nicht)
