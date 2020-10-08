@@ -10,11 +10,11 @@ lang-de, lang-at, market-fr, middleware, PosCreator, PosDealer, PosOperator, Con
 
 ![ChaîneLocale](../images/FR/product_ChaineLocale.png)
 
-Le produit ChaîneLocale permet l'utilisation du fiskaltrust.Middleware sur un POS-System avec une installation locale. Ce produit est gratuit et peut être créé à tout moment via le [fiskaltrust.Portal] (https://proral.fiskaltrust.fr/). Plusieurs conditions doivent être remplies préalablement.
+Le produit ChaîneLocale permet l'utilisation du fiskaltrust.Middleware sur un POS-System avec une installation locale. Ce produit est gratuit et peut être créé à tout moment via le [fiskaltrust.Portal] (https://portal.fiskaltrust.fr/). Plusieurs conditions doivent être remplies préalablement.
 
 ### Exigences
 
-Inscrivez-vous en tant que revendeur (PosDealer) sur le [fiskaltrust.Portal] (https://protal.fiskaltrust.fr/).
+Inscrivez-vous en tant que revendeur (PosDealer) sur le [fiskaltrust.Portal] (https://portal.fiskaltrust.fr/).
 
 #### Activer l'utilisateur de caisse (PosOperator)
 
