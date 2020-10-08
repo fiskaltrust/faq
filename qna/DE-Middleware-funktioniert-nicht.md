@@ -52,7 +52,7 @@ z.B. (je nach konfiguriertem Endpunkt bei der Queue)
 Siehe auch die FAQ Debugging.
 
 ### Die Belege werden korrekt signiert, im fiskaltrust.Portal sind die Belege aber auch nach einiger Zeit noch nicht sichtbar.
-* Bei restriktiven Firewalls kann der Upload in unser Portal blockiert werden. Hier hilft es auf dem Gerät, auf dem der fiskaltrust.Service und als der Benutzer der den Dienst startet (wegen Proxy Problemen) die Verbindung zur fiskaltrust.Cloud zu prüfen. Geben sie folgendes in den Browser ein:
+* Bei restriktiven Firewalls kann der Upload in unser Portal blockiert werden. Prüfen Sie die Verbindung zur fiskaltrust.Cloud auf dem Gerät als der Benutzer, der den Service ausführt. Um Proxy-Probleme auszuschließen empfiehlt es sich, immer den Benutzer des Services für Tests zu verwenden.  Geben Sie folgendes in die Adresszeile des Browsers ein:
 * Helipad:             https://helipad.fiskaltrust.cloud/api/version (für den Upload der Daten)
 * Packages:           https://packages.fiskaltrust.cloud/api/version (für den Download der Pakete beim ersten Start)
 Sie erhalten jeweils eine JSON-Struktur mit Versionsinformationen angezeigt, falls die Verbindung fehlerfrei ist.
