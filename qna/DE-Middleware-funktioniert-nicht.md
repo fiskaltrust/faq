@@ -55,7 +55,7 @@ Siehe auch die FAQ Debugging.
 * Bei restriktiven Firewalls kann der Upload in unser Portal blockiert werden. Hier hilft es auf dem Gerät, auf dem der fiskaltrust.Service und als der Benutzer der den Dienst startet (wegen Proxy Problemen) die Verbindung zur fiskaltrust.Cloud zu prüfen. Geben sie folgendes in den Browser ein:
 * Helipad:             https://helipad.fiskaltrust.cloud/api/version (für den Upload der Daten)
 * Packages:           https://packages.fiskaltrust.cloud/api/version (für den Download der Pakete beim ersten Start)
-Sie erhalten jeweils ein JSON mit Versionsinformationen angezeigt, wenn die Verbindung klappt.
+Sie erhalten jeweils eine JSON-Struktur mit Versionsinformationen angezeigt, falls die Verbindung fehlerfrei ist.
 * Wenn im fiskaltrust.Service die interne Kommunikation mit GRPC erfolgt (der Endpunkt der TSE/Signaturerstellungseinheit ein GRPC Endpunkt ist), dann kann ein verwendeter Proxy zu Problemen führen. Dies kann durch setzen der Environement-Variable ```no_grpc_proxy``` auf localhost (wenn localhost verwendet wird) umgangen werden https://github.com/grpc/grpc/blob/master/doc/environment_variables.md 
 
 
