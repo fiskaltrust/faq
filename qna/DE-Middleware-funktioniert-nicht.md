@@ -34,7 +34,7 @@ Wenn die Verbindung erfolgreich ist, erhalten Sie jeweils ein JSON mit Versionsi
 * Wird die TSE richtig erkannt, sehe ich den Laufwerksbuchstaben im Explorer, den COM Port im Gerätemanager?
 
 ### Es kommt keine Signatur zurück (hat aber schon funktioniert)
-* Senden sie einen Nullbeleg. Beim Senden eines Nullbelegs wird von der fiskaltrust.Middleware versucht die Verbindung zur TSE wieder herzustellen.
+* Senden sie einen [zero-receipt](https://docs.fiskaltrust.cloud/doc/interface-doc/doc/appendix-de-kassensichv/reference-tables/type-of-receipt-ftreceiptcase.html#type-of-receipt-ftreceiptcase) als Request. Beim Senden eines [zero-receipt](https://docs.fiskaltrust.cloud/doc/interface-doc/doc/appendix-de-kassensichv/reference-tables/type-of-receipt-ftreceiptcase.html#type-of-receipt-ftreceiptcase) wird von der fiskaltrust.Middleware versucht, die Verbindung zur TSE wiederherzustellen. 
 * Ist eine verwendete Hardware-TSE (versehentlich) vom Gerät getrennt worden?
 * Ist keine Internetverbindung zur Kommunikation mit einer Cloud-TSE vorhanden?
 * Ist eine erforderliche Konfiguration eines Laufwerksbuchstabes oder COM Port noch korrekt?
