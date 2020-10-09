@@ -36,7 +36,7 @@ Wenn die Verbindung erfolgreich ist, erhalten Sie jeweils ein JSON mit Versionsi
 ### Es kommt keine Signatur zurück (hat aber schon funktioniert)
 * Senden sie einen Nullbeleg. Beim Senden eines Nullbelegs wird von der fiskaltrust.Middleware versucht die Verbindung zur TSE wieder herzustellen.
 * Ist die TSE versehentlich vom Gerät getrennt?
-* Ist der Laufwerksbuchstabe, COM Port noch richtig?
+* Ist eine erforderliche Konfiguration eines Laufwerksbuchstabes oder COM Port noch korrekt?
 * Wurde am System etwas geändert, Updates eingespielt, neue Hardware angeschlossen, alte Hardware entfernt?
 
 
