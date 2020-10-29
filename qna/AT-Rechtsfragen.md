@@ -45,7 +45,7 @@ Nutzer von Registrierkassen haben am 31. Dezember jeden Jahres den Jahresbeleg z
 2. **Prüfung des Jahresbeleges**
    Die Prüfung des Jahresbeleges sollte spätestens bis zum 15. Februar des Folgejahres erfolgen.
    Diese Prüfung kann manuell oder automatisiert durch [fiskaltrust](https://portal.fiskaltrust.at/) erfolgen:
-   – Manuell mit der [BMF Belegcheck-App am Smartphone](https://www.bmf.gv.at/kampagnen/Unsere-Apps.html#heading_BMF_Belegcheck). Hierfür muss vorab ein Authentifizierungscode über FinanzOnline angefordert werden. Dies – sowie auch die Prüfung – kann auch durch Ihren Steuerberater erfolgen.
+   – Manuell mit der [BMF Belegcheck-App am Smartphone](https://www.bmf.gv.at/services/apps.html). Hierfür muss vorab ein Authentifizierungscode über FinanzOnline angefordert werden. Dies – sowie auch die Prüfung – kann auch durch Ihren Steuerberater erfolgen.
    – Wir empfehlen die automatisierte Prüfung über Ihr [fiskaltrust.Portal](https://portal.fiskaltrust.at/). Diese Leistung ist unter anderem in den [fiskaltrust.Sorglos-Paketen](https://www.fiskaltrust.at/products/product_01/#1475344961406-8834275c-6faf) enthalten, kann jedoch auch als Einzelleistung erworben werden.
    Bitte beachten Sie diese Frist! Falls Sie den Jahresbeleg nach dem 15. Februar prüfen oder die verpflichtende Aufbewahrung nicht durchführen, könnte dies als Finanzordnungswidrigkeit bestraft werden.
    Diese Belegprüfung ist in den Sorglos.Paketen enthalten.
@@ -124,8 +124,8 @@ Genau auf die Erfüllung dieser Vorgaben ist fiskaltrust spezialisiert. Über da
 Falls Sie noch kein entsprechendes Produkt verwenden, kann es über Ihren Kassenbetreuer oder direkt im fiskaltrust.Shop erworben werden.
 
 Diese Zusammenfassung kann nur einen Überblick zu den relevanten Rechtsgrundlagen darstellen, die hier zu finden sind: https://www.fiskaltrust.at/products/consulting/rechtsgrundlagen/
-§ 132 BAO: https://www.ris.bka.gv.at/Dokument.wxe?Abfrage=Bundesnormen&Dokumentnummer=NOR12057374
-RKSV: https://www.ris.bka.gv.at/GeltendeFassung.wxe?Abfrage=Bundesnormen&Gesetzesnummer=20009390&FassungVom=2017-04-01
+§ 132 BAO: https://www.ris.bka.gv.at/Dokumente/Bundesnormen/NOR30007067/NOR30007067.pdf
+RKSV: https://www.ris.bka.gv.at/Dokumente/Bundesnormen/NOR40224480/NOR40224480.pdf
 Fachgutachten KFS/DV1: https://www.fiskaltrust.at/wp-content/uploads/2016/12/110500-52-KFS-DV1.pdf
 
 ### Welche Datensicherungen sind in AT durch die BAO und die RKSV vorgeschrieben?
