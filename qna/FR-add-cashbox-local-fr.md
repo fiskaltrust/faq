@@ -4,9 +4,9 @@ Comment créer le produit ChaîneLocale ?
 
 ## Metadata tags
 
-lang-de, lang-at, market-fr, middleware, PosCreator, PosDealer, PosOperator, Consultant
+lang-fr, market-fr, middleware, PosCreator, PosDealer, PosOperator, Consultant
 
-## Réponse
+## Answer
 
 ![ChaîneLocale](../images/FR/product_ChaineLocale.png)
 
