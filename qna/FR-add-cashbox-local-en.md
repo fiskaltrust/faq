@@ -3,7 +3,7 @@ How to create the product ChaîneLocale?
 
 ## Metadata tags
 
-lang-de, lang-at, market-fr, middleware, PosCreator, PosDealer, PosOperator, Consultant
+lang-den, market-fr, middleware, PosCreator, PosDealer, PosOperator, Consultant
 
 ## Answer
 
