@@ -19,13 +19,13 @@ lang-de, market-de, middleware, PosCreator, PosDealer
 Wenn die Verbindung erfolgreich ist, erhalten Sie jeweils ein JSON mit Versionsinformationen angezeigt.
 
 ### Der Dienst startet nicht richtig
-* Unser Service benötigt .net Framework (am besten 4.8) und eine Microsoft C++ Runtime als Voraussetzung, genaueres hier https://github.com/fiskaltrust/productdescription-de-doc/blob/master/product-service-description/compliance-as-a-service/produkte/lokal-installierte-middleware.md
+* Unser Service benötigt .net Framework (am besten 4.8) und eine Microsoft C++ Runtime als Voraussetzung, genaueres hier /fiskaltrust/productdescription-de-doc/blob/master/product-service-description/compliance-as-a-service/produkte/lokal-installierte-middleware.md
 * Eine bestimmte Instanz eines fiskaltrust.Dienstes (eine Cashbox mit einer CashboxId und einem Accesstoken) kann auf einem Gerät nur einmal laufen. Sonst würde versucht werden, die gleichen Endpunkte mehrmals zu verwenden. Mehrere unterschiedliche Cashboxen können bei richtiger Konfiguration auf einem Gerät gleichzeitig laufen.
 * Wurde der Dienst mit Administrator Rechten gestartet? Der Benutzer, unter dem der Dienst ausgeführt wird muss Administrator Rechte besitzen.
 * Zur Fehlersuche kann es sehr hilfreich sein, den fiskaltrust.Service mit ```test.cmd``` direkt aufzurufen (Achtung nur ENTWEDER mit test.cmd aufrufen, ODER als Windows Dienst im Hintergrund starten, eine Instanz darf nicht 2 Mal auf einem Gerät gestartet werden UND AUCH NICHT AUF VERSCHIEDENEN GERÄTEN). Wenn man die ```test.cmd``` editiert, kann man auch den Parameter -verbosity:debug und -logfile:"C:\t\fiskaltrust.log" anhängen um mehr Informationen angezeigt zu bekommen. Siehe auch die FAQ _Debugging_. https://docs.fiskaltrust.cloud/doc/faq/qna/DE-debugging.html?q=debugging
 
 
-### Der Dienst startet nicht richtig wenn das Gerät auf dem er läuft neu gestartet wurde, wenn er danach neu gestartet wird, funktioniert er einwandfrei.
+### Nach dem Neustart des Geräts startet der Dienst nicht selbständig. Wird er manuell gestartet, funktioniert der Dinest einwandrei.
 * Den Windows Dienst auf die Startart „Automatisch (verzögerter Start)“ setzen. Damit wird sichergestellt, dass benötigte Dienste beim Aufruf schon bereit sind.
 
 
@@ -45,7 +45,7 @@ Wenn die Verbindung erfolgreich ist, erhalten Sie jeweils ein JSON mit Versionsi
 * War der Computer im Energiesparmodus? Eventuell hilft ein Ausschalten der Energiesparmodi.
 
 ### Die Kasse meldet, dass die fiskaltrust.Middleware nicht erreichbar ist, wie kann ich das prüfen?
-* Ist der Endpunkt der Middleware erreichbar? Man erhält eine mehr oder weniger „schöne“ Antwort im Browser, wenn man in den Browser den Endpunkt eingibt (Bei GRPC kommen nur “Sonderzeichen”, erhält man diese, so kann man aber zumindest davon ausgehen, dass der fiskaltrust.Service gestartet wurde und auf Eingaben wartet).
+* Ist der Endpunkt der Middleware erreichbar? Man erhält eine Antwort im Browser, wenn man in den Browser den Endpunkt eingibt (Bei GRPC kommen nur “Sonderzeichen”, erhält man diese, so kann man aber zumindest davon ausgehen, dass der fiskaltrust.Service gestartet wurde und auf Eingaben wartet).
 z.B. (je nach konfiguriertem Endpunkt bei der Queue)
 * REST:      http://localhost:1200/ftrest 
 * WCF SOAP:  http://localhost:1200/fiskaltrust
@@ -61,11 +61,11 @@ Sie erhalten jeweils eine JSON-Struktur mit Versionsinformationen angezeigt, fal
 
 
 ### Meine fiskaly TSE scheint nicht zu funktionieren, wie kann ich die Verbindung zu fiskaly prüfen?	
-* Kann man kassensichv.io pingen?
+* Kann man die Adresse kassensichv.io über einen ping erreichen (in einer Eingabeaufforderung ping kassensichv.io eingeben, hier sollte eine Antwort kommen)?
 * Fehlermeldungen in der Firewall (lokal am Gerät, oder im Netzwerk)?
 
 ### Ich habe alles versucht, was kann noch eine Ursache eines Problems sein?
-* Lokaler Virenscanner
-* Lokale Firewall
-* Windows Updates installiert
-* Registry Cleaner
+* Lokaler Virenscanner | Dieser kann den Zugriff auf vom fiskaltrust.Service benötigte Dateien sperren. z.B. im Ordner C:\Programdata\fiskaltrust
+* Lokale Firewall | Der fiskaltrust.Service kommuniziert auch intern auf einem Computer über Netzwerkports (außer bei net.pipe)
+* Windows Updates installiert | Dies kann selten zu Änderungen der erkannten Geräte führen.
+* Registry Cleaner | Könnten Änderungen am Startverhalten des fiskaltrust.Service vorschlagen.
