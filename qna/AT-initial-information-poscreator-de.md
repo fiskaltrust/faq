@@ -42,5 +42,3 @@ Diverse Tutorials sind als Videos unter https://youtube.com/c/fiskaltrust verfü
 * https://www.fiskaltrust.at/checklist/
 
 Kontakt: [info@fiskaltrust.at](mailto:info@fiskaltrust.at) 
-
-.
