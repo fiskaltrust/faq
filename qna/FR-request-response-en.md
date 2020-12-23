@@ -11,7 +11,7 @@ To begin the process, a receipt needs to be created by the POS-System. To accomp
 
 See the below example assuming a coffee and a cheesecake is sold to a client in a restaurant and the bill is paid with cash.
 
-**1) The header of a receipt:**<br>This is general information for the receipt itself. The fields shown here are the minimal data set necessary. All possible fields are described in the middleware documentation.
+**1) The header of a receipt:**<br />This is general information for the receipt itself. The fields shown here are the minimal data set necessary. All possible fields are described in the middleware documentation.
 
 ```JSON
 {
@@ -23,7 +23,7 @@ See the below example assuming a coffee and a cheesecake is sold to a client in 
   "ftReceiptCase": "5067112530745229313",
 ```
 
-**2) The list of products sold:**<br>This is an array of products or lines items for a ticket. In the fiskaltrust.Universe, these are called ChargeItems. The data set shown below, is the absolute necessary set to be compliant with the French law. All the fields and possible values are described in depth in the middleware documentation.
+**2) The list of products sold:**<br />This is an array of products or lines items for a ticket. In the fiskaltrust.Universe, these are called ChargeItems. The data set shown below, is the absolute necessary set to be compliant with the French law. All the fields and possible values are described in depth in the middleware documentation.
 
 ```JSON
 "cbChargeItems": [
@@ -50,7 +50,7 @@ See the below example assuming a coffee and a cheesecake is sold to a client in 
   ],
 ```
 
-**3) How the ticket is payed:**<br>In the fiskaltrust.Universe, this block is called PayItems. This a list of all the means of payment, used by the client. The example shown below is only the obligatory dataset, more information can be found in the middleware documentation.
+**3) How the ticket is payed:**<br />In the fiskaltrust.Universe, this block is called PayItems. This a list of all the means of payment, used by the client. The example shown below is only the obligatory dataset, more information can be found in the middleware documentation.
 
 ```JSON
   "cbPayItems": [

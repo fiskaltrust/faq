@@ -14,16 +14,16 @@ To create a cloud CashBox, certain conditions must be met beforehand:
 
 Once these two conditions are met, a cloud CashBox can be created in following 4 steps:
 
-**Step One:**<br>Open the Shop menu on the left hand sidebar on the fiskaltrust.Portal. Then click on “Products”. Select the outlet in the field “Location Id” (located at the top of the page) for which you use ChaîneCloud. This is important because the outlet can not be changed afterwards!
+**Step One:**<br />Open the Shop menu on the left hand sidebar on the fiskaltrust.Portal. Then click on “Products”. Select the outlet in the field “Location Id” (located at the top of the page) for which you use ChaîneCloud. This is important because the outlet can not be changed afterwards!
 
 Add one “ChaîneCloud” (Product-N° 4652-201) to the shopping cart. The icon for your shopping cart is located at the top of the window and by clicking on the shopping cart icon, you can proceed to the checkout by clicking on the “Checkout” button.
 
-**Step Two:**<br>Choose the payment method option which you will use. (In sandbox mode, choose Direct debit transfer.) Then click on the green button “Binding order”. After the order was successfully placed, you will receive an email with the order confirmation and the invoice for the purchased product(s).
+**Step Two:**<br />Choose the payment method option which you will use. (In sandbox mode, choose Direct debit transfer.) Then click on the green button “Binding order”. After the order was successfully placed, you will receive an email with the order confirmation and the invoice for the purchased product(s).
 
 You can see the state of your order(s) under the Shop menu subsection “Orders” and/or “Invoice”.
 
-**Step Three:**<br>The CashBox will be created automatically within several minutes after the order is confirmed. You will find it in the Configuration menu, subcategory “CashBox”. The name starts with “fiskaltrust.ChaîneCloud” and has an upcounting number on the end.
+**Step Three:**<br />The CashBox will be created automatically within several minutes after the order is confirmed. You will find it in the Configuration menu, subcategory “CashBox”. The name starts with “fiskaltrust.ChaîneCloud” and has an upcounting number on the end.
 
-**Step Four:**<br>Click on the rebuild configuration button (refresh circle arrows) in the row of the relevant CashBox.
+**Step Four:**<br />Click on the rebuild configuration button (refresh circle arrows) in the row of the relevant CashBox.
 
-**Hint:**<br>For easier identification, you can change the description of the CashBox and/or Queue in the Configuration menu.
+**Hint:**<br />For easier identification, you can change the description of the CashBox and/or Queue in the Configuration menu.

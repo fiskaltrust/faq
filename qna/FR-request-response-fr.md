@@ -9,7 +9,7 @@ Lorsqu’un ticket est envoyé au fiskaltrust.Middleware, toutes les données so
 
 Tout d’abord, le ticket doit être créé par le POS-System. Pour cela, certaines informations du POS-System lui-même ainsi que les informations d’en-tête du ticket doivent être rassemblées au format JSON. Par exemple, supposons qu’il soit vendu un café et une part de Cheesecake à un client dans un restaurant et que le paiement soit fait en espèces.
 
-**1) L’en-tête d’un ticket :**<br>Il s’agit d’ informations générales pour le ticket lui-même. Les champs affichés ici regroupent l’ensemble des données minimum nécessaires. Tous les champs possibles sont décrits dans la documentation de l’interface.
+**1) L’en-tête d’un ticket :**<br />Il s’agit d’ informations générales pour le ticket lui-même. Les champs affichés ici regroupent l’ensemble des données minimum nécessaires. Tous les champs possibles sont décrits dans la documentation de l’interface.
 
 ```JSON
 {
@@ -21,7 +21,7 @@ Tout d’abord, le ticket doit être créé par le POS-System. Pour cela, certai
   "ftReceiptCase": "5067112530745229313",
 ```
 
-**2) La liste des produits vendus :**<br>Il s’agit d’un tableau de lignes produits pour un ticket, dans le fiskaltrust.Univers cela s’appelle ChargeItems. L’ensemble des données présenté ci-après comprend l’ensemble des données absolument nécessaire afin d’être conforme aux lois françaises. Tous les champs et valeurs possibles sont décrits en détail dans la documentation de l’interface.
+**2) La liste des produits vendus :**<br />Il s’agit d’un tableau de lignes produits pour un ticket, dans le fiskaltrust.Univers cela s’appelle ChargeItems. L’ensemble des données présenté ci-après comprend l’ensemble des données absolument nécessaire afin d’être conforme aux lois françaises. Tous les champs et valeurs possibles sont décrits en détail dans la documentation de l’interface.
 
 ```JSON
 "cbChargeItems": [
@@ -48,7 +48,7 @@ Tout d’abord, le ticket doit être créé par le POS-System. Pour cela, certai
   ],
 ```
 
-**3) Comment le ticket est payé:**<br>Dans le fiskaltrust.Univers, ce tableau est appelé PayItems. Il s’agit d’une liste de tous les moyens de paiement pouvant être utilisés par un client. Dans l’exemple ci-dessous, seul les données obligatoires est affichées, plus d’informations peuvent être trouvées dans la documentation de l’interface.
+**3) Comment le ticket est payé:**<br />Dans le fiskaltrust.Univers, ce tableau est appelé PayItems. Il s’agit d’une liste de tous les moyens de paiement pouvant être utilisés par un client. Dans l’exemple ci-dessous, seul les données obligatoires est affichées, plus d’informations peuvent être trouvées dans la documentation de l’interface.
 
 ```JSON
   "cbPayItems": [

@@ -7,7 +7,7 @@ lang-fr, market-fr, middleware, PosCreator, PosDealer, PosOperator, Consultant
 ## Answer
 Aucune donnée envoyée au fiskaltrust.Middleware ne peut être supprimée à postériori. Pour garantir cela, un nouveau reçu est créé pour toutes les modifications effectuées. Dans l’exemple ci-dessous, nous utilisons un ticket pour annuler, mais cela peut être utilisé pour tout type de reçu.
 
-Exemple:<br>En facturant un simple café à un client, vous devez envoyer un ticket à fiskaltrust.Middleware.
+Exemple:<br />En facturant un simple café à un client, vous devez envoyer un ticket à fiskaltrust.Middleware.
 
 ```JSON
 {
