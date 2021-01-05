@@ -74,10 +74,9 @@ Brief description: Position reversal indicator. If the field is activated (value
 …
 ###### Cash voucher
 processType: Kassenbeleg-V1
-processData: <Vorgangstyp>^<Brutto-Steuerumsätze>^<Zahlungen>
+processData: `<Vorgangstyp>^<Brutto-Steuerumsätze>^<Zahlungen>`
 Trennzeichen: ^ (Unicode U+005E)
-<Vorgangstyp>:
-<Task type>:
+`<Vorgangstyp>:`
 The transaction type according to DSFinV-K can have the following values:
 
 * AVBelegstorno

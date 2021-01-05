@@ -74,9 +74,9 @@ Kurzbeschreibung: Positionsstorno-Kennzeichnung. Bei Aktivierung des Feldes (Wer
 …
 ###### Kassenbeleg
 processType: Kassenbeleg-V1
-processData: <Vorgangstyp>^<Brutto-Steuerumsätze>^<Zahlungen>
+processData: `<Vorgangstyp>^<Brutto-Steuerumsätze>^<Zahlungen>`
 Trennzeichen: ^ (Unicode U+005E)
-<Vorgangstyp>:
+`<Vorgangstyp>`:
 Der Vorgangstyp laut DSFinV-K kann folgende Werte annehmen:
 
 * AVBelegstorno

@@ -1,13 +1,11 @@
-## Question                  
+## Question
 When will the ordered products be sent?
 
 ## Question
 Are you only delivering on certain days a week?
 
-
 ## Question
 Are you delivering the HW TSEs separately or when we for example order 10 pieces on Monday them altogether?
-
 
 ## Question
 With what kind of parcel service provider are you working together?
