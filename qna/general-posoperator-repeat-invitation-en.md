@@ -16,7 +16,7 @@ title: PosOperator
 
 #### Option 1: Repeat the automatically sent e-mail ![img](..\images\PosOperator\PosOperator-repeat01.png)
 
-![img](..\images\numbers\1.png) For each PosOperator who has not yet accepted the invitation or could not accept it, the status is indicated by this icon:![img](C:\Temp\github\portal-manual-doc_doc_handbook-general\images\posoperator\envelope_red.png)
+![img](..\images\numbers\1.png) For each PosOperator who has not yet accepted the invitation or could not accept it, the status is indicated by this icon:![img](..\images\posoperator\envelope_red.png)
 
 ![img](..\images\numbers\2.png)By clicking on "Assign", the sending of the e-mail-invitation can be repeated.
 
