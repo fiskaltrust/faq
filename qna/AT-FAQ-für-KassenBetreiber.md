@@ -31,11 +31,11 @@ Bei Fragen hilft Ihnen das [Support-Team](https://www.fiskaltrust.at/support/) g
 
 ### **Interessante Informationen von PayPal**
 
-- [Wie sorgt PayPal für meine Sicherheit?](https://www.paypal.com/at/selfhelp/article/wie-sorgt-paypal-für-meine-sicherheit-faq2291)
+- [Wie sorgt PayPal für meine Sicherheit?](https://www.paypal.com/at/webapps/mpp/paypal-safety-and-security)
 - [Kostenlose Anmeldung bei PayPal:](https://www.paypal.com/at/webapps/mpp/account-selection)
-- [Wie füge ich ein Bankkonto oder eine Kreditkarte hinzu?](https://www.paypal.com/at/selfhelp/article/wie-füge-ich-ein-bankkonto-oder-eine-kreditkarte-hinzu-faq871)
-- [Wie kann ich Geld auf mein PayPal-Konto einzahlen?](https://www.paypal.com/at/selfhelp/article/wie-kann-ich-geld-auf-mein-paypal-konto-einzahlen-faq1348)
-- [Warum soll ich meinem PayPal-Konto ein Bankkonto oder eine Kreditkarte hinzufügen?](https://www.paypal.com/at/selfhelp/article/warum-soll-ich-meinem-paypal-konto-ein-bankkonto-oder-eine-kreditkarte-hinzufügen-faq3349)
+- [Wie füge ich ein Bankkonto oder eine Kreditkarte hinzu?](https://www.paypal.com/at/smarthelp/PAYPAL_HELP_GUIDE/zahlungsquellen-hinzuf%C3%BCgen-oder-aktualisieren-icf30)
+- [Wie kann ich Geld auf mein PayPal-Konto einzahlen?](https://www.paypal.com/at/smarthelp/article/wie-kann-ich-geld-auf-mein-paypal-konto-einzahlen-und-wie-lange-dauert-das-faq1348)
+- [Warum soll ich meinem PayPal-Konto ein Bankkonto oder eine Kreditkarte hinzufügen?](https://www.paypal.com/at/smarthelp/article/warum-soll-ich-meinem-paypal-konto-ein-bankkonto-oder-eine-kreditkarte-hinzuf%C3%BCgen-faq3349)
 
 ### Welche Probleme können bei FON-Meldungen für KassenBetreiber auftreten?
 
