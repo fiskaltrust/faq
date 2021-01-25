@@ -25,7 +25,7 @@ lang-de, market-de, middleware, PosCreator, PosDealer
         - As with the transaction cancellation, an additional item data record must be created. The signs of MENGE, BRUTTO, NETTO and UST must be reversed.
         - The cancellation of items by subsequently marking the item with the cancellation flag "P_STORNO" must not be used.
 
-### DSFinV-K: https://fiskaltrust.de/dsfinv-k/ 
+### DSFinV-K
 #### Representation of special events
 ##### 4.2.1 Immediate process cancellations
 Immediate transaction cancellation is only possible for systems that are not linked to a TSE (e.g. cash registers that can be used with transitional arrangements until 31.12.2022), if a cash voucher has been generated but the transaction does not take place immediately (e.g. because the customer has forgotten the money). Only in these cases can an immediate cancellation be made.

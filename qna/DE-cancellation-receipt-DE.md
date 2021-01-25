@@ -25,7 +25,7 @@ lang-de, market-de, middleware, PosCreator, PosDealer
         - Ebenso wie bei der Vorgangsstornierung ist ein zusätzlicher Positionsdatensatz zu erstellen Die Vorzeichen von MENGE, BRUTTO, NETTO sowie UST sind umzukehren.
         - Die Stornierung von Positionen durch nachträgliches Markieren der Position mit dem Storno-Flag „P_STORNO“ darf nicht verwendet werden.
 
-### DSFinV-K: https://fiskaltrust.de/dsfinv-k/ 
+### DSFinV-K
 #### Darstellung besonderer Vorgänge
 ##### 4.2.1 Sofortige Vorgangsstornierungen
 Eine sofortige Vorgangsstornierung kommt nur bei Systemen in Betracht, die nicht mit einer TSE verbunden sind (z.B. Kassen, die mit Übergangsregelung bis 31.12.2022 ein-gesetzt werden können), wenn ein Kassenbeleg erzeugt wurde, das Geschäft aber unmittelbar nicht zustande kommt (z. B. weil der Kunde das Geld vergessen hat). Aus-schließlich in diesen Fallkonstellationen kann ein Sofortstorno vorgenommen werden.
