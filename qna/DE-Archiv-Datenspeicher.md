@@ -16,4 +16,4 @@ lang-de, market-de, data-archive, bundle-carefree, PosCreator, PosDealer, PosOpe
 
 ## Answer
 
-Die Daten werden von fiskaltrust im Microsoft Azure Deutschland archiviert. Hierbei wird Azure Blob Storage verwendet. Weitere Informationen zu diesem unveränderbaren Speicher finden sie in unserer [Produktbeschreibung](https://github.com/fiskaltrust/productdescription-de-doc/blob/master/product-service-description/revisionssichere-daten-as-a-service/features/unveraenderbarer-speicher.md) und unter [Azure Germany](https://docs.microsoft.com/en-us/azure/germany/).
+Die Daten werden von fiskaltrust im Microsoft Azure Deutschland archiviert. Hierbei wird Azure Blob Storage verwendet. Weitere Informationen zu diesem unveränderbaren Speicher finden sie in unserer [Produktbeschreibung](https://github.com/fiskaltrust/productdescription-de-doc/blob/master/product-service-description/revisionsafe-data-as-a-service/features/revision-safe-cloud-storage.md) und unter [Azure Germany](https://docs.microsoft.com/en-us/azure/germany/).

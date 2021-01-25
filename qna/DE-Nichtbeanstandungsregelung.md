@@ -73,7 +73,7 @@ Im Folgenden haben wir für Sie, ohne Anspruch auf Vollständigkeit und Rechtssi
 
 ## Weiterführende Informationen zur Nichtbeanstandungsregelung
 
-[Rechtsgrundlagen Deutschland](https://github.com/fiskaltrust/productdescription-de-doc/blob/master/product-service-description/DE-rechtliche-grundlagen.md)
+[Rechtsgrundlagen Deutschland](https://github.com/fiskaltrust/productdescription-de-doc/blob/master/product-service-description/legal-basis-germany.md)
 
 ## PDF Download
 
