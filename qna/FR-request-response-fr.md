@@ -63,7 +63,7 @@ Tout d’abord, le ticket doit être créé par le POS-System. Pour cela, certai
 }
 ```
 
-En fonction du protocole utilisé, le ticket entier est envoyé dans le payload sous forme de JSON-String avec SOAP ou REST. Le type de protocole définit les informations d’identification que vous devez envoyer dans l’en-tête de la demande. Il s’agit généralement du CashBoxID et d’un AccessToken. Les deux peuvent être trouvés dans le [menu Configuration](https://portal.fiskaltrust.fr/CashBox) du fiskaltrust.Portail.
+En fonction du protocole utilisé, le ticket entier est envoyé dans le payload sous forme de JSON-String avec SOAP ou REST. Le type de protocole définit les informations d’identification que vous devez envoyer dans l’en-tête de la demande. Il s’agit généralement du CashBoxID et d’un AccessToken. Les deux peuvent être trouvés dans le [menu Configuration](https://portal.fiskaltrust.fr/) du fiskaltrust.Portail.
 
 Le fiskaltrust.Middleware répondra à cette demande avec une réponse sous forme de JSON-String comme ceci:
 
