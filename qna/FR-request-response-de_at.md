@@ -18,10 +18,11 @@ Zunächst muss der Beleg vom POS-System erstellt werden. Dazu müssen einige Inf
   "cbTerminalId": "term01",
   "cbReceiptReference": "ticket 2020-4456",
   "cbReceiptMoment": "2020-04-05 10:49:20",
+  "cbReceiptAmount": 13.1,
   "ftReceiptCase": "5067112530745229313",
 ```
 
-**2) Die Liste der verkauften Produkte:**<br />Dies ist eine Reihe von Produktzeilen auf einem Beleg, im fiskaltrust.Universum werden dies als ChargeItems bezeichnet. Der gezeigte Datensatz ist das absolut notwendige Minimum, um den französischen Gesetzen zu entsprechen. Alle Felder und Werte sind in der Middleware Dokumentation ausführlich beschrieben.
+**2) Die Liste der verkauften Produkte:**<br />Dies ist eine Reihe von Produktzeilen auf einem Beleg, im fiskaltrust.Universum werden dies als `ChargeItems` bezeichnet. Der gezeigte Datensatz ist das absolut notwendige Minimum, um den französischen Gesetzen zu entsprechen. Alle Felder und Werte sind in der [Middleware Dokumentation](https://link.fiskaltrust.cloud/middleware-doc-fr) ausführlich beschrieben.
 
 ```JSON
 "cbChargeItems": [
@@ -33,7 +34,9 @@ Zunächst muss der Beleg vom POS-System erstellt werden. Dazu müssen einige Inf
       "VATAmount": 0.87,
       "ftChargeItemCase": "5067112530745229315",
       "Moment": "2020-04-05 10:49:50",
-"ftChargeItemCaseData": "{\"NetAmount\": 4.33}"
+      "ftChargeItemCaseData": "{\"NetAmount\": 4.33}",
+      "Unit": "tasse",
+      "UnitPrice": 5.2
     },
     {
       "Quantity": 1.0,
@@ -43,12 +46,14 @@ Zunächst muss der Beleg vom POS-System erstellt werden. Dazu müssen einige Inf
       "VATAmount": 1.32,
       "ftChargeItemCase": "5067112530745229315",
       "Moment": "2020-04-05 10:49:50",
-      "ftChargeItemCaseData": "{\"NetAmount\": 6.58}"
+      "ftChargeItemCaseData": "{\"NetAmount\": 6.58}",
+      "Unit": "pièce",
+      "UnitPrice": 7.9
     }
   ],
 ```
 
-**3) Wie der Beleg bezahlt wird:**<br />Im fiskaltrust.Universum heißt dieses Array PayItems. Dies ist eine Liste aller vom Kunden verwendeten Zahlungsmittel. Auch hier wird nur der obligatorische Datensatz angezeigt, weitere Informationen finden Sie in der Middleware Dokumentation.
+**3) Wie der Beleg bezahlt wird:**<br />Im fiskaltrust.Universum heißt dieses Array `PayItems`. Dies ist eine Liste aller vom Kunden verwendeten Zahlungsmittel. Auch hier wird nur der obligatorische Datensatz angezeigt, weitere Informationen finden Sie in der [Middleware Dokumentation](https://link.fiskaltrust.cloud/middleware-doc-fr).
 
 ```JSON
   "cbPayItems": [
@@ -63,7 +68,7 @@ Zunächst muss der Beleg vom POS-System erstellt werden. Dazu müssen einige Inf
 }
 ```
 
-Je nach verwendetem Protokoll wird die gesamte Quittung als JSON-String mit SOAP oder REST im Payload gesendet. Der Protokolltyp definiert, welche Anmeldeinformationen Sie im Header der Anforderung senden müssen. Normalerweise ist es die CashBoxID und ein AccessToken. Beide finden Sie im Konfigurationsmenü im fiskaltrust.Portal.
+Je nach verwendetem Protokoll wird die gesamte Quittung als JSON-String mit SOAP oder REST im Payload gesendet. Der Protokolltyp definiert, welche Anmeldeinformationen Sie im Header der Anforderung senden müssen. Normalerweise ist es die `CashBoxID` und ein `AccessToken`. Beide finden Sie im Konfigurationsmenü im fiskaltrust.Portal.
 
 Der fiskaltrust.Middleware beantwortet diese Anfrage mit einer Antwort als JSON-String wie folgt:
 
@@ -96,4 +101,4 @@ Der fiskaltrust.Middleware beantwortet diese Anfrage mit einer Antwort als JSON-
 }
 ```
 
-Die meisten dieser Informationen (fett gedruckt) müssen auf dem Beleg gedruckt werden. Es wird jedoch empfohlen, alle Informationen auszugeben. Jede vom fiskaltrust.Middleware zurückgesendete Signatur muss gedruckt werden. Daher müssen die Felder Caption und Data auf der Quittung angegeben werden. Es kann mehr als eine Signatur übermittelt werden, in diesem Fall muss jede gedruckt werden. Die Signatur mit Typ 3 enthält einen JWT als bereits codierten QR-Code im Datenfeld Data, der vor der Fußzeile des Belegs gedruckt werden muss.
+Die meisten dieser Informationen müssen auf dem Beleg gedruckt werden. Es wird jedoch empfohlen, alle Informationen auszugeben. Jede vom fiskaltrust.Middleware zurückgesendete Signatur muss gedruckt werden. Dabei müssen die Felder `Caption` und `Data` auf der Quittung angegeben werden. Es kann mehr als eine Signatur übermittelt werden, in diesem Fall muss jede gedruckt werden. Die Signatur mit Typ 3 enthält einen JWT als bereits codierten QR-Code im Datenfeld `Data`, der vor der Fußzeile des Belegs gedruckt werden muss.
