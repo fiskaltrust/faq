@@ -58,11 +58,11 @@ Nutzer von Registrierkassen haben am 31. Dezember jeden Jahres den Jahresbeleg z
    Das Datenerfassungsprotokoll muss im Falle einer Prüfung durch das Finanzamt, in dem gesetzlich definierten Exportformat, innerhalb von 2 Werktagen, zur Verfügung gestellt werden.
    Diese externe Sicherung ist in den Sorglos.Paketen enthalten.
 
-Arbeiten Sie schon sorglos? Fragen Sie bei Ihrem Kassenhändler nach dem [Sorglos.Paket](https://www.fiskaltrust.at/products/product_01/#1475344961406-8834275c-6faf) oder erwerben Sie es selbst zu Ihrer [Registrierkasse](https://portal.fiskaltrust.at/CashBox).
+Arbeiten Sie schon sorglos? Fragen Sie bei Ihrem Kassenhändler nach dem [Sorglos.Paket](https://www.fiskaltrust.at/products/product_01/#1475344961406-8834275c-6faf) oder erwerben Sie es selbst zu Ihrer [Registrierkasse](https://portal.fiskaltrust.at/).
 
 #### Technische Voraussetzungen
 
-- Der Jahresbeleg muss korrekt signiert sein. Sollte z.B. die Signaturerstellungseinheit ausgefallen sein, ist dies zu dokumentieren und die nochmalige Erstellung sowie die Prüfung des Jahresbeleges unmittelbar nach Ende dieses Ausfalles nachzuholen. Mit [fiskaltrust ](https://portal.fiskaltrust.at/)lassen sich diese Ausfälle meist durch Erstellung eines Nullbeleges aus der Registrierkasse beenden.
+- Der Jahresbeleg muss korrekt signiert sein. Sollte z.B. die Signaturerstellungseinheit ausgefallen sein, ist dies zu dokumentieren und die nochmalige Erstellung sowie die Prüfung des Jahresbeleges unmittelbar nach Ende dieses Ausfalles nachzuholen. Mit [fiskaltrust](https://portal.fiskaltrust.at/)lassen sich diese Ausfälle meist durch Erstellung eines Nullbeleges aus der Registrierkasse beenden.
 - In Ihrem Kassensystem ist eine Funktion oder ein Menüpunkt z.B. „Erstellung Jahresbeleg“ verfügbar.
 
 Bei Fragen zur Erstellung des Jahresbeleges kontaktieren Sie bitte Ihren Kassenbetreuer, -händler oder -hersteller.
