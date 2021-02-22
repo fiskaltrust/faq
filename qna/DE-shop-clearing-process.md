@@ -24,7 +24,9 @@ Nach dem Wechsel in den Account des KassenBetreibers unter <kbd>PosOperator</kbd
 Schließen Sie die Bestellung dann im eigenen Account als Kassenhändler unter <kbd>Shop</kbd>  &rarr;  <kbd>Warenkorb</kbd> ab. Kontrollieren Sie beim Checkout nochmals die gewählten Ansprüche sowie die gewählten Standorte und schließen Sie mit
  <kbd>verbindlich bestellen</kbd> den Vorgang ab. 
 Mit diesem zweigeteilten Bestellvorgang wird sichergestellt, dass der Versand einer TSE an das gewünschte Outlet erfolgt. Weiter wird Ihre Bestellung im Rahmen Ihres Rahmenvertrages und Ihres Kreditlimits durchgeführt.
+
 ### Variante
+
 Als Variante kann der Bestellvorgang auch im Account des KassenBetreibers begonnen werden. Damit entfällt das Übertragen der Entitlements. Dazu wählen Sie zu Beginn den Account des KassenBetreibers und unter unter <kbd>Shop</kbd>  &rarr;  <kbd>Produkte</kbd> den gewünschten Standort aus. Danach wählen Sie:
 - das **fiskaltrust.Sorglos mit TSE  -Händlereinkaufsprodukt**
 - dann **fiskaltrust.Sorglos Betreiber-Abo – aus Anspruch erzeugen**
