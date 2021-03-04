@@ -19,3 +19,5 @@ We have observed the following TSE-specific behaviors that could be connected to
 - **CryptoVision/Bundesdruckerei Hardware TSE**: The Middleware fails on processing requests and e.g. prints one of the following error messages to the log:
    - `Response headers didn´t match.`
    - `Expected <QWRWYW5jRUQgU2VDdVJlIFNEL01NQyBDQXJkAQ==>, but instead got <AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==>`
+
+It's also possible to deactivate this power saving mode via Powershell, as described e.g. in these [Technet thread](https://social.technet.microsoft.com/Forums/en-US/885599c0-8233-42db-bf5b-25f8a2774434/anyone-know-a-reliable-ps-to-disable-allow-this-pc-to-turn-off-to-save-power?forum=mdt).
