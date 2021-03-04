@@ -5,4 +5,4 @@ Is there any certified online TSE available for germany?
 lang-en, market-de, middleware, PosCreator, PosDealer, Consultant
 
 ## Answer
-Currently (18.08.2020), there is **no certified** online TSE available for the german market. 
+Please have a look for our blog for the german market under https://fiskaltrust.de/news/aktueller-status-zur-cloud-tse-202103/. 
