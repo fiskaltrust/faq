@@ -12,7 +12,7 @@ Werden die gespeicherten Daten pseudonymisiert oder anonymisiert und wer hat Zug
 
 ## Question
 
-Welche Sicherheiten (Löschfristen) sind vorgesehen, um die Daten für den gesetzlich vorgeschriebenen Zeitraum zu speichern und danach datenschutzkonform zu löschen ?
+Welche Sicherheiten (Löschfristen) sind vorgesehen, um die Daten für den gesetzlich vorgeschriebenen Zeitraum zu speichern?
 
 ## Metadata tags
 
@@ -37,13 +37,12 @@ Wenn ein Kassenhersteller sich z.B. im Portal registriert, dann könnte er auch 
 - Azure-Region West-Europe (a104, a105)
 - Azure-Region North-Europe 
 - Azure-Region Germany-West-Central (a110, a111)
-- Azure-Region France-Central (a107, a108)
 - Equinix-Datacenter Amsterdam (nl18) (https://www.equinix.com/locations/europe-colocation/netherlands-colocation/amsterdam-data-centers/)
 - RRZ-Datacenter Raaba / Graz (at11) (https://www.rrz.co.at/)
 
 ### Wo werden die Daten gespeichert
 
-- SQL Azure West-Europe -> Mirror ( Azure North-Europe, Azure Germany-West-Central, Azure France-Central)
+- SQL Azure West-Europe -> Mirror (Azure North-Europe, Azure Germany-West-Central, Azure France-Central)
 - Dynamics365 EMEA Region (=crm4)
 - Massendaten Azure West-Europe -> Mirror Azure North-Europe
 - Kundenbezogene Massendaten Deutschland Azure Germany-West-Central
@@ -58,6 +57,6 @@ Wenn ein Kassenhersteller sich z.B. im Portal registriert, dann könnte er auch 
 
 Die Daten werden gemäß den gesetzlichen Vorgaben in der Form gespeichert, in der sie an die Middleware geschickt werden.
 
-### Wann werden die Daten gelöscht
+### Wie lange werden die Daten aufbewahrt
 
-Die Daten werden nach Ablauf der gesetzlichen Aufbewahrungsfristen gelöscht, sofern kein anderweitigen Verfahren anhängig sind, die die Speicherdauer bzw. die Löschfrist verlängern bzw. vorerst aufschieben.
+Die Daten werden mindestens entsprechend der gesetzlichen Aufbewahrungsfristen aufbewahrt (dzt. mindestens 10 Jahre), bzw. die Speicherdauer verlängert sofern anderweitige Verfahren anhängig sind.
