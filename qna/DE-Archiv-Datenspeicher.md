@@ -12,7 +12,7 @@ Wo befinden sich die archivierten DSFinV-K und TSE TAR-Files?
 
 ## Question
 
-An welchem Speicherort werden die Daten durch fiskaltrust revisionsicher archiviert?
+An welchem Speicherort werden die Daten durch fiskaltrust revisionssicher archiviert?
 
 ## Metadata tags
 
