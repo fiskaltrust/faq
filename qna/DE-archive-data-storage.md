@@ -30,6 +30,12 @@ lang-en, market-de, data-archive, bundle-carefree, PosCreator, PosDealer, PosOpe
 * Revision-secured client-related mass data (= .Tar-File, DSFinV-K-File, etc.)
 * General customer-related bulk data (= copy of everything that is manually stored in revision-secured customer-related bulk data, invoices, contracts, etc.)
 
+Based on the legal situation, no personal data must be stored. The cash register manufacturer decides which data is disclosed during registration in the portal and on the cash register receipts (bulk data).
+
+If a cash register manufacturer registers in the portal, for example, then it could also use anonymised data. 
+Please note that you do not print names or the like on the receipt data, for example, if you want to prevent the disclosure of personal data. 
+In practice, it will probably hardly be possible to prevent the use of personal data, but the law does not provide for any necessity here. 
+
 ### Processing locations
 
 * Azure Region West-Europe (a104, a105)
@@ -52,3 +58,10 @@ lang-en, market-de, data-archive, bundle-carefree, PosCreator, PosDealer, PosOpe
 * Customer-related data is managed exclusively in a separate Dynamics365 instance per country.
 * All services ending with "fiskaltrust.de" are processed with Azure Germany-West-Central (Microsoft Azure in Germany).
 * Customer-related mass data for configurations created with services ending in "fiskaltrust.de" are stored in Azure Germany-West-Central.
+### How the data is stored
+
+The data is stored in the form in which it is sent to the middleware in accordance with the legal requirements.
+
+### How long is the data stored
+
+The data is stored at least in accordance with the statutory retention periods (currently at least 10 years), or the storage period is extended if other procedures are pending.
