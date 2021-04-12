@@ -9,4 +9,4 @@ Der _Stopp-Beleg_ ist für die geplante Außerbetriebnahme von Sicherheitsmechan
 
 Dieser Beleg erhält nur beim ersten Mal eine aussagekräftige Antwort vom fiskaltrust.SecurityMechanism. Nach Erhalt eines _Stopp-Belegs_ wird die Queue endgültig und unwiderruflich geschlossen. Falls eine Quittung an eine geschlossene Warteschlange gesendet wird, sendet der fiskaltrust.SecurityMechanism keine positive Antwort.
 
-Eine geschlossene Warteschlange kann mit einem _Start-Beleg_ nicht mehr erneut eröffnet werden. Stattdessen muss eine neue Warteschlange erzeugt und mit einem eigenen _Start-Beleg_ initialisiert werden.
+Eine geschlossene Warteschlange kann mit einem _Start-Beleg_ nicht erneut eröffnet werden. Stattdessen muss eine neue Warteschlange erzeugt und mit einem eigenen _Start-Beleg_ initialisiert werden.
