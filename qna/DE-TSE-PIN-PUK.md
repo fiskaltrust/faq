@@ -40,6 +40,6 @@ Wurde die TSE durch ein Fremdsystem zum ersten Mal in Betrieb genommen, so müss
 
 Im folgenden finden Sie Angaben darüber, welche PINs pro TSE genau mit Hilfe der SCU Konfiguration gesetzt oder angegeben werden können:
 
-- [Cryptovision TSE Interoperabilität](https://docs.fiskaltrust.cloud/doc/productdescription-de-doc/product-service-description/compliance-as-a-service/features/TSE-Cryptovision-Interoperabilit%C3%A4t.html) <br/>
-- [Swissbit TSE Interoperabilität ](https://docs.fiskaltrust.cloud/doc/productdescription-de-doc/product-service-description/compliance-as-a-service/features/TSE-Swissbit-Interoperabilit%C3%A4t.html) <br/>
-- [Diebold Nixdorf TSE Interoperabilität ](https://docs.fiskaltrust.cloud/doc/productdescription-de-doc/product-service-description/compliance-as-a-service/features/TSE-Diebold-Nixdorf-Interoperabilit%C3%A4t.html) <br/>
+- [Cryptovision TSE Interoperabilität](https://docs.fiskaltrust.cloud/docs/product-description/germany/products-and-services/caas/features/basics/tse/cryptovision) <br/>
+- [Swissbit TSE Interoperabilität ](https://docs.fiskaltrust.cloud/docs/product-description/germany/products-and-services/caas/features/basics/tse/swissbit) <br/>
+- [Diebold Nixdorf TSE Interoperabilität ](https://docs.fiskaltrust.cloud/docs/product-description/germany/products-and-services/caas/features/basics/tse/diebold-nixdorf) <br/>
