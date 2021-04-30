@@ -38,4 +38,4 @@ Additionally the field `chargeItem.VATRate` must be set to the value of the spec
 ]
 ```
 
-If you set the field `chargeItem.VATRate` to 0.0, than the ft.Middleware will map to the DSFinV-k VAT ID 7. For any other value the ft.Middleware will map to a DSFinV-k VAT ID > 1000 by multiplying the given `chargeItem.VATRate` value with 1000. In our example above this will result into the `DSFinV-k VAT ID = (14.25 * 1000) = 1425`.
+If you set the field `chargeItem.VATRate` to 0.0, than the ft.Middleware will map to the DSFinV-k VAT ID 7. For any other value the ft.Middleware will map to a DSFinV-k VAT ID > 1000 by multiplying the given `chargeItem.VATRate` value with 100 and adding 1000. In our example above this will result into the `DSFinV-k VAT ID = (14.25 * 100) + 1000 = 2425`.
