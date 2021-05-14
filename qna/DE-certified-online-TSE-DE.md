@@ -1,6 +1,6 @@
 ## Question
 
-Gibt es eine zertifizierte Cloud-TDE für den deutschen Markt?
+Gibt es eine zertifizierte Cloud-TSE für den deutschen Markt?
 
 ## Metadata tags
 
