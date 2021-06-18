@@ -7,8 +7,8 @@ Gibt es eine zertifizierte Cloud-TSE für den deutschen Markt?
 lang-de, market-de, middleware, PosCreator, PosDealer, Consultant
 
 ## Answer
-Es gibt verschiedene Entwicklungen auf dem deutschen Markt. Für eine Übersicht beachten Sie bitte unsere [News-Site](https://fiskaltrust.de/news/aktueller-status-zur-cloud-tse-202103/).
-
-Aktuell (12.03.2021) steht mit der Version 1.3.16 für den deutschen Markt eine Middleware zur Verfügung, mit der eine fiskaly-SCU verwendet werden kann.
-Beachten Sie dazu die Hinweise bei den [Release Notes](https://docs.fiskaltrust.cloud/docs/release-notes/middleware/1.3.16).
-<!--added in german language, actualized  -->
+Die vom BSI (Bundesamt für Sicherheit in der Informationstechnik) zertifizierte fiskaly Cloud TSE (Version 2, Stand 07.06.2021) unterscheidet sich im technischen Aufbau von der aktuell verwendeten (nicht zertifizierten) fiskaly Cloud TSE (Version 1). 
+ 
+Derzeit stehen wir im engen Austausch mit fiskaly hinsichtlich des technischen Aufbaus der zertifizierten Cloud TSE in der Version 2, um diese kurzfristig im Zusammenspiel mit der fiskaltrust.Middleware verfügbar zu machen. Hierbei prüfen und berücksichtigen wir auch die Verfügbarkeit in einem Datacenter sowie auch die Nutzung auf Android-basierten Systemen. 
+Dieser Abstimmungsaufwand ist aufgrund möglicher Anpassungen auf Seiten der fiskaltrust zwingend notwendig, weshalb wir Sie noch ein wenig um Geduld bitten. Sobald wir alle Informationen und Details abgestimmt haben, werden wir Sie umfassend informieren.
+ 
