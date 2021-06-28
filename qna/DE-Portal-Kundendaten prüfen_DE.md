@@ -8,4 +8,4 @@ lang-de, market-de, middleware, PosCreator, PosDealer, Consultant
 
 ## Answer
 Gehen Sie zu:
-<kbd>PosOperator</kbd> &rarr; <kbd>Shop</kbd> &rarr; <kbd>Subscriptions</kbd>
+<kbd>PosOperator</kbd> &rarr; <kbd>Shop</kbd> &rarr; <kbd>Subscriptions</kbd>.
