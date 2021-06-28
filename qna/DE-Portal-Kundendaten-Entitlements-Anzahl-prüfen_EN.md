@@ -11,7 +11,7 @@ lang-en, market-de, middleware, PosCreator, PosDealer, Consultant
 
 ## Answer
 
-1. log in to the portal
+1. log into the portal
 2. go to <kbd>Shop</kbd>  &rarr; <kbd>Entitlements</kbd> or change the URL in the browser to https://portal.fiskaltrust.de/Shop/Entitlements
-3. the portal shows the remaining available stock on this page.
-4. with the <kbd>More...</kbd> button, the already consumed Entitlements are also displayed.
+3. the portal shows the remaining available stock on this page
+4. with the <kbd>More...</kbd> button, the already consumed Entitlements are also displayed
