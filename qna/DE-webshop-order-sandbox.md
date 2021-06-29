@@ -12,7 +12,7 @@ lang-de, market-de, market-at, middleware, PosCreator, POSDealer, PosOperator, C
 
 ## Answer
 
-Die Sandbox ist für Integrations-, Test- bzw. Lernzwecke geeignet und stellt keine rechtsgültige Fiskalisierung von Belegen zur Verfügung.
+Die [Sandbox](https://portal-sandbox.fiskaltrust.de/) ist für Integrations-, Test- bzw. Lernzwecke geeignet und stellt keine rechtsgültige Fiskalisierung von Belegen zur Verfügung.
 
 Auch fiskaltrust testet auf der Sandbox neue Entwicklungen unter möglichst produktionsnahen Bedingungen. Im Zuge dessen werden z.B. Test-Produkte, Daten oder Informationen erzeugt, denen nie bestimmt ist, in Produktion zu gelangen.
 

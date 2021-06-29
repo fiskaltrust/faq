@@ -11,7 +11,7 @@ lang-de, market-de, middleware, PosCreator, PosDealer, Consultant
 
 Der Kontakt ist nicht gelöscht, nur eben nicht mehr mit Ihrem Account verbunden
 (mit <kbd>PosOperator</kbd>&rarr; <kbd>Übersicht</kbd>&rarr; <kbd>Suche</kbd> und <kbd>Deaktivieren</kbd> sowie <kbd>Berechtigung aufheben</kbd>). 
-* Der Kassenbetreiber kann sich im Portal immer noch anmelden.
+* Der Kassenbetreiber kann sich im [fiskaltrust.portal](https://portal.fiskaltrust.de/Account/Login?returnUrl=%2fHome%2fDashboard) immer noch anmelden.
 * Dann bei <kbd>PosOperator</kbd>  &rarr;  <kbd>Händler/Berater suchen</kbd> die E-Mail Adresse des Kassenhändlers eingeben und <kbd>Suchen</kbd> wählen.
 * Im weiteren Verlauf die Zugriffsrechte auf <kbd>Schreiben/Lesen</kbd> belassen und die Schaltfläche <kbd>Zuordnung anfordern - Händler wählen</kbd>.
 * Der Kassenhändler prüft die Anfrage des Kassenbetreibers unter <kbd>PosOperator</kbd>  &rarr;  <kbd>Übersicht</kbd>. 
