@@ -1,5 +1,5 @@
 ## Question
-Is there any certified online TSE available for germany?
+Is there any certified Cloud TSE available for Germany?
 
 ## Metadata tags
 lang-en, market-de, middleware, PosCreator, PosDealer, Consultant
