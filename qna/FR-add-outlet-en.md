@@ -13,7 +13,7 @@ You can now modify or correct the “SIREN” field. You must enter your SIREN n
 
 The second step is to click on the “Outlets” command in the company menu. For ease of access, you can follow the links below for the sandbox: https://portal-sandbox.fiskaltrust.fr/AccountOutlet or for the live system: https://portal.fiskaltrust.fr/AccountOutlet.
 
-Next, you must verify the outlet that the system already created is correct. After verification, you can add a new outlet by using the button “Add new outlet”, located on the top right side of the screen. As for an existing outlet, in order to create a new outlet, you must enter the SIRET for the outlet in the data field Location ID and the address of the outlet. The outlet number is up counting and should be the same as used in the SIRET (digits 10 to 13). The Outlet number must be unique.
+Next, you must verify the outlet that the system already created is correct. After verification, you can add a new outlet by using the button “Add new outlet”, located on the top right side of the screen. As for an existing outlet, in order to create a new outlet, you must enter the SIRET for the outlet in the data field Location ID and the address of the outlet. The outlet number is up counting and should be the same as used in the SIRET (digits 10 to 13). The outlet number must be unique.
 
 In the fiskaltrust.Portal, you must use the numbers provided by the French authorities. The SIREN number, to be entered in the master data, is composed of nine digits. The SIRET number, used to create an outlet, corresponds to the SIREN number followed by 5 unique digits to identify the establishment. In “sandbox” mode, you can use any 5 random digits to extend the SIREN number and form a SIRET number.
 

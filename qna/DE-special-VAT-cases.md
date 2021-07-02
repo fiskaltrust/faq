@@ -1,5 +1,5 @@
 ## Question
-How can I set a special case VAT ID to my charge item for the german market?
+How can I set a special case VAT ID to my charge item for the German market?
 
 ## Question
 How can I use the iPOS interface to address special DSFinV-k VAT IDs grater than 1000?
