@@ -2,7 +2,7 @@
 How can I set a special case VAT ID to my charge item for the German market?
 
 ## Question
-How can I use the iPOS interface to address special DSFinV-k VAT (USt-IdNr.) IDs grater than 1000?
+How can I use the iPOS interface to address special DSFinV-k VAT (USt-IdNr.) IDs greater than 1000?
 
 ## Metadata tags
 lang-en, market-de, middleware, PosCreator
