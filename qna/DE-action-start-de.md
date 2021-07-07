@@ -22,8 +22,8 @@ The time of the receipt creation can be transmitted in the receipt request by us
 
 For a receipt request of type `pos-receipt`, fiskaltrust.Middleware returns three dates in the signature block that can be used for printing the receipt:
 
-1. Time of the start transaction submitted to the TSE (`ftSignatureType`: `0x4445000000000019`).
-2. Time of the finish transaction submitted to the TSE (`ftSignatureType`: `0x444500000000001A`).
+1. Time of the start transaction as provided by the TSE (`ftSignatureType`: `0x4445000000000019`).
+2. Time of the finish transaction as provided by the TSE (`ftSignatureType`: `0x444500000000001A`).
 3. Calculated start time of the action = the minimum of the date/time pairs (`ReceiptRequest.cbReceiptMoment,ftChargeItem[i].Moment, ftPayItem[i].Moment`) sent  to fiskaltrust.Middleware in the pos-receipt request. The entry has the signature type: `ftSignatureType`: `0x444500000000001F`.
 
 Depending on your use case you have to decide which of the returned date and times you have to print. For example, in normal cases (no long-lasting sales preparation process) you may print the calculated start time of the transaction  (`ftSignatureType`: `0x444500000000001F`) as the start time of the transaction  (DE: Zeitpunkt des Vorgangbeginns) on your receipt.
