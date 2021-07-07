@@ -15,10 +15,10 @@ lang-en, market-de, webshop, PosDealer, PosOperator
 
 ## Answer
 
-Within a few hours after the confirmation of the order. As a general rule, products ordered UNTIL 5:30 pm CET will be shipped on the same day.
+Products will be shipped within a few hours after the confirmation of the order. As a general rule, products ordered UNTIL 5:30 pm CET will be shipped on the same day.
 
 We are shipping from Monday to Friday.
 
-That depends on the order. We try to package/deliver as efficiently as possible.
+The courier service depends on the order. We try to package/deliver as efficiently as possible.
 
 The parcel service provider is UPS.
