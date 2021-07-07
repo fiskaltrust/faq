@@ -20,5 +20,3 @@ Products will be shipped within a few hours after the confirmation of the order.
 We are shipping from Monday to Friday.
 
 The courier service depends on the order. We try to package/deliver as efficiently as possible.
-
-The parcel service provider is UPS.
