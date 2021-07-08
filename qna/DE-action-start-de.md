@@ -14,7 +14,7 @@ lang-en, market-de, middleware
 The receipt must contain three date/time pairs, in cases of long-lasting sales preparation processes even four:
 
 1. Date and time of receipt issuance/creation (DE: Datum der Belegausstellung)
-2. Start date and time of the transaction (DE: Zeitpunkt des Vorgangbeginns)
+2. Date and time of the start transaction (DE: Zeitpunkt des Vorgangbeginns)
 3. End date and time of the transaction (DE: Zeitpunkt der Vorgangsbeendigung)
 4. In the special case of long-lasting sales preparation processes (DE: lang anhaltende verkaufsvorbereitende Vorgänge): Start date and time of the first transaction (order); (DE: Startzeitpunkt der ersten Transaktion „Bestellung“)
 
