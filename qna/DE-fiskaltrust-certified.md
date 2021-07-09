@@ -1,8 +1,8 @@
 ## Question
-Is the fiskaltrust solution certified in germany?
+Is the fiskaltrust solution certified in Germany?
 
 ## Question
-Is fiskaltrust certified in germany?
+Is fiskaltrust certified in Germany?
 
 ## Question
 Is fiskaltrust officially certified according to BSI TR-03153?

@@ -12,4 +12,4 @@ The obligation to issue receipts to the customer (§ 146a Abs. 2 AO) is a legal 
 
 The process of printing and handing out receipts is not part of the fiskaltrust compliance. We assume that once the order is being processed and the receipt is sent to fiskaltrust.Middleware, the receipt is being handed out as required. Therefore there is no requirement to log that issue into our journal by the fiskaltrust.Middleware. 
 
-We recommend trying to reprint, once pos is ready.
+We recommend trying to reprint, once the POS service is available again.

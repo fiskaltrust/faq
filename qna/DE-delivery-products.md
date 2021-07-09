@@ -1,24 +1,22 @@
 ## Question
-When will the ordered products be sent?
+When will the ordered products be shipped?
 
 ## Question
 Are you only delivering on certain days a week?
 
 ## Question
-Are you delivering the HW TSEs separately or when we for example order 10 pieces on Monday them altogether?
+Are orders shipped individually or in bulk?
 
 ## Question
-With what kind of parcel service provider are you working together?
+Which courier service are you using?
 
 ## Metadata tags
 lang-en, market-de, webshop, PosDealer, PosOperator
 
 ## Answer
 
-Within a few hours after the confirmation of the order. As a general rule, products ordered UNTIL 5:30 pm will be sent on the same day.
+Products will be shipped within a few hours after the confirmation of the order. As a general rule, products ordered UNTIL 5:30 pm CET will be shipped on the same day.
 
-We are delivering from Monday to Friday.
+We are shipping from Monday to Friday.
 
-That depends on the order. We try to package/deliver as efficient as possible.
-
-The parcel service provider is UPS.
+The courier service depends on the order. We try to package/deliver as efficiently as possible.

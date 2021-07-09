@@ -1,33 +1,33 @@
 ## Question
-How is the start time of the action determined for the german market?
+How is the start time of a transaction (business case) determined for the German market?
 
 ## Question
-How can I set the start time of an action for the german market?
+How can I set the start time of a transaction for the German market?
 
 ## Question
-Which start times of an action must be printed on the receipt in germany?
+Which start times of a transaction must be printed on the receipt in Germany?
 
 ## Metadata tags
 lang-en, market-de, middleware
 
 ## Answer
-On the receipt 3 datetimes, in special cases even 4 datetimes must be printed:
+The receipt must contain three date/time pairs, in cases of long-lasting sales preparation processes even four:
 
-1. Date of receipt issuance/creation (DE: Datum der Belegausgabe)
-2. Start time of the action (DE: Zeitpunkt des Vorgangbeginns)
-3. End time of the action (DE: Zeitpunkt der Vorgangsbeendigung)
-4. In the special case of long lasting actions (DE: lang anhaltender Bestellvorgang): Start time of the first order (DE: Startzeitpunkt der ersten „Bestellung“ im Bondruck) 
+1. Date and time of receipt issuance/creation (DE: Datum der Belegausstellung)
+2. Date and time of the start transaction (DE: Zeitpunkt des Vorgangbeginns)
+3. End date and time of the transaction (DE: Zeitpunkt der Vorgangsbeendigung)
+4. In the special case of long-lasting sales preparation processes (DE: lang anhaltende verkaufsvorbereitende Vorgänge): Start date and time of the first transaction (order); (DE: Startzeitpunkt der ersten Transaktion „Bestellung“)
 
-The datetime of the receipt creation can be transmitted in the recept request by using the field `ReceiptRequest.cbReceiptMoment`. It must be provided in UTC.
+The time of the receipt creation can be transmitted in the receipt request by using the field `ReceiptRequest.cbReceiptMoment`. It must be provided in UTC.
 
-For a receipt request of type `pos-receipt`, the ftMiddleware returns 3 dates in the signature block that can be used for printing on the receipt:
+For a receipt request of type `pos-receipt`, fiskaltrust.Middleware returns three dates in the signature block that can be used for printing the receipt:
 
-1. time of the start transaction submitted to the TSE (`ftSignatureType`: `0x4445000000000019`).
-2. time of the finish transaction submitted to the TSE (`ftSignatureType`: `0x444500000000001A`).
-3. calculated start time of the action = the minimum of the datetimes (`ReceiptRequest.cbReceiptMoment,ftChargeItem[i].Moment, ftPayItem[i].Moment`) transmitted to the ft.Middleware in the pos-receipt request. The entry has the signature type: `ftSignatureType`: `0x444500000000001F`.
+1. Time of the start transaction as provided by the TSE (`ftSignatureType`: `0x4445000000000019`).
+2. Time of the finish transaction as provided by the TSE (`ftSignatureType`: `0x444500000000001A`).
+3. Calculated start time of the Start date and time of the first transaction (order) = the minimum of the date/time pairs (`ReceiptRequest.cbReceiptMoment,ftChargeItem[i].Moment, ftPayItem[i].Moment`) sent to fiskaltrust.Middleware in the pos-receipt request. The entry has the signature type: `ftSignatureType`: `0x444500000000001F`.
 
-Depending on your usecase you can decide which returned datetimes you want to print. For example, in the normal case (no long lasting action) you may print the calculated start time of the action  (`ftSignatureType`: `0x444500000000001F`) as the start time of the action (DE: Zeitpunkt des Vorgangbeginns) on your receipt.
+Depending on your use case you have to decide which of the returned date and times you have to print. For example, in normal cases (no long-lasting sales preparation process) you may print the calculated start time of the transaction  (`ftSignatureType`: `0x444500000000001F`) as the start time of the transaction  (DE: Zeitpunkt des Vorgangbeginns) on your receipt.
 
-If for example your usecase is a long lasting action - assuming that you transmitted the first ordered charge item having the datetime (`ftChargeItem.Moment`) of that order - you may want to use the calculated start time of the action (`ftSignatureType`: `0x444500000000001F`) as the starttime of the first order (DE: Startzeitpunkt der ersten „Bestellung“ im Bondruck.). Furthermore, you may use the returned time of the start transaction (`ftSignatureType`: `0x4445000000000019`) as the start time of the action (DE: Zeitpunkt des Vorgangbeginns).
+On the other hand, if your use case includes long-lasting sales preparation process - assuming that you sent the first ordered charge item having the datetime (`ftChargeItem.Moment`) of that order - you may want to use the calculated start time of the transaction (`ftSignatureType`: `0x444500000000001F`) as the start time of the first sales preparation (DE: Startzeitpunkt der ersten verkaufsvorbereitenden Vorgangs). Furthermore, you may use the returned time of the start transaction (`ftSignatureType`: `0x4445000000000019`) as the start time of the transaction (DE: Zeitpunkt des Vorgangbeginns).
 
 You can find start time examples [here](../examples/DE-action-start-de.md).

@@ -14,7 +14,7 @@ To create a cloud CashBox, certain conditions must be met beforehand:
 
 Once these two conditions are met, a cloud CashBox can be created in following steps:
 
-**Step One:**<br />Get in cintact with the French sales team to receive a quote for a ChaîneCloud. The quote will be free of charge, but is necessary for producing the product.
+**Step One:**<br />Get in contact with the [French sales team](https://fiskaltrust.fr) to receive a quote for a ChaîneCloud. The quote will be free of charge, but is necessary for producing the product.
 
 **Step Two:**<br />Open the Shop menu on the left hand sidebar on the fiskaltrust.Portal. Then click on “Quotes” and put the quote in the shopping cart. Select the outlet in the field “Location Id” (located at the top of the page) for which you use ChaîneCloud. This is important because the outlet can not be changed afterwards!
 
