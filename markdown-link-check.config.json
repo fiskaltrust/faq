@@ -7,6 +7,7 @@
     { "pattern": "^https?://helipad\\.fiskaltrust\\.cloud/?$" },
     { "pattern": "^https?://packages\\.fiskaltrust\\.cloud/?$" },
     { "pattern": "https://www.bundesregierung.de/breg-de/themen/coronavirus/steuerentlastungen-coronavirus-1750826" },
-    { "pattern": "localhost" }    
+    { "pattern": "localhost" }    ,
+    { "pattern": "www.bmf.gv.at"}
   ]
 }
