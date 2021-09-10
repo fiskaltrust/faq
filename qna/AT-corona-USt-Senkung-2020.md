@@ -15,9 +15,7 @@ lang-de, market-at, middleware, PosCreator, PosDealer, Consultant
 ### Information des BMF betreffend die Umsatzsteuersenkung
 Zur Unterstützung der Gastronomie, der Kulturbranche sowie des Publikationsbereichs, die von der COVID-19-Krise in einem besonderen Ausmaß betroffen sind, soll zusätzlich zu den bisher getroffenen Maßnahmen, befristet vom 1.7.2020 bis 31.12.2020 ein ermäßigter Umsatzsteuersatz iHv 5% eingeführt werden.
 
-BMF, 24.06.2020
-- [Information betreffend die Umsatzsteuersenkung](https://www.bmf.gv.at/dam/jcr:47c824a7-5ab7-413e-af28-e0f7565a0efe/Information%20betreffend%20die%20Umsatzsteuersenkung.pdf)
-- [NEU: Senkung des Umsatzsteuersatzes auf 5% und Auswirkungen auf Registrierkassen](https://www.bmf.gv.at/public/informationen/informationen-coronavirus/registrierkassen.html)
+- BMF, 24.06.2020: [Senkung des Umsatzsteuersatzes auf 5% und Auswirkungen auf Registrierkassen](https://www.bmf.gv.at/public/informationen/informationen-coronavirus/registrierkassen.html)
 
 ### Einhaltung der Bestimmungen für Registrierkassen
 Der Erlass zur Einzelaufzeichnungs-, Registrierkassen- und Belegerteilungspflicht enthält hinsichtlich der Sicherheitseinrichtung (RKSV) bereits jetzt eine Auffang-Regelung (Zuweisung zum Betrag-Satz-Null), die den angekündigten 5%-Steuersatz abdeckt. Diese Auffang-Regelung wird beibehalten und ergänzt.
