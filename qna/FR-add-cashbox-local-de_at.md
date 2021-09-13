@@ -14,9 +14,9 @@ Dazu müssen mehrere Voraussetzung erfüllt sein.
 
 ### Voraussetzungen
 
-Melden Sie sich als Kassenhändler (PosDealer) am [fiskaltrust.Portal](https://portal.fiskaltrust.fr/) an.
+Melden Sie sich als KassenHändler (PosDealer) am [fiskaltrust.Portal](https://portal.fiskaltrust.fr/) an.
 
-#### Kassenbetreiber (PosOperator) aktivieren
+#### KassenBetreiber (PosOperator) aktivieren
 
 Öffnen Sie das Menü _PosOperator_ und dort die Überblicksseite und klicken Sie auf die Lupe im ersten Widget.
 

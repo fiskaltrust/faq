@@ -28,9 +28,9 @@ lang-de, market-de, data-archive, bundle-carefree, PosCreator, PosDealer, PosOpe
 - Revisionsgesicherte kundenbezogene Massendaten (= .Tar-File, DSFinV-K-File, usw.)
 - Allgemeine kundenbezogene Massendaten (= Kopie von allem, was in revisionsgesicherte Kundenbezogene Massendaten gespeichert wird, Rechnungen, Verträge, usw.)
 
-Resultierend aus dem Gesetz müssen keine personenbezogenen Daten gespeichert werden. Der Kassenhersteller entscheidet, welche Daten bei der Registrierung im Portal und auf den Kassenbelegen (Massendaten) bekannt gegeben werden.
+Resultierend aus dem Gesetz müssen keine personenbezogenen Daten gespeichert werden. Der KassenHersteller entscheidet, welche Daten bei der Registrierung im Portal und auf den Kassenbelegen (Massendaten) bekannt gegeben werden.
 
-Wenn ein Kassenhersteller sich z.B. im Portal registriert, dann könnte er auch anonymisierte Daten verwenden. 
+Wenn ein KassenHersteller sich z.B. im Portal registriert, dann könnte er auch anonymisierte Daten verwenden. 
 Bitte beachten Sie, dass Sie z.B. bei den Belegdaten keine Namen oder dergleichen aufdrucken, wenn Sie die Bekanntgabe von personenbezogenen Daten verhindern möchten. 
 In der Praxis wird es wohl kaum zu verhindern sein, personenbezogene Daten zu verwenden, das Gesetz sieht hier jedoch keine Notwendigkeit vor. 
 

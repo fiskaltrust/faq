@@ -21,7 +21,7 @@ Nach dem Wechsel in den Account des KassenBetreibers unter <kbd>PosOperator</kbd
  
  Ergänzen Sie noch das gewünschte **Template**. Wiederholen Sie den Vorgang bei weiteren Outlets und/oder KassenBetreibern.
  ### Bestellung abschließen
-Schließen Sie die Bestellung dann im eigenen Account als Kassenhändler unter <kbd>Shop</kbd>  &rarr;  <kbd>Warenkorb</kbd> ab. Kontrollieren Sie beim Checkout nochmals die gewählten Ansprüche sowie die gewählten Standorte und schließen Sie mit
+Schließen Sie die Bestellung dann im eigenen Account als KassenHändler unter <kbd>Shop</kbd>  &rarr;  <kbd>Warenkorb</kbd> ab. Kontrollieren Sie beim Checkout nochmals die gewählten Ansprüche sowie die gewählten Standorte und schließen Sie mit
  <kbd>verbindlich bestellen</kbd> den Vorgang ab. 
 Mit diesem zweigeteilten Bestellvorgang wird sichergestellt, dass der Versand einer TSE an das gewünschte Outlet erfolgt. Weiter wird Ihre Bestellung im Rahmen Ihres Rahmenvertrages und Ihres Kreditlimits durchgeführt.
 
@@ -33,6 +33,6 @@ Als Variante kann der Bestellvorgang auch im Account des KassenBetreibers begonn
 - sowie die gewünschte **TSE-as-a-Service – aus Anspruch erzeugen**
 - Ergänzen Sie noch das gewünschte **Template**.
 
-Schließen Sie die Bestellung dann im eigenen Account als Kassenhändler unter <kbd>Shop</kbd>  &rarr;  <kbd>Warenkorb</kbd> ab. Kontrollieren Sie beim Checkout nochmals die gewählten Ansprüche sowie die gewählten Standorte und schließen Sie mit <kbd>verbindlich bestellen</kbd> den Vorgang ab. Damit entstehen zwar mehr Rechnungen je Kunde, aber ein Vorgang wird eingespart.
+Schließen Sie die Bestellung dann im eigenen Account als KassenHändler unter <kbd>Shop</kbd>  &rarr;  <kbd>Warenkorb</kbd> ab. Kontrollieren Sie beim Checkout nochmals die gewählten Ansprüche sowie die gewählten Standorte und schließen Sie mit <kbd>verbindlich bestellen</kbd> den Vorgang ab. Damit entstehen zwar mehr Rechnungen je Kunde, aber ein Vorgang wird eingespart.
 ### Kontrolloption
 Kontrollieren können Sie die Bestellung und Übertragung unter <kbd>PosOperator</kbd>  &rarr;  <kbd>Übersicht</kbd>, indem Sie wieder wechseln in den Account des KassenBetreibers. Dort ist unter <kbd>Firmenname</kbd>  &rarr;  <kbd>Standorte</kbd> zu sehen, ob das Sorglospaket übertragen wurde. Unter <kbd>Konfiguration</kbd>  &rarr;  <kbd>Cashbox</kbd> ist ein Eintrag entsprechend des gewählten Templates zu finden.

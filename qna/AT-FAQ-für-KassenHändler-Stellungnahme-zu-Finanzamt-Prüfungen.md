@@ -50,7 +50,7 @@ Support-Anfragen können dem anfragenden Unternehmen als Beratungsleistungen ent
 
 #### Export und Übergabe des Datenerfassungsprotokolls (DEP7) an das Finanzamt
 
-Export des DEP7 durch den Kassenbetreiber und Prüfung durch das Finanzamt.
+Export des DEP7 durch den KassenBetreiber und Prüfung durch das Finanzamt.
 
 - Export des DEP7
   - Es gibt folgende Möglichkeiten, das DEP7 zu exportieren:
@@ -210,13 +210,13 @@ Anbei ein Beispiel:
   - Eine Kasse kann technisch nicht mit dem fiskaltrust.Service kommunizieren. (z.B. Netzwerk ausgefallen)
   - Die Kasse bekommt daher keine Rückmeldung und gilt somit als ausgefallen. (Ausfall Registrierkasse) Da der Ausfall noch nicht länger als 48 Stunden andauert, muss bisher noch keine FinanzOnline-Meldung durchgeführt werden.
   - Die während des Ausfalls erstellten Belege werden in einem Protokoll der Kasse gespeichert, solange nicht korrekt nacherfasst wurde.
-  - Der Kassenbetreiber dreht die Kasse (Computer) am Abend ab.
+  - Der KassenBetreiber dreht die Kasse (Computer) am Abend ab.
 - 5.5.2018, 07:00 Uhr
   - Der Computer und das Kassenprogramm wird neu gestartet.
   - Die Verbindung mit dem fiskaltrust.Service ist wieder intakt.
   - Die Belege werden daher korrekt signiert.
 - 5.5.2018 18:00 Uhr:
-  - Der Kassenbetreiber nimmt einen Tagesabschluss vor.
+  - Der KassenBetreiber nimmt einen Tagesabschluss vor.
   - Da nicht signierte Belege vorliegen, beginnt die Kassensoftware automatisch mit der Nacherfassung der ausgefallenen Belege.
   - Entsprechend der fiskaltrust.Schnittstellenbeschreibung wird die Nacherfassung der Belege durch einen Nullbeleg abgeschlossen.
   - Der Nullbeleg wird um 18:08 erstellt und korrekt signiert.
@@ -232,7 +232,7 @@ Anbei ein Beispiel:
 
 - Diverse Belege, welche z.B. aufgrund von Zeitunterschieden am Registrierkassen-Computer für FinanzOnline vor der Registrierung der Registrierkasse (RegK) oder der Signaturerstellungseinheit (SEE) gelten, werden nicht angenommen. Auch im Hinblick auf die Verschiebung durch die Sommerzeit, wurde vom BMF eine Toleranz von bis zu 1 Stunde +15 Minuten versprochen. Dies scheint in einigen Fällen nicht der Fall zu sein.
 - Meldungen über Ausfälle und Wiederinbetriebnahmen, welche älter als 48 Stunden + eine Woche waren, wurden nicht von FinanzOnline übernommen. Dies wurde dadurch begründet, dass die entsprechende Meldung, nach Erlassmeinung des BMF – innerhalb dieser Zeit übermittelt werden sollte. Eine ordnungsgemäße Meldung war daher technisch nicht möglich. Daher sind diese Meldungen zum Status der Registrierkasse nicht über FinanzOnline abfragbar und der Status der Registrierkasse in diesem Zeitraum dauerhaft falsch.
-- Die Reihenfolge der Meldungen wurde strikt vorausgesetzt. Die Meldung einer Wiederinbetriebnahme vor der Meldung eines Ausfalls wurde von der RKDB nicht akzeptiert. Da dies in der Beschreibung des Webservice nicht dokumentiert war, konnten tausende Meldungen durch fiskaltrust nicht korrekt durchgeführt werden. Dies führt zu einem nicht korrekten Status der Registrierkasse in der RKDB gegenüber der Sicherheitseinrichtung bzw. den Belegen. Durch das fiskaltrust.Service wird der korrekte Status der Sicherheitseinrichtung jedoch nachvollziehbar dokumentiert. Der Kassenbetreiber hat keine Möglichkeit zum Eingriff in diese Daten und diese gelten daher als ordnungsgemäß.
+- Die Reihenfolge der Meldungen wurde strikt vorausgesetzt. Die Meldung einer Wiederinbetriebnahme vor der Meldung eines Ausfalls wurde von der RKDB nicht akzeptiert. Da dies in der Beschreibung des Webservice nicht dokumentiert war, konnten tausende Meldungen durch fiskaltrust nicht korrekt durchgeführt werden. Dies führt zu einem nicht korrekten Status der Registrierkasse in der RKDB gegenüber der Sicherheitseinrichtung bzw. den Belegen. Durch das fiskaltrust.Service wird der korrekte Status der Sicherheitseinrichtung jedoch nachvollziehbar dokumentiert. Der KassenBetreiber hat keine Möglichkeit zum Eingriff in diese Daten und diese gelten daher als ordnungsgemäß.
 
 Da alle Maßnahmen ergriffen wurden um die Registrierkasse entsprechend der RKSV zu betreiben, kann kein Vorsatz vorliegen. Daher kann dies zu keiner Finanzordnungswidrigkeit nach § 51 (1) FinStrG (bis zur 5.000 Euro) führen.
 Dies betrifft beispielsweise einen nicht korrekt gemeldeten Zeitraum eines Ausfalls.

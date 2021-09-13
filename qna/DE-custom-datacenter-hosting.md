@@ -8,7 +8,7 @@ lang-de, market-de, middleware, PosCreator, PosDealer, Consultant
 
 ## Answer
 
-Die fiskaltrust Lösung kann bei Bedarf unter bestimmten Rahmenbedingungen auch im eigenen Rechenzentrum des Kassenherstellers (PosCreator) betrieben werden.
+Die fiskaltrust Lösung kann bei Bedarf unter bestimmten Rahmenbedingungen auch im eigenen Rechenzentrum des KassenHerstellers (PosCreator) betrieben werden.
 
 ### Voraussetzungen
 

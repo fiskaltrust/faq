@@ -58,7 +58,7 @@ Nutzer von Registrierkassen haben am 31. Dezember jeden Jahres den Jahresbeleg z
    Das Datenerfassungsprotokoll muss im Falle einer Prüfung durch das Finanzamt, in dem gesetzlich definierten Exportformat, innerhalb von 2 Werktagen, zur Verfügung gestellt werden.
    Diese externe Sicherung ist in den Sorglos.Paketen enthalten.
 
-Arbeiten Sie schon sorglos? Fragen Sie bei Ihrem Kassenhändler nach dem [Sorglos.Paket](https://www.fiskaltrust.at/products/product_01/#1475344961406-8834275c-6faf) oder erwerben Sie es selbst zu Ihrer [Registrierkasse](https://portal.fiskaltrust.at/).
+Arbeiten Sie schon sorglos? Fragen Sie bei Ihrem KassenHändler nach dem [Sorglos.Paket](https://www.fiskaltrust.at/products/product_01/#1475344961406-8834275c-6faf) oder erwerben Sie es selbst zu Ihrer [Registrierkasse](https://portal.fiskaltrust.at/).
 
 #### Technische Voraussetzungen
 
@@ -186,7 +186,7 @@ Aus dem Erlass das BMF zur Einzelaufzeichnungs- Registrierkassen- und Belegertei
 - Falls die Bezahlung einer Freikarte z.B. mit einem Wertgutschein erfolgt, kann dies ebenfalls im fiskaltrust.Dienst abgebildet werden. Dies würde zu einer Signierung führen.
 - Bei Verwendung des fiskaltrust.Service führt ein Beleg mit Umsatz EUR 0,- (cbChargeItems) sowie (Bar)zahlung mit EUR 0,- (cbPayItems) zur Signatur auf dem Beleg.
 - Falls eine Gegenleistung (z.B. Entschädigung für eine Nutzung einer Liegenschaft) oder die Bezahlung mit einem Gutschein (Wert- oder Warengutschein) erfolgt, führt dies zu einer abweichenden Beurteilung.
-- Die Beurteilung, welcher Geschäftsvorfall zivilrechtlich vorliegt, erfolgt nicht durch den Kassenhersteller oder fiskaltrust sondern durch den Steuerpflichtigen selbst bzw. dessen beauftragte Rechtsberatung. Der fiskaltrust.Service kann bereits jetzt, die unterschiedlichen Geschäftsvorfälle korrekt abbilden und daher – soweit erforderlich – signieren.
+- Die Beurteilung, welcher Geschäftsvorfall zivilrechtlich vorliegt, erfolgt nicht durch den KassenHersteller oder fiskaltrust sondern durch den Steuerpflichtigen selbst bzw. dessen beauftragte Rechtsberatung. Der fiskaltrust.Service kann bereits jetzt, die unterschiedlichen Geschäftsvorfälle korrekt abbilden und daher – soweit erforderlich – signieren.
 
 ### Wie werden Einzweck- oder Mehrzweckgutscheine seit 1.1.2019 definiert?
 
@@ -206,7 +206,7 @@ Bei **Preiserstattungsgutscheinen** (Gutscheine, die zu einer nachträglichen Ve
 
 Bei der Beurteilung des fiskaltrust.Service ob zu signieren ist oder nicht wurde diese Regelung bereits bisher berücksichtigt. Dennoch ist die korrekte Beurteilung, ob ein Geschäftsvorfall USt-pflichtig ist oder (noch) nicht, im Einzelfall zu beurteilen. Hierbei kann Ihr zuständiger Steuerberater Sie unterstützen.
 
-fiskaltrust unterstützt gerne Ihren Kassenhersteller bzw. -händler bei der korrekten Umsetzung.
+fiskaltrust unterstützt gerne Ihren KassenHersteller bzw. -händler bei der korrekten Umsetzung.
 
 ### Gibt es eine Sonderregelung für Automaten in AT?
 
