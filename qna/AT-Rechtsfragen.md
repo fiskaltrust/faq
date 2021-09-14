@@ -27,7 +27,7 @@ lang-de, market-at, middleware, consulting, documentation, security, PosCreator,
 
 ### Was habe ich als KassenHändler oder KassenBetreiber beim Erstellen, Prüfen und Aufbewahren des Jahresbeleges zu beachten?
 
-#### Wichtige Information für alle Kassenbetreiber, -händler, -hersteller oder -berater!
+#### Wichtige Information für alle KassenBetreiber, -händler, -hersteller oder -berater!
 
 Nutzer von Registrierkassen haben am 31. Dezember jeden Jahres den Jahresbeleg zu erstellen, zu prüfen und danach aufzubewahren (§ 8 RKSV). [fiskaltrust ](https://portal.fiskaltrust.at/)ermöglicht die vollautomatisierte Erfüllung der gesetzlichen Verpflichtung.
 
@@ -112,7 +112,7 @@ Eine besondere Anforderung wird an die Unveränderbarkeit gestellt ([KFS/DV1 Kap
 … Bei der Verwendung von IT-Buchführungen ist zu berücksichtigen, dass die Unveränderbarkeit und die Nachvollziehbarkeit allfälliger Änderungen nicht nur auf Ebene der IT-Anwendung, sondern auch auf anderen Ebenen (z.B. Datenbank) sicherzustellen sind. Rein mit technischen Mitteln ist das Kriterium der Unveränderbarkeit typischerweise nicht umzusetzen, daher bedarf es in der Regel zusätzlicher organisatorischer Maßnahmen.
 Ferner hat dieser Grundsatz u.a. zur Folge, dass Änderungen in buchführungsrelevanten Einstellungen oder die Parametrisierung der Software und Änderungen von Stammdaten zu protokollieren sind.“
 
-Eine wichtige organisatorische Maßnahme ist die Aufteilung der Maßnahmen zwischen Anwender, Kassenhersteller, -betreuer und fiskaltrust als Manipulationsschutzanbieter.
+Eine wichtige organisatorische Maßnahme ist die Aufteilung der Maßnahmen zwischen Anwender, KassenHersteller, -betreuer und fiskaltrust als Manipulationsschutzanbieter.
 
 Das BMF fordert beim Jahresbeleg zudem, dass die Prüfung über das Registrierkassen-Webservice an FinanzOnline übermittelt werden muss.
 

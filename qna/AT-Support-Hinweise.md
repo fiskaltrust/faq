@@ -40,7 +40,7 @@ Support-Anfragen können dem anfragenden Unternehmen in Rechnung gestellt werden
 - Qualifizierte Störungsbearbeitung im eigenen Zuständigkeitsbereich
 - Weiterleitung von komplexeren Problemen an nachgelagerte Support-Einheiten
 
-#### Grundsätzlich ist der Kassenhändler, -Hersteller oder fiskaltrust jeweils für seine eigenen Kunden zuständig.
+#### Grundsätzlich ist der KassenHändler, -Hersteller oder fiskaltrust jeweils für seine eigenen Kunden zuständig.
 
 - Für die Installation und Inbetriebnahme der fiskaltrust-Sicherheitseinrichtung ist der KassenHersteller bzw
   . -händler zuständig.

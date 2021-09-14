@@ -35,12 +35,12 @@ _Der Betreiber erklärt sich damit einverstanden, dass sämtliche Daten (Auftrag
 
 ## Querverweise
 
-Im Rahmen der Erstanmeldung beim Portal der fiskaltrust gmbh ist ein Nutzungsvertrag zu unterzeichnen. Dieser ist bei der zweiten E-mail an eingeladene Kassenbetreiber:
+Im Rahmen der Erstanmeldung beim Portal der fiskaltrust gmbh ist ein Nutzungsvertrag zu unterzeichnen. Dieser ist bei der zweiten E-mail an eingeladene KassenBetreiber:
 
 - als Anhang beigefügt
  -  sowie in deren Text hinterlegt bei
   "Der Inhalt des zugrunde liegenden Vertrags kann unter diesem [Link](https://portal-sandbox.fiskaltrust.de/AccountProfile/DownloadContract?role=posoperator&enable=True) abgerufen werden." 
- * Kassenbetreiber, welche den Nutzungsvertrag unterzeichnet haben, finden diesen im Portal wieder unter **<kbd>Firma</kbd>  &rarr;  <kbd>Übersicht</kbd>**.
+ * KassenBetreiber, welche den Nutzungsvertrag unterzeichnet haben, finden diesen im Portal wieder unter **<kbd>Firma</kbd>  &rarr;  <kbd>Übersicht</kbd>**.
  
 Die Fragen nach "Welche Daten ... " und Wo werden ..." finden Sie beantwortet in den FAQ unter [An welchem Speicherort werden die Daten ...  archiviert?](https://docs.fiskaltrust.cloud/de/docs/faq/germany#an-welchem-speicherort-werden-die-daten-durch-fiskaltrust-pos-archiv-und-ako-dsfinvk-und-tse-tarfiles-revisionsicher-archiviert-br-welche-personenbezogenen-daten-werden-resultierend-aus-dem-kassengesetz-gespeichert-br-werden-die-gespeicherten-daten-pseudonymisiert-oder-anonymisiert-und-wer-hat-zugriff-auf-die-verschlsselung-br-welche-sicherheiten-lschfristen-sind-vorgesehen-um-die-daten-fr-den-gesetzlich-vorgeschriebenen-zeitraum-zu-speichern)
 

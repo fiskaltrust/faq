@@ -1,6 +1,6 @@
 ## Question
 
-Warum verkauft fiskaltrust seine Produkte nicht direkt an Kassenbetreiber?
+Warum verkauft fiskaltrust seine Produkte nicht direkt an KassenBetreiber?
 
 ## Metadata tags
 
@@ -17,6 +17,6 @@ Das bedeutet:
 
 Diese rechtliche Vorgabe erlaubt es nicht, dass fiskaltrust die Middleware im eigenen Rechenzentrum betreibt. Das führt wiederum dazu, dass die Installation und der Betrieb der Middleware beim KassenBetreiber vor Ort erbracht werden muss. 
 
-Beim KassenBetreiber vor Ort kennt sich derjenige am besten aus, der dort die Hardware/Kasse Vor-Ort eingerichtet hat - der Kassenhändler. 
+Beim KassenBetreiber vor Ort kennt sich derjenige am besten aus, der dort die Hardware/Kasse Vor-Ort eingerichtet hat - der KassenHändler. 
 
 Das ist der Grund wieso fiskaltrust die Vor-Ort-Installation / Integration und vor allem laufende Betreuung nicht anbietet, sondern diese Leistungen vom Händler oder Servicepartner erledigt werden.

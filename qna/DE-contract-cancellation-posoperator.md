@@ -1,5 +1,5 @@
 ## Question
-Als Kassenbetreiber, wenn ich meinen Vertrag mit fiskaltrust kündige, wird der Differenzbetrag der bereits beglichenen Rechnung rücküberwiesen oder gutgeschrieben? 
+Als KassenBetreiber, wenn ich meinen Vertrag mit fiskaltrust kündige, wird der Differenzbetrag der bereits beglichenen Rechnung rücküberwiesen oder gutgeschrieben? 
 
 ## Metadata tags
 lang-de, market-de, middleware, PosOperator, PosDealer
