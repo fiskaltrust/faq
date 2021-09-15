@@ -21,7 +21,7 @@ lang-de, market-at, portal, webshop, bundle-carefree, consulting, documentation,
 
 Der KassenHändler kann den Link zur Einladung über https://portal-sandbox.fiskaltrust.at/PosOperator/PosOperatorsHistory |Kassenbetreiber|Einladungen|Protokoll|grauer Button „Link in die Zwischenablage kopieren“ abfragen. Der Link aus der Zwischenablage kann manuell in eine E-Mail eingefügt und an eine beliebige (neue) E-Mail-Adresse versendet werden.
 
-- Die „falsche“ E-Mail-Adresse bleibt weiterhin der Anmeldename zum Login des Kassenbetreibers.
+- Die „falsche“ E-Mail-Adresse bleibt weiterhin der Anmeldename zum Login des KassenBetreibers.
 - Die E-Mail-Adresse des (primären) Kontaktes kann dieser bei der ersten Anmeldung über die Stammdaten im Portal selbständig ändern.
 
 Alternative: Sie legen einen neuen KassenBetreiber mit der korrekten E-Mail-Adresse an.

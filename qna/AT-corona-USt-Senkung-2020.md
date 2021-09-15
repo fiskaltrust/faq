@@ -1,5 +1,5 @@
 ## Question
-Was haben Kassenhersteller im Zusammenhang mit der Einführung des 5%igen Umsatzsteuersatzes ab 1.7.2020 zu beachten?
+Was haben KassenHersteller im Zusammenhang mit der Einführung des 5%igen Umsatzsteuersatzes ab 1.7.2020 zu beachten?
 
 ## Question
 Welche Varianten gibt es bei technische Umstellung der Registrierkassen auf den reduzierten Umsatzsteuersatz 2020 gibt es?
@@ -37,11 +37,11 @@ Es bestehen auch keine Bedenken, wenn dieser Ausweis des ermäßigten Steuersatz
 ### Kommentar fiskaltrust:
 Bei korrekter Verwendung des fiskaltrust.Interface sind alle zulässigen Varianten des BMF als .json-Request an die fiskaltrust.Middleware wie bisher möglich. Daher muss neben der Änderung des Umsatzsteuersatzes keine Anpassung der .json-Requests (VATRate and/or VATAmount) vorgenommen werden.
 Auch der RKSV-Export wird mit der Änderung des Umsatzsteuersatzes entsprechend korrekt erstellt.
-Infos für Kassenhersteller zur korrekten Verwendung der Umsatzsteuersätze sind hier zu finden: [https://docs.fiskaltrust.cloud / AT-ftChargeItemCases](https://docs.fiskaltrust.cloud/doc/interface-doc/doc/appendix-at-rksv/reference-tables/reference-tables.html#type-of-service-ftchargeitemcase)
+Infos für KassenHersteller zur korrekten Verwendung der Umsatzsteuersätze sind hier zu finden: [https://docs.fiskaltrust.cloud / AT-ftChargeItemCases](https://docs.fiskaltrust.cloud/doc/interface-doc/doc/appendix-at-rksv/reference-tables/reference-tables.html#type-of-service-ftchargeitemcase)
 
 ### Muster zur Dokumentation der gewählten Variante zur Abbildung des 5%-igen USt-Satzes
 
-| Unternehmen: | Fröhlicher Kassenbetreiber GmbH |
+| Unternehmen: | Fröhlicher KassenBetreiber GmbH |
 | :--- | :--- |
 | Finanzamt/Steuernummer: |09-123/4567 |
 | Kassenidentifikationsnummer: | fiskaltrust1 |

@@ -86,7 +86,7 @@ Your contributions to this project will help improve the support of our customer
 ### Getting started
 
 - Make sure you have a [GitHub account](https://github.com/signup/free)
-- Ask the the SRE Team to add your GitHub account to the fisklatrust organisation GitHub account (use the "team-sre-inquiry" channel in slack)
+- Ask the the SRE Team to add your GitHub account to the fiskaltrust organisation GitHub account (use the "team-sre-inquiry" channel in slack)
 - Create a GitHub issue for your contribution, assuming one does not already exist.
 - Clearly describe the issue including a link to the referenced file
 - Fork the repository on GitHub
