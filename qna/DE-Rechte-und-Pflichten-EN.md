@@ -26,6 +26,8 @@
 
 lang-en, market-de, middleware, PosCreator, PosDealer
 
+## Answer
+
 # Rights and obligations of the parties according to the user agreement
 
 ## Background
