@@ -26,6 +26,8 @@
 
 lang-de, market-de, middleware, PosCreator, PosDealer
 
+## Answer
+
 # Rechte und Pflichten der Parteien laut Nutzungsvertrag
 
 ## Hintergrund
