@@ -26,14 +26,16 @@
 
 lang-de, market-de, middleware, PosCreator, PosDealer
 
-# Rechte und Pflichten der Parteien laut Nutzungsvertrag
+## Answer
 
-## Hintergrund
+### Rechte und Pflichten der Parteien laut Nutzungsvertrag
+
+#### Hintergrund
 Kassenhändler haben sich vermehrt mit der Frage an uns uns gewandt, wie der dritte Paragraph im Nutzungsvertrag zu verstehen ist:
 _Der Betreiber erklärt sich damit einverstanden, dass sämtliche Daten (Auftragsdaten und Massendaten) zu Analysezwecken verarbeitet und gespeichert werden dürfen, auch über die Vertragsdauer hinaus. Des Weiteren erklärt sich der Betreiber damit einverstanden, dass seine Daten, egal welcher Art, an Dritte bzw. Partner von fiskaltrust weitergegeben werden dürfen, sofern es für die Erfüllung der versprochenen Leistungen notwendig ist._
 
 
-## Querverweise
+#### Querverweise
 
 Im Rahmen der Erstanmeldung beim Portal der fiskaltrust gmbh ist ein Nutzungsvertrag zu unterzeichnen. Dieser ist bei der zweiten E-mail an eingeladene KassenBetreiber:
 
@@ -45,7 +47,7 @@ Im Rahmen der Erstanmeldung beim Portal der fiskaltrust gmbh ist ein Nutzungsver
 Die Fragen nach "Welche Daten ... " und Wo werden ..." finden Sie beantwortet in den FAQ unter [An welchem Speicherort werden die Daten ...  archiviert?](https://docs.fiskaltrust.cloud/de/docs/faq/germany#an-welchem-speicherort-werden-die-daten-durch-fiskaltrust-pos-archiv-und-ako-dsfinvk-und-tse-tarfiles-revisionsicher-archiviert-br-welche-personenbezogenen-daten-werden-resultierend-aus-dem-kassengesetz-gespeichert-br-werden-die-gespeicherten-daten-pseudonymisiert-oder-anonymisiert-und-wer-hat-zugriff-auf-die-verschlsselung-br-welche-sicherheiten-lschfristen-sind-vorgesehen-um-die-daten-fr-den-gesetzlich-vorgeschriebenen-zeitraum-zu-speichern)
 
 
-### Erläuterung „zu Analysezwecken“:
+##### Erläuterung „zu Analysezwecken“:
 fiskaltrust gmbh führt unterschiedlichste Arten von Analysen durch, die aufgrund ihrer Diversität nicht vollständig aufgezählt werden können. Hier eine beispielhafte Aufzählung: 
 
 * fiskaltrust gmbh führt zum Beispiel Analysen zur Ermittlung der benötigten Speicherkapazität durch. Dies ist einerseits notwendig, um genügend Speicherkapazität für alle eingehenden Belegdaten sicherzustellen und andererseits ist es wichtig für die Ermittlung der internen Kostenstruktur.  
@@ -54,10 +56,10 @@ fiskaltrust gmbh führt unterschiedlichste Arten von Analysen durch, die aufgrun
 
 Sie können anhand dieser beispielhaften Aufzählung die Vielfältigkeit der unterschiedlichen Analysen erkennen.
 
-### Erläuterung „über die Vertragsdauer hinaus" 
+##### Erläuterung „über die Vertragsdauer hinaus" 
 Wenn der Vertrag mit der fiskaltrust gmbh gekündigt wird bzw. die vertragliche Grundlage wegfällt, kann die fiskaltrust gmbh, abhängig vom jeweiligen Produkt, aufgrund von gesetzlichen Bestimmungen dazu verpflichtet sein, die Daten über die Vertragsdauer hinaus zu speichern. Die Datenspeicherung ist eine Verpflichtung, die aus dem jeweiligen Produkt in Verbindung mit den gesetzlichen Verpflichtungen resultiert.
 
-### Wer sind „Dritte bzw. Partner“ von fiskaltrust gmbh?
+##### Wer sind „Dritte bzw. Partner“ von fiskaltrust gmbh?
 Um dem KassenBetreiber ein Komplettpaket anbieten zu können arbeitet fiskaltrust gmbh mit Dritten und Partnern zusammen: 
 
 - fiskaltrust gmbh stellt zum Beispiel die TSE (Technische Sicherheitseinrichtung) nicht selbst her, sondern kauft sie von diversen Anbietern zu. Diese liefern cloud- und hardwarebasierende TSE. Damit kann die fiskaltrust gmbh Lösungen für die unterschiedlichsten Kassensysteme anbieten und dem KassenBetreiber eine gesetzeskonforme Umsetzung ermöglichen.
