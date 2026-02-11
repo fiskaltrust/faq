@@ -16,5 +16,4 @@ Die TSE ist in dem Fall ebenso nicht erreichbar.
 - Durch die Nacherfassung der ausgefallenen Belege können alle Daten, die während des Ausfalls von der Kasse gespeichert wurden, an die fiskaltrust.Middelware gesendet werden, sobald diese wieder erreichbar ist. 
 
 Durch die Nacherfassung können alle gesetzlich erforderlichen Funktionen wie z.B. DSFinV-K-Export, PosArchiv, AKO, usw. dennoch erfüllt werden.
-Die Behandlung des Ausfalls wird in der Interface-Dokumentation in [docs.fiskaltrust](https://docs.fiskaltrust.cloud/doc/interface-doc/doc/general/cash-register-integration/cash-register-integration.html#workflow---failure-of-communication-or-failure-of-the-fiskaltrustmiddleware-timeout) beschrieben.
-
+Die Behandlung des Ausfalls wird in der Interface-Dokumentation in [docs.fiskaltrust](https://docs.fiskaltrust.cloud/docs/poscreators/middleware-doc/general/cash-register-integration/failure-scenarios) beschrieben.

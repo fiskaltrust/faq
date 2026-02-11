@@ -16,7 +16,7 @@ lang-de, market-de, middleware, PosCreator, PosDealer, Consultant
 
 ## Answer
 
-Laut [Nichtbeanstandungsregelung](https://docs.fiskaltrust.cloud/doc/productdescription-de-doc/product-service-description/DE-rechtliche-grundlagen.html#aktuell-gültige-rechtliche-grundlagen) ist von der Mitteilung (Meldung der TSE an das Finanzamt, Anm.) nach § 146a Absatz 4 AO bis zum Einsatz einer elektronischen Übermittlungsmöglichkeit abzusehen. Der Zeitpunkt des Einsatzes der elektronischen Übermittlungsmöglichkeit wird im Bundessteuerblatt Teil I gesondert bekannt gegeben.
+Laut Nichtbeanstandungsregelung ist von der Mitteilung (Meldung der TSE an das Finanzamt, Anm.) nach § 146a Absatz 4 AO bis zum Einsatz einer elektronischen Übermittlungsmöglichkeit abzusehen. Der Zeitpunkt des Einsatzes der elektronischen Übermittlungsmöglichkeit wird im Bundessteuerblatt Teil I gesondert bekannt gegeben.
 
 Daher ist der Zeitpunkt der zu übermittelnden Informationen bis zur oben beschriebenen Veröffentlichung der elektronischen Übermittlungsmöglichkeit aktuell noch nicht bekannt. 
 

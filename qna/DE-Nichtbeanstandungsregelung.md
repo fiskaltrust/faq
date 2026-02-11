@@ -32,7 +32,7 @@ Weil nicht alle Kassen mit einer technischen Sicherheitseinrichtungen (TSE) vor 
 - Für diesen Zeitraum gilt außerdem keine Pflicht zum Export der Daten im DSFinV-K Format.
 - Die Pflicht zur Belegerteilung an alle Kunde bleibt davon jedoch unberührt.
 
-fiskaltrust stellt über das [fiskaltrust.Portal](https://portal.fiskaltrust.de/) für jeden fiskaltrust Kunden, der einen Kooperationsvertrag mit fiskaltrust unterzeichnet hat, eine Bestätigung zur Verfügung, dass vom Kunden die Aufrüstung der Kasse mit der [fiskaltrust.Middleware](https://docs.fiskaltrust.cloud/doc/interface-doc/doc/general/general.html) geplant ist.
+fiskaltrust stellt über das [fiskaltrust.Portal](https://portal.fiskaltrust.de/) für jeden fiskaltrust Kunden, der einen Kooperationsvertrag mit fiskaltrust unterzeichnet hat, eine Bestätigung zur Verfügung, dass vom Kunden die Aufrüstung der Kasse mit der [fiskaltrust.Middleware](https://docs.fiskaltrust.cloud/docs/poscreators/middleware-doc) geplant ist.
 
 ## Regionale Ergänzungen zur Nichtbeanstandungsregelung
 
@@ -78,4 +78,4 @@ Im Folgenden haben wir für Sie, ohne Anspruch auf Vollständigkeit und Rechtssi
 ## PDF Download
 
 Download dieses Dokumentes im PDF-Format: 
-[DE-Nichtbeanstandungsregelung.pdf](../images/DE-Nichtbeanstandungsregelung.pdf) 
+[DE-Nichtbeanstandungsregelung.pdf](../images/DE-Nichtbeanstandungsregelung.pdf)

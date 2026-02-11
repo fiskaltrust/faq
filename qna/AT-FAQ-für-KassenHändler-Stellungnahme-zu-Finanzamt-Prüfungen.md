@@ -29,7 +29,7 @@ Vielen Dank, dass Sie die folgenden Hinweise beachten!
 **fiskaltrust leistet ausschließlich Support gegenüber dem Hersteller.**
 Der Hersteller und fiskaltrust sichern sich gegenseitig Unterstützung zumindest in jenem Ausmaß und in jener Qualität zu, als diese Unterstützung auch den jeweiligen Kunden im Rahmen der Nutzungsverträge zugesichert wird.
 
-- FAQ auf dieser Website - benutzen Sie bitte die Suchfunktion unter https://docs.fiskaltrust.cloud/doc/faq/qna/market-at.html
+- FAQ auf dieser Website - benutzen Sie bitte die Suchfunktion unter https://docs.fiskaltrust.cloud/docs/faq/austria
 - Im [fiskaltrust.Portal](https://portal.fiskaltrust.at/) kann die vorhandene Wissensdatenbank nach Artikeln durchsucht werden. Bitte geben Sie hierzu ganz oben bei „Suche…“ den Suchtext ein und beginnen Sie die Suche mit ENTER.
 
 Dem fiskaltrust-Support ist es rechtlich (z.B. aufgrund des Wirtschaftstreuhandberufsgesetzes) nicht gestattet, steuerliche Beratung im Einzelfall zu übernehmen.

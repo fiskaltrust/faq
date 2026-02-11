@@ -2,7 +2,7 @@
 
 ## Purpose and Content
 
-The purpose of this repository is to provide information on frequent questions or concerns from our customers. The repo contains unsorted, but tagged question and answer sets. If the content of the answer already exists in another public fiskaltrust repository, that content will be linked in the answer. The content of this repo is also rendered and presented in the [docs.fiskaltrust](https://docs.fiskaltrust.cloud/doc/faq/qna/market-de.html) portal.
+The purpose of this repository is to provide information on frequent questions or concerns from our customers. The repo contains unsorted, but tagged question and answer sets. If the content of the answer already exists in another public fiskaltrust repository, that content will be linked in the answer. The content of this repo is also rendered and presented in the [docs.fiskaltrust](https://docs.fiskaltrust.cloud/docs/faq/germany) portal.
 
 ## Structure
 

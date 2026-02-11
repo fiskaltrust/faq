@@ -14,7 +14,7 @@ lang-de, market-de, middleware, PosCreator, PosDealer, Consultant
 
 Bei einem Ausfall der TSE darf mit der Kasse weiter gearbeitet werden.
 
-Die fiskaltrust.Middleware (ft.MW) signalisiert die Nichterreichbarkeit der TSE über den Service-Status `ftState = 0x4445000000000002`. Siehe dazu: [docs.fiskaltrust](https://github.com/fiskaltrust/interface-doc/blob/master/doc/appendix-de-kassensichv/reference-tables/service-status-ftstate.md).
+Die fiskaltrust.Middleware (ft.MW) signalisiert die Nichterreichbarkeit der TSE über den Service-Status `ftState = 0x4445000000000002`. Siehe dazu: [docs.fiskaltrust](https://docs.fiskaltrust.cloud/docs/poscreators/middleware-doc/germany/reference-tables/ftstate).
 
 Die lokale ft.MW speichert dennoch in der lokalen Datenbank die erhaltenen Requests und kann somit alle Funktionen – insbesondere DSFinV-K-Export, PosArchiv, AKO, usw. weiter lückenlos und sicher zur Verfügung stellen.
 
