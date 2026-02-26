@@ -1,3 +1,7 @@
+ > # The docs have been moved to the [docs](https://github.com/fiskaltrust/docs) repository.
+
+---
+
 # FAQ
 
 ## Purpose and Content
